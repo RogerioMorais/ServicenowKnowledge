@@ -558,5 +558,1265 @@
     "answer": 0,
     "explanation": "These are high-yield concepts often tested: the request flow, sys_id unique identifier, and import flow.",
     "source": "Adm Fundations/basic/modulo 03.md — Forms, Lists and dot-walking; Adm Fundations/basic/modulo 04.md — Data model and import flow; Adm Fundations/basic/mosulo 05.md — Request management"
+  },
+  {
+    "id": "q41",
+    "category": "Instances",
+    "question": "What is a PDI used for in ServiceNow?",
+    "options": [
+      "A personal development instance for training and testing",
+      "A production instance for customer-facing services",
+      "A reporting database only",
+      "A help desk portal"
+    ],
+    "answer": 0,
+    "explanation": "A PDI is a Personal Developer Instance used for development, testing, and learning.",
+    "source": "Adm Fundations/basic/modulo 02.md — PDI and environments"
+  },
+  {
+    "id": "q42",
+    "category": "Configuration",
+    "question": "Which approach is preferred for safe changes in ServiceNow?",
+    "options": [
+      "Configuration over customization",
+      "Directly editing core files",
+      "Removing all out-of-box features",
+      "Avoiding testing altogether"
+    ],
+    "answer": 0,
+    "explanation": "Configuration is preferred because it preserves upgrade safety and reduces risk.",
+    "source": "Adm Fundations/basic/modulo 02.md — Configuration vs Customization"
+  },
+  {
+    "id": "q43",
+    "category": "Update & Transport",
+    "question": "What is the main purpose of an Update Set?",
+    "options": [
+      "Capture and move configuration changes between instances",
+      "Store user passwords",
+      "Create reports",
+      "Manage ACLs"
+    ],
+    "answer": 0,
+    "explanation": "Update Sets are used to group and move configuration changes between instances.",
+    "source": "Adm Fundations/basic/modulo 07.md — Update Sets"
+  },
+  {
+    "id": "q44",
+    "category": "Data Model",
+    "question": "What does a form in ServiceNow represent?",
+    "options": [
+      "A user interface for entering and viewing one record",
+      "A database table schema",
+      "A workflow trigger",
+      "A security role"
+    ],
+    "answer": 0,
+    "explanation": "A form is the UI used to view and interact with a single record.",
+    "source": "Adm Fundations/basic/modulo 03.md — Forms"
+  },
+  {
+    "id": "q45",
+    "category": "Lists & Forms",
+    "question": "What is the main purpose of a View?",
+    "options": [
+      "Define which fields and layout are shown to a user",
+      "Create a new table",
+      "Store scripts",
+      "Manage user groups"
+    ],
+    "answer": 0,
+    "explanation": "Views control which fields and layout are displayed for a record on a form or list.",
+    "source": "Adm Fundations/basic/modulo 03.md — Views"
+  },
+  {
+    "id": "q46",
+    "category": "Data Model",
+    "question": "What is dot-walking used for?",
+    "options": [
+      "To access fields on related records",
+      "To delete records",
+      "To create a new role",
+      "To change a portal URL"
+    ],
+    "answer": 0,
+    "explanation": "Dot-walking allows you to reference fields on related records through parent-child relationships.",
+    "source": "Adm Fundations/basic/modulo 03.md — Dot-walking"
+  },
+  {
+    "id": "q47",
+    "category": "Data Model",
+    "question": "What does the CMDB store?",
+    "options": [
+      "Configuration Items and their relationships",
+      "Only incident records",
+      "Only user roles",
+      "Only workflows"
+    ],
+    "answer": 0,
+    "explanation": "The CMDB stores Configuration Items and their relationships.",
+    "source": "Adm Fundations/basic/modulo 04.md — CMDB"
+  },
+  {
+    "id": "q48",
+    "category": "Data Import",
+    "question": "What is the purpose of a Transform Map?",
+    "options": [
+      "Map imported data from an Import Set into target table fields",
+      "Create groups",
+      "Assign roles",
+      "Trigger notifications"
+    ],
+    "answer": 0,
+    "explanation": "A Transform Map defines how data from an Import Set is transformed into target table fields.",
+    "source": "Adm Fundations/basic/modulo 04.md — Transform Maps"
+  },
+  {
+    "id": "q49",
+    "category": "Security",
+    "question": "If a user has no Can Read rule on a knowledge base, what happens?",
+    "options": [
+      "Everyone can access it by default",
+      "No one can access it",
+      "Only admins can access it",
+      "Only managers can access it"
+    ],
+    "answer": 0,
+    "explanation": "Without a Can Read rule, the content is generally accessible to everyone.",
+    "source": "Adm Fundations/basic/mosulo 05.md — User Criteria"
+  },
+  {
+    "id": "q50",
+    "category": "Knowledge",
+    "question": "What does the Knowledge Portal focus on?",
+    "options": [
+      "Searching and navigating knowledge articles",
+      "Workflow execution only",
+      "Approval routing only",
+      "Configuring ACLs"
+    ],
+    "answer": 0,
+    "explanation": "The Knowledge Portal is focused on knowledge article search and navigation.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Knowledge Portal"
+  },
+  {
+    "id": "q51",
+    "category": "Catalog",
+    "question": "What is the main idea behind the Service Catalog?",
+    "options": [
+      "One-stop shopping for services and products",
+      "A database of incidents",
+      "A secure login page",
+      "A reporting dashboard"
+    ],
+    "answer": 0,
+    "explanation": "The Service Catalog is a one-stop shopping experience for requesting products and services.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Service Catalog"
+  },
+  {
+    "id": "q52",
+    "category": "Catalog",
+    "question": "What are Variables in a catalog item?",
+    "options": [
+      "Questions asked to the requester",
+      "User groups",
+      "Notification templates",
+      "Workflow states"
+    ],
+    "answer": 0,
+    "explanation": "Variables are the questions presented to the requester during a catalog request.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Variables"
+  },
+  {
+    "id": "q53",
+    "category": "Catalog",
+    "question": "What is a Record Producer designed to do?",
+    "options": [
+      "Create records directly in tables",
+      "Generate email notifications",
+      "Change portal themes",
+      "Delete roles"
+    ],
+    "answer": 0,
+    "explanation": "A Record Producer creates records directly in target tables from a catalog request.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Record Producers"
+  },
+  {
+    "id": "q54",
+    "category": "Catalog",
+    "question": "What is an Order Guide used for?",
+    "options": [
+      "Guide a user through a related set of requests",
+      "Create update sets",
+      "Manage email layouts",
+      "Define ACL rules"
+    ],
+    "answer": 0,
+    "explanation": "An Order Guide helps users request multiple related items in a guided experience.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Order Guides"
+  },
+  {
+    "id": "q55",
+    "category": "Automation",
+    "question": "What starts a Flow in Workflow Studio?",
+    "options": [
+      "A Trigger",
+      "A Data Pill",
+      "A Role",
+      "A View"
+    ],
+    "answer": 0,
+    "explanation": "A Trigger initiates the execution of a Flow.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Workflow Studio"
+  },
+  {
+    "id": "q56",
+    "category": "Automation",
+    "question": "Where do the outputs of an Action typically get stored?",
+    "options": [
+      "In a Data Pill",
+      "In an ACL",
+      "In a View",
+      "In a role"
+    ],
+    "answer": 0,
+    "explanation": "Data produced during Flow execution is commonly stored in Data Pills for reuse.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Data Pills"
+  },
+  {
+    "id": "q57",
+    "category": "Integration",
+    "question": "What is the purpose of Integration Hub?",
+    "options": [
+      "Create reusable integrations with external systems",
+      "Manage forms only",
+      "Assign users to groups",
+      "Create knowledge articles"
+    ],
+    "answer": 0,
+    "explanation": "Integration Hub is used to create reusable integrations with external systems.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Integration Hub"
+  },
+  {
+    "id": "q58",
+    "category": "Notifications",
+    "question": "What does a notification mainly define?",
+    "options": [
+      "When, who, and what content to send",
+      "User permissions",
+      "Database schema",
+      "Workflow triggers"
+    ],
+    "answer": 0,
+    "explanation": "A notification defines the event, recipient, and message content.",
+    "source": "Adm Fundations/basic/modulo 06.md — Notifications"
+  },
+  {
+    "id": "q59",
+    "category": "Notifications",
+    "question": "Where can sent emails be reviewed in ServiceNow?",
+    "options": [
+      "In the Outbox",
+      "In the CMDB",
+      "In the ACL table",
+      "In the form layout"
+    ],
+    "answer": 0,
+    "explanation": "The Outbox is used to review messages that have been sent or queued.",
+    "source": "Adm Fundations/basic/modulo 06.md — Outbox"
+  },
+  {
+    "id": "q60",
+    "category": "Scripting",
+    "question": "What does a Client Script typically affect?",
+    "options": [
+      "The browser experience and form behavior",
+      "Server-side data integrity",
+      "Database encryption",
+      "User roles"
+    ],
+    "answer": 0,
+    "explanation": "Client Scripts run on the client side and change the UI experience.",
+    "source": "Adm Fundations/basic/modulo 07.md — Client Scripts"
+  },
+  {
+    "id": "q61",
+    "category": "Scripting",
+    "question": "What does a Business Rule typically affect?",
+    "options": [
+      "Server-side logic and data operations",
+      "Only form labels",
+      "Only email templates",
+      "Only portal navigation"
+    ],
+    "answer": 0,
+    "explanation": "Business Rules run on the server and enforce business logic.",
+    "source": "Adm Fundations/basic/modulo 07.md — Business Rules"
+  },
+  {
+    "id": "q62",
+    "category": "Scripting",
+    "question": "What is the key difference between UI Policy and Data Policy?",
+    "options": [
+      "UI Policy changes the interface, Data Policy enforces data integrity",
+      "UI Policy changes server data, Data Policy changes layouts",
+      "They are identical",
+      "UI Policy manages notifications"
+    ],
+    "answer": 0,
+    "explanation": "UI Policy affects the user interface while Data Policy enforces data rules on the server.",
+    "source": "Adm Fundations/basic/modulo 07.md — UI Policy and Data Policy"
+  },
+  {
+    "id": "q63",
+    "category": "Testing",
+    "question": "What is ATF best used for?",
+    "options": [
+      "Automating regression tests for platform behavior",
+      "Creating incident records manually",
+      "Managing user groups",
+      "Designing email templates"
+    ],
+    "answer": 0,
+    "explanation": "ATF is used to automate testing of workflows, forms, and behaviors.",
+    "source": "Adm Fundations/basic/modulo 07.md — ATF"
+  },
+  {
+    "id": "q64",
+    "category": "Security",
+    "question": "What does the Shared Responsibility Model describe?",
+    "options": [
+      "How security responsibilities are split between ServiceNow and the customer",
+      "How to create ACLs",
+      "How to build catalog items",
+      "How to configure lists"
+    ],
+    "answer": 0,
+    "explanation": "The Shared Responsibility Model explains who is responsible for which security controls.",
+    "source": "Adm Fundations/basic/modulo 08.md — Shared Responsibility Model"
+  },
+  {
+    "id": "q65",
+    "category": "Encryption",
+    "question": "What is Encryption at Rest meant to protect?",
+    "options": [
+      "Data stored on disk",
+      "Only email templates",
+      "Only browser cookies",
+      "Only UI labels"
+    ],
+    "answer": 0,
+    "explanation": "Encryption at Rest protects data while it is stored on disk or in storage systems.",
+    "source": "Adm Fundations/basic/modulo 08.md — Encryption"
+  },
+  {
+    "id": "q66",
+    "category": "Encryption",
+    "question": "What does Encryption in Transit protect?",
+    "options": [
+      "Data while it is moving between systems",
+      "Only inactive users",
+      "Only user groups",
+      "Only portal themes"
+    ],
+    "answer": 0,
+    "explanation": "Encryption in Transit protects data while it is moving across networks or between systems.",
+    "source": "Adm Fundations/basic/modulo 08.md — Encryption"
+  },
+  {
+    "id": "q67",
+    "category": "Logs",
+    "question": "Why are logs important in ServiceNow?",
+    "options": [
+      "They help troubleshoot and audit platform activity",
+      "They replace update sets",
+      "They create custom tables",
+      "They define roles"
+    ],
+    "answer": 0,
+    "explanation": "Logs help with troubleshooting, monitoring, and auditing platform activity.",
+    "source": "Adm Fundations/basic/modulo 08.md — Logging"
+  },
+  {
+    "id": "q68",
+    "category": "Knowledge",
+    "question": "What is a Knowledge Base?",
+    "options": [
+      "A repository for knowledge articles",
+      "A workflow engine",
+      "A form layout",
+      "A user role"
+    ],
+    "answer": 0,
+    "explanation": "A Knowledge Base is a repository where knowledge articles are stored and organized.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Knowledge Base"
+  },
+  {
+    "id": "q69",
+    "category": "Knowledge",
+    "question": "What is the typical lifecycle of a knowledge article?",
+    "options": [
+      "Draft → Approval → Published → Retired",
+      "Create → Delete → Restore",
+      "Open → Close → Archive",
+      "Request → Approve → Reject"
+    ],
+    "answer": 0,
+    "explanation": "Knowledge articles typically move through draft, approval, published, and retired states.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Article workflow"
+  },
+  {
+    "id": "q70",
+    "category": "Catalog",
+    "question": "What is a common example of a catalog item?",
+    "options": [
+      "Laptop request",
+      "User role",
+      "ACL rule",
+      "Data Pill"
+    ],
+    "answer": 0,
+    "explanation": "Catalog items are requestable offerings such as a laptop or software request.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Catalog Items"
+  },
+  {
+    "id": "q71",
+    "category": "Platform",
+    "question": "ServiceNow is best described as which type of platform?",
+    "options": [
+      "A cloud platform for workflow automation and applications",
+      "A local desktop operating system",
+      "A hardware monitoring system",
+      "A pure database engine"
+    ],
+    "answer": 0,
+    "explanation": "ServiceNow is a cloud-based platform used to build workflows, automations, and enterprise applications.",
+    "source": "Adm Fundations/basic/modelo 01.md — Platform Fundamentals"
+  },
+  {
+    "id": "q72",
+    "category": "Platform",
+    "question": "What is one major advantage of the single-platform approach?",
+    "options": [
+      "Consistency and reuse across processes and data",
+      "Separate tools for every department",
+      "Manual handling of all workflows",
+      "No need for integrations"
+    ],
+    "answer": 0,
+    "explanation": "A single platform offers consistent data models, workflows, and integrations across the enterprise.",
+    "source": "Adm Fundations/basic/modelo 01.md — Platform Fundamentals"
+  },
+  {
+    "id": "q73",
+    "category": "Platform",
+    "question": "Which concept is most closely tied to low-code development in ServiceNow?",
+    "options": [
+      "Building apps and workflows with minimal custom code",
+      "Writing low-level device drivers",
+      "Managing physical servers",
+      "Creating network switches"
+    ],
+    "answer": 0,
+    "explanation": "ServiceNow enables rapid application and workflow development with low-code and no-code tools.",
+    "source": "Adm Fundations/basic/modelo 01.md — Platform Fundamentals"
+  },
+  {
+    "id": "q74",
+    "category": "Platform",
+    "question": "Why is ServiceNow often used for enterprise service management?",
+    "options": [
+      "It supports repeatable workflows for IT, HR, and other services",
+      "It only manages databases",
+      "It replaces all business analysts",
+      "It is only for customer support"
+    ],
+    "answer": 0,
+    "explanation": "ServiceNow is widely used for enterprise service management because it supports standardized processes across teams.",
+    "source": "Adm Fundations/basic/modelo 01.md — Platform Fundamentals"
+  },
+  {
+    "id": "q75",
+    "category": "Instances",
+    "question": "Which instance is typically used for production operations?",
+    "options": [
+      "Production",
+      "PDI",
+      "Sandbox",
+      "Development"
+    ],
+    "answer": 0,
+    "explanation": "Production is the live environment used for real business operations.",
+    "source": "Adm Fundations/basic/modulo 02.md — Instance types"
+  },
+  {
+    "id": "q76",
+    "category": "Configuration",
+    "question": "Which of the following is an example of configuration?",
+    "options": [
+      "Changing a form field label",
+      "Editing the core platform code",
+      "Replacing the database engine",
+      "Changing the operating system"
+    ],
+    "answer": 0,
+    "explanation": "Changing a form field label is a typical configuration change that preserves upgrade safety.",
+    "source": "Adm Fundations/basic/modulo 02.md — Configuration vs Customization"
+  },
+  {
+    "id": "q77",
+    "category": "Configuration",
+    "question": "Which of the following is a common example of customization?",
+    "options": [
+      "Creating a custom script or modifying core behavior",
+      "Changing a field label",
+      "Adding a new choice to a dropdown",
+      "Reordering a form section"
+    ],
+    "answer": 0,
+    "explanation": "Customization typically involves altering core behavior or creating deeply tailored logic.",
+    "source": "Adm Fundations/basic/modulo 02.md — Configuration vs Customization"
+  },
+  {
+    "id": "q78",
+    "category": "Instances",
+    "question": "Why is configuration preferred over customization when possible?",
+    "options": [
+      "It is safer and easier to maintain during upgrades",
+      "It requires fewer tests",
+      "It works without permissions",
+      "It eliminates all need for documentation"
+    ],
+    "answer": 0,
+    "explanation": "Configuration is safer because it aligns better with upgrade compatibility and platform supportability.",
+    "source": "Adm Fundations/basic/modulo 02.md — Configuration vs Customization"
+  },
+  {
+    "id": "q79",
+    "category": "Lists & Forms",
+    "question": "What is a list mainly used for in ServiceNow?",
+    "options": [
+      "Displaying multiple records in a tabular view",
+      "Creating roles",
+      "Managing permissions",
+      "Running flows"
+    ],
+    "answer": 0,
+    "explanation": "Lists present multiple records in a table-like format for review and action.",
+    "source": "Adm Fundations/basic/modulo 03.md — Lists"
+  },
+  {
+    "id": "q80",
+    "category": "Lists & Forms",
+    "question": "What is a form mainly used for?",
+    "options": [
+      "Viewing and editing one record in detail",
+      "Showing a table of many records",
+      "Setting ACL permissions",
+      "Creating email notifications"
+    ],
+    "answer": 0,
+    "explanation": "Forms are used to display and edit a single record in detail.",
+    "source": "Adm Fundations/basic/modulo 03.md — Forms"
+  },
+  {
+    "id": "q81",
+    "category": "Lists & Forms",
+    "question": "What is the main purpose of a filter?",
+    "options": [
+      "Reduce the record set shown to the user",
+      "Encrypt data",
+      "Assign permissions",
+      "Create workflows"
+    ],
+    "answer": 0,
+    "explanation": "Filters narrow down which records are shown based on conditions.",
+    "source": "Adm Fundations/basic/modulo 03.md — Filters"
+  },
+  {
+    "id": "q82",
+    "category": "Lists & Forms",
+    "question": "What is a View intended to control?",
+    "options": [
+      "Which fields and layout are shown to a user",
+      "The database schema",
+      "The instance hostname",
+      "The integration endpoint"
+    ],
+    "answer": 0,
+    "explanation": "Views define which fields and layout are visible in a form or list for a specific context.",
+    "source": "Adm Fundations/basic/modulo 03.md — Views"
+  },
+  {
+    "id": "q83",
+    "category": "Lists & Forms",
+    "question": "What is a common use case for dot-walking?",
+    "options": [
+      "Showing a field from a related record on a form or report",
+      "Creating a new table",
+      "Deleting a role",
+      "Duplicating a workflow"
+    ],
+    "answer": 0,
+    "explanation": "Dot-walking allows reference to fields on related records through relationships.",
+    "source": "Adm Fundations/basic/modulo 03.md — Dot-walking"
+  },
+  {
+    "id": "q84",
+    "category": "Data Model",
+    "question": "What does a table represent in the ServiceNow data model?",
+    "options": [
+      "A container for records of the same type",
+      "A user password",
+      "A list of groups",
+      "A workflow state"
+    ],
+    "answer": 0,
+    "explanation": "A table stores records of a specific type in ServiceNow.",
+    "source": "Adm Fundations/basic/modulo 04.md — Tables"
+  },
+  {
+    "id": "q85",
+    "category": "Data Model",
+    "question": "What is a record in ServiceNow?",
+    "options": [
+      "A row in a table",
+      "A field in a form",
+      "A role in a group",
+      "A workflow action"
+    ],
+    "answer": 0,
+    "explanation": "A record is an individual row stored in a table.",
+    "source": "Adm Fundations/basic/modulo 04.md — Tables"
+  },
+  {
+    "id": "q86",
+    "category": "Data Model",
+    "question": "What is the purpose of a field?",
+    "options": [
+      "To store a specific piece of data on a record",
+      "To define the page theme",
+      "To control email delivery",
+      "To create a role"
+    ],
+    "answer": 0,
+    "explanation": "Fields hold specific values on each record.",
+    "source": "Adm Fundations/basic/modulo 04.md — Fields"
+  },
+  {
+    "id": "q87",
+    "category": "Data Model",
+    "question": "What is the main purpose of a relationship between tables?",
+    "options": [
+      "To link related records across tables",
+      "To create a new view",
+      "To hide all data",
+      "To define user roles"
+    ],
+    "answer": 0,
+    "explanation": "Relationships connect records in related tables so they can be navigated and referenced.",
+    "source": "Adm Fundations/basic/modulo 04.md — Relationships"
+  },
+  {
+    "id": "q88",
+    "category": "Data Import",
+    "question": "What is an Import Set used for?",
+    "options": [
+      "To temporarily hold imported data before transformation",
+      "To define user groups",
+      "To create email templates",
+      "To store ACL rules"
+    ],
+    "answer": 0,
+    "explanation": "Import Sets temporarily store imported data before it is mapped to target tables.",
+    "source": "Adm Fundations/basic/modulo 04.md — Import Sets"
+  },
+  {
+    "id": "q89",
+    "category": "Data Import",
+    "question": "What is a Transform Map responsible for?",
+    "options": [
+      "Mapping imported data into target fields",
+      "Creating groups",
+      "Generating notifications",
+      "Defining portal URLs"
+    ],
+    "answer": 0,
+    "explanation": "Transform Maps define how imported records are transformed into target table records.",
+    "source": "Adm Fundations/basic/modulo 04.md — Transform Maps"
+  },
+  {
+    "id": "q90",
+    "category": "CMDB",
+    "question": "What does the CMDB primarily track?",
+    "options": [
+      "Configuration Items and their relationships",
+      "Only incident tasks",
+      "Only portal themes",
+      "Only user permissions"
+    ],
+    "answer": 0,
+    "explanation": "The CMDB stores Configuration Items and their relationships for asset and service management.",
+    "source": "Adm Fundations/basic/modulo 04.md — CMDB"
+  },
+  {
+    "id": "q91",
+    "category": "CMDB",
+    "question": "Why is the CMDB important for service operations?",
+    "options": [
+      "It provides a reliable view of assets and service dependencies",
+      "It stores only login history",
+      "It replaces all reports",
+      "It is only for email routing"
+    ],
+    "answer": 0,
+    "explanation": "The CMDB helps organizations understand dependencies and the impact of changes on services.",
+    "source": "Adm Fundations/basic/modulo 04.md — CMDB"
+  },
+  {
+    "id": "q92",
+    "category": "Portals",
+    "question": "What is the Employee Center mainly designed to provide?",
+    "options": [
+      "A central experience for employees to access services and knowledge",
+      "A database of script includes",
+      "A private admin console only",
+      "A raw log viewer"
+    ],
+    "answer": 0,
+    "explanation": "The Employee Center is the main employee-facing portal for self-service and access to services.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Employee Center"
+  },
+  {
+    "id": "q93",
+    "category": "Portals",
+    "question": "What is the common URL for the Service Portal?",
+    "options": [
+      "/sp",
+      "/esc",
+      "/kb",
+      "/nav"
+    ],
+    "answer": 0,
+    "explanation": "The Service Portal is commonly accessed through /sp.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Service Portal"
+  },
+  {
+    "id": "q94",
+    "category": "Knowledge",
+    "question": "What is a Knowledge Base primarily used for?",
+    "options": [
+      "Organizing and storing knowledge articles",
+      "Managing server backups",
+      "Routing incidents only",
+      "Defining roles"
+    ],
+    "answer": 0,
+    "explanation": "Knowledge Bases hold and organize knowledge articles for users.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Knowledge Base"
+  },
+  {
+    "id": "q95",
+    "category": "Knowledge",
+    "question": "What do User Criteria control?",
+    "options": [
+      "Who can read or contribute to content",
+      "Which tables exist",
+      "What notifications can be sent",
+      "How forms are styled"
+    ],
+    "answer": 0,
+    "explanation": "User Criteria determine access to knowledge content and related records.",
+    "source": "Adm Fundations/basic/mosulo 05.md — User Criteria"
+  },
+  {
+    "id": "q96",
+    "category": "Catalog",
+    "question": "What is the main role of a catalog item?",
+    "options": [
+      "Represent a requestable product or service",
+      "Store logs",
+      "Manage roles",
+      "Define email content"
+    ],
+    "answer": 0,
+    "explanation": "Catalog items represent products or services that users can request.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Catalog Items"
+  },
+  {
+    "id": "q97",
+    "category": "Catalog",
+    "question": "What is a Variable Set?",
+    "options": [
+      "A reusable group of variables",
+      "A user group",
+      "A workflow stage",
+      "A portal theme"
+    ],
+    "answer": 0,
+    "explanation": "Variable Sets allow reuse of variables across catalog items.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Variable Sets"
+  },
+  {
+    "id": "q98",
+    "category": "Catalog",
+    "question": "Which object creates records directly in tables from a request?",
+    "options": [
+      "Record Producer",
+      "Business Rule",
+      "Data Pill",
+      "Update Set"
+    ],
+    "answer": 0,
+    "explanation": "Record Producers create records directly in target tables.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Record Producers"
+  },
+  {
+    "id": "q99",
+    "category": "Catalog",
+    "question": "What is the purpose of an Order Guide?",
+    "options": [
+      "Guide users through a set of related requests",
+      "Make forms read-only",
+      "Store logs",
+      "Replace roles"
+    ],
+    "answer": 0,
+    "explanation": "Order Guides help users request several related items in a guided experience.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Order Guides"
+  },
+  {
+    "id": "q100",
+    "category": "Request Management",
+    "question": "What does REQ represent in request management?",
+    "options": [
+      "The overall request",
+      "A single task",
+      "A knowledge article",
+      "An ACL"
+    ],
+    "answer": 0,
+    "explanation": "REQ is the overall request created for the customer order.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Request Management"
+  },
+  {
+    "id": "q101",
+    "category": "Request Management",
+    "question": "What does RITM represent?",
+    "options": [
+      "Each requested item",
+      "A user role",
+      "A notification template",
+      "A view definition"
+    ],
+    "answer": 0,
+    "explanation": "RITM represents each requested item within a request.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Request Management"
+  },
+  {
+    "id": "q102",
+    "category": "Request Management",
+    "question": "What does SCTASK represent?",
+    "options": [
+      "Fulfillment task",
+      "Knowledge base",
+      "Portal URL",
+      "UI policy"
+    ],
+    "answer": 0,
+    "explanation": "SCTASK represents the fulfillment tasks that are generated for requested items.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Request Management"
+  },
+  {
+    "id": "q103",
+    "category": "Automation",
+    "question": "What tool is commonly used to build automations in ServiceNow?",
+    "options": [
+      "Workflow Studio",
+      "CMDB",
+      "Outbox",
+      "View"
+    ],
+    "answer": 0,
+    "explanation": "Workflow Studio is the main low-code environment for building automations in ServiceNow.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Workflow Studio"
+  },
+  {
+    "id": "q104",
+    "category": "Automation",
+    "question": "What are Data Pills used for in a flow?",
+    "options": [
+      "To carry and reuse data produced by actions",
+      "To define ACLs",
+      "To create new tables",
+      "To store user passwords"
+    ],
+    "answer": 0,
+    "explanation": "Data Pills hold values generated during flow execution so they can be reused.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Data Pills"
+  },
+  {
+    "id": "q105",
+    "category": "Integration",
+    "question": "What is a Spoke in the context of ServiceNow integrations?",
+    "options": [
+      "A set of reusable triggers and actions for an application",
+      "A kind of user role",
+      "A form view",
+      "A portal URL"
+    ],
+    "answer": 0,
+    "explanation": "A Spoke bundles triggers and actions for a specific application or integration domain.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Spokes"
+  },
+  {
+    "id": "q106",
+    "category": "Notifications",
+    "question": "What does a notification primarily determine?",
+    "options": [
+      "When, who, and what content is sent",
+      "The portal layout",
+      "The data model",
+      "The ACL rules"
+    ],
+    "answer": 0,
+    "explanation": "Notifications define the trigger, recipients, and message content.",
+    "source": "Adm Fundations/basic/modulo 06.md — Notifications"
+  },
+  {
+    "id": "q107",
+    "category": "Notifications",
+    "question": "Where can sent notification messages be reviewed?",
+    "options": [
+      "In the Outbox",
+      "In the CMDB",
+      "In a form view",
+      "In a workflow trigger"
+    ],
+    "answer": 0,
+    "explanation": "The Outbox is used to view messages that have been sent or queued.",
+    "source": "Adm Fundations/basic/modulo 06.md — Outbox"
+  },
+  {
+    "id": "q108",
+    "category": "Analytics",
+    "question": "What is Visualization Designer used for?",
+    "options": [
+      "Creating visual dashboards and analytics content",
+      "Defining ACLs",
+      "Creating roles",
+      "Changing table names"
+    ],
+    "answer": 0,
+    "explanation": "Visualization Designer is used to build visual analytics content and dashboards.",
+    "source": "Adm Fundations/basic/modulo 06.md — Visualization Designer"
+  },
+  {
+    "id": "q109",
+    "category": "Automation",
+    "question": "What is Predictive Intelligence mainly used for?",
+    "options": [
+      "To help categorize, assign, or prioritize work with machine learning",
+      "To define access control",
+      "To replace workflows",
+      "To manage encryption"
+    ],
+    "answer": 0,
+    "explanation": "Predictive Intelligence applies machine learning to improve categorization, assignment, and prioritization.",
+    "source": "Adm Fundations/basic/modulo 06.md — Predictive Intelligence"
+  },
+  {
+    "id": "q110",
+    "category": "Collaboration",
+    "question": "What is the purpose of Sidebar Collaboration?",
+    "options": [
+      "To enable communication and collaboration on records",
+      "To define update sets",
+      "To change portal URLs",
+      "To manage user groups"
+    ],
+    "answer": 0,
+    "explanation": "Sidebar Collaboration helps users collaborate around records and tasks.",
+    "source": "Adm Fundations/basic/modulo 06.md — Sidebar Collaboration"
+  },
+  {
+    "id": "q111",
+    "category": "Analytics",
+    "question": "What does a dashboard typically show?",
+    "options": [
+      "Visual summaries of data and metrics",
+      "Only low-level database rows",
+      "Only notification templates",
+      "Only ACL definitions"
+    ],
+    "answer": 0,
+    "explanation": "Dashboards visualize metrics and data trends for users.",
+    "source": "Adm Fundations/basic/modulo 06.md — Visualization Designer"
+  },
+  {
+    "id": "q112",
+    "category": "Analytics",
+    "question": "What does the 'All' filter usually show?",
+    "options": [
+      "All items available to the user",
+      "Only unread items",
+      "Only records in the current form",
+      "Only closed records"
+    ],
+    "answer": 0,
+    "explanation": "The All filter shows the available records without narrowing them by state or context.",
+    "source": "Adm Fundations/basic/modulo 06.md — Filters"
+  },
+  {
+    "id": "q113",
+    "category": "Scripting",
+    "question": "What does a Client Script usually change?",
+    "options": [
+      "The browser-side behavior of a form",
+      "The server-side data model",
+      "The encryption policy",
+      "The CMDB relationships"
+    ],
+    "answer": 0,
+    "explanation": "Client Scripts run in the browser and change the user experience on forms.",
+    "source": "Adm Fundations/basic/modulo 07.md — Client Scripts"
+  },
+  {
+    "id": "q114",
+    "category": "Scripting",
+    "question": "What does a Business Rule usually enforce?",
+    "options": [
+      "Server-side business logic",
+      "Only visual layout",
+      "Only notification text",
+      "Only portal links"
+    ],
+    "answer": 0,
+    "explanation": "Business Rules enforce logic on the server for business processes and data actions.",
+    "source": "Adm Fundations/basic/modulo 07.md — Business Rules"
+  },
+  {
+    "id": "q115",
+    "category": "Scripting",
+    "question": "Which statement best describes UI Policy versus Data Policy?",
+    "options": [
+      "UI Policy controls interface behavior while Data Policy enforces data integrity",
+      "UI Policy controls database schema while Data Policy controls forms",
+      "Both are identical in effect",
+      "UI Policy handles notifications while Data Policy handles roles"
+    ],
+    "answer": 0,
+    "explanation": "UI Policy affects what the user sees and can do, while Data Policy validates and protects data.",
+    "source": "Adm Fundations/basic/modulo 07.md — UI Policy and Data Policy"
+  },
+  {
+    "id": "q116",
+    "category": "Update & Transport",
+    "question": "What is the primary purpose of an Update Set?",
+    "options": [
+      "To capture and move changes between instances",
+      "To create reports",
+      "To define ACLs",
+      "To create new users"
+    ],
+    "answer": 0,
+    "explanation": "Update Sets group configuration changes so they can be moved safely between instances.",
+    "source": "Adm Fundations/basic/modulo 07.md — Update Sets"
+  },
+  {
+    "id": "q117",
+    "category": "Update & Transport",
+    "question": "What should you do before moving changes to another instance?",
+    "options": [
+      "Capture them in an Update Set and validate them",
+      "Delete the form labels",
+      "Remove all groups",
+      "Disable all notifications"
+    ],
+    "answer": 0,
+    "explanation": "Best practice is to capture and review changes in Update Sets before promoting them.",
+    "source": "Adm Fundations/basic/modulo 07.md — Update Sets"
+  },
+  {
+    "id": "q118",
+    "category": "Testing",
+    "question": "What is Automated Test Framework mainly used for?",
+    "options": [
+      "Automating regression tests for platform behavior",
+      "Creating catalog items",
+      "Managing ACLs",
+      "Storing knowledge articles"
+    ],
+    "answer": 0,
+    "explanation": "ATF automates tests to validate configuration and functionality.",
+    "source": "Adm Fundations/basic/modulo 07.md — ATF"
+  },
+  {
+    "id": "q119",
+    "category": "Testing",
+    "question": "Which statement best describes the value of ATF?",
+    "options": [
+      "It reduces manual re-testing and increases confidence in changes",
+      "It replaces all update sets",
+      "It performs only database backups",
+      "It creates UI policies automatically"
+    ],
+    "answer": 0,
+    "explanation": "ATF helps teams repeatedly validate changes and reduce regression risk.",
+    "source": "Adm Fundations/basic/modulo 07.md — ATF"
+  },
+  {
+    "id": "q120",
+    "category": "Security",
+    "question": "What does the Shared Responsibility Model describe?",
+    "options": [
+      "How security duties are split between ServiceNow and the customer",
+      "How to configure forms",
+      "How to create workflows",
+      "How to assign roles"
+    ],
+    "answer": 0,
+    "explanation": "The Shared Responsibility Model explains which security tasks are handled by ServiceNow versus the customer.",
+    "source": "Adm Fundations/basic/modulo 08.md — Shared Responsibility Model"
+  },
+  {
+    "id": "q121",
+    "category": "Encryption",
+    "question": "What does Encryption at Rest protect?",
+    "options": [
+      "Data stored on disk or in storage",
+      "Only browser sessions",
+      "Only notification templates",
+      "Only portal URLs"
+    ],
+    "answer": 0,
+    "explanation": "Encryption at Rest protects stored data from unauthorized access.",
+    "source": "Adm Fundations/basic/modulo 08.md — Encryption"
+  },
+  {
+    "id": "q122",
+    "category": "Encryption",
+    "question": "What does Encryption in Transit protect?",
+    "options": [
+      "Data while it travels between systems",
+      "Only user roles",
+      "Only forms",
+      "Only catalog items"
+    ],
+    "answer": 0,
+    "explanation": "Encryption in Transit protects data while it is in motion across networks.",
+    "source": "Adm Fundations/basic/modulo 08.md — Encryption"
+  },
+  {
+    "id": "q123",
+    "category": "Logs",
+    "question": "Why are logs important in ServiceNow?",
+    "options": [
+      "They help with troubleshooting and auditing",
+      "They replace update sets",
+      "They create catalog items",
+      "They define user groups"
+    ],
+    "answer": 0,
+    "explanation": "Logs provide the evidence needed to investigate and audit platform activity.",
+    "source": "Adm Fundations/basic/modulo 08.md — Logging"
+  },
+  {
+    "id": "q124",
+    "category": "Logs",
+    "question": "Who typically manages infrastructure logs?",
+    "options": [
+      "ServiceNow",
+      "End users",
+      "Business owners only",
+      "Catalog administrators only"
+    ],
+    "answer": 0,
+    "explanation": "Infrastructure logs are typically managed by ServiceNow as part of the platform environment.",
+    "source": "Adm Fundations/basic/modulo 08.md — Logging"
+  },
+  {
+    "id": "q125",
+    "category": "Security",
+    "question": "What is the best first step when investigating a security or access issue?",
+    "options": [
+      "Review the related logs and access configuration",
+      "Change the portal URL",
+      "Delete the workflow",
+      "Create a new update set"
+    ],
+    "answer": 0,
+    "explanation": "Reviewing access controls and logs is the standard approach to investigating security issues.",
+    "source": "Adm Fundations/basic/modulo 08.md — Logging and security"
+  },
+  {
+    "id": "q126",
+    "category": "General",
+    "question": "Which topic is most likely to appear repeatedly across the certification exam?",
+    "options": [
+      "Understanding the difference between configuration and customization",
+      "Creating hardware devices",
+      "Editing network cables",
+      "Writing operating system drivers"
+    ],
+    "answer": 0,
+    "explanation": "The contrast between configuration and customization is a common exam theme because it affects upgrades and supportability.",
+    "source": "Adm Fundations/basic/modulo 02.md — Configuration vs Customization"
+  },
+  {
+    "id": "q127",
+    "category": "General",
+    "question": "Which concept should be memorized for request handling?",
+    "options": [
+      "REQ → RITM → SCTASK",
+      "ACL → Role → Group",
+      "CI → CMDB → Report",
+      "Portal → Dashboard → View"
+    ],
+    "answer": 0,
+    "explanation": "The request hierarchy REQ → RITM → SCTASK is a high-yield concept for ServiceNow exams.",
+    "source": "Adm Fundations/basic/mosulo 05.md — Request Management"
+  },
+  {
+    "id": "q128",
+    "category": "General",
+    "question": "Which concept should be memorized for knowledge access?",
+    "options": [
+      "User Criteria determine who can read or contribute",
+      "Views define security roles",
+      "Lists create workflows",
+      "Forms define update sets"
+    ],
+    "answer": 0,
+    "explanation": "User Criteria are central to controlling access to knowledge content.",
+    "source": "Adm Fundations/basic/mosulo 05.md — User Criteria"
+  },
+  {
+    "id": "q129",
+    "category": "General",
+    "question": "Which concept should be memorized for platform behavior?",
+    "options": [
+      "UI Policy affects the interface while Data Policy protects the data",
+      "Client Script affects the database while Business Rule affects the UI",
+      "Update Sets define encryption",
+      "Forms define notifications"
+    ],
+    "answer": 0,
+    "explanation": "This distinction is one of the most tested concepts in ServiceNow platform behavior.",
+    "source": "Adm Fundations/basic/modulo 07.md — UI Policy and Data Policy"
+  },
+  {
+    "id": "q130",
+    "category": "General",
+    "question": "Which concept should be memorized for security basics?",
+    "options": [
+      "Encryption at rest protects stored data; encryption in transit protects data in motion",
+      "Only ACLs protect data",
+      "Only logs protect data",
+      "Only dashboards protect data"
+    ],
+    "answer": 0,
+    "explanation": "These two encryption concepts are core security distinctions frequently tested in the exam.",
+    "source": "Adm Fundations/basic/modulo 08.md — Encryption"
   }
 ]

@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0" />
+  <meta http-equiv="Pragma" content="no-cache" />
   <title>CSA ServiceNow Simulator</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=20260706-1" />
 </head>
 <body>
   <div class="container">
@@ -12,6 +14,12 @@
     <div class="controls">
       <label>Number of questions: <input id="numQuestions" type="number" value="30" min="5" max="60" /></label>
       <label>Duration (minutes): <input id="durationMin" type="number" value="60" min="5" max="240" /></label>
+      <label>Mode:
+        <select id="examMode">
+          <option value="balanced">Balanced</option>
+          <option value="certification">Certification</option>
+        </select>
+      </label>
       <button id="startBtn">Start Exam</button>
       <button id="resumeBtn" style="display:none">Resume</button>
     </div>
@@ -31,6 +39,6 @@
 
     <div id="log" class="log"></div>
   </div>
-  <script src="app.js"></script>
+  <script src="app.js?v=20260706-1"></script>
 </body>
 </html>

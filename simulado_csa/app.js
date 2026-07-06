@@ -3,73 +3,229 @@
   const qUrl = 'questions.json';
   const questions = await fetch(qUrl).then(r=>r.json());
 
-  // Local storage keys
-  const STATS_KEY = 'csa_stats_v1';
-  const LASTRUN_KEY = 'csa_lastrun_v1';
+  // Persistent storage helpers
+  const STATS_KEY = 'csa_stats_v2';
+  const LASTRUN_KEY = 'csa_lastrun_v2';
+  const DB_NAME = 'csaSimulatorDb';
+  const DB_VERSION = 1;
+  const STORE_NAME = 'examState';
 
-  // Load or init stats
-  let stats = JSON.parse(localStorage.getItem(STATS_KEY) || '{}');
+  let stats = {};
+  let lastRun = [];
   // stats structure: { qid: { attempts: n, correct: m, lastUsedAt: timestamp } }
 
-  function saveStats(){ localStorage.setItem(STATS_KEY, JSON.stringify(stats)); }
+  function getModuleKey(q){
+    const source = (q.source || '').toLowerCase();
+    if(source.includes('modelo 01')) return 'module_01';
+    if(source.includes('modulo 02')) return 'module_02';
+    if(source.includes('modulo 03')) return 'module_03';
+    if(source.includes('modulo 04')) return 'module_04';
+    if(source.includes('modulo 05') || source.includes('mosulo 05')) return 'module_05';
+    if(source.includes('modulo 06')) return 'module_06';
+    if(source.includes('modulo 07')) return 'module_07';
+    if(source.includes('modulo 08')) return 'module_08';
+    return 'module_general';
+  }
+
+  function getModuleLabel(moduleKey){
+    const labels = {
+      module_01: 'Module 01',
+      module_02: 'Module 02',
+      module_03: 'Module 03',
+      module_04: 'Module 04',
+      module_05: 'Module 05',
+      module_06: 'Module 06',
+      module_07: 'Module 07',
+      module_08: 'Module 08',
+      module_general: 'General'
+    };
+    return labels[moduleKey] || 'General';
+  }
+
+  function getTopicWeight(q){
+    const category = q.category || '';
+    const highYield = ['Security','Catalog','Automation','Notifications','Testing','Encryption','Knowledge','Request Management','Scripting','Update & Transport','Data Model','Users & Access'];
+    const categoryBoost = highYield.includes(category) ? 1.15 : 1.0;
+    const text = `${q.question} ${q.explanation}`.toLowerCase();
+    const trickyWords = ['difference','best','main','most','which statement','primarily','typical','correct','should','memorize'];
+    const difficultyBoost = trickyWords.some(word => text.includes(word)) ? 1.12 : 1.0;
+    return categoryBoost * difficultyBoost;
+  }
 
   function getFailureRate(q){
     const s = stats[q.id];
-    if(!s || !s.attempts) return 1.0; // default 100% failure
+    if(!s || !s.attempts) return 0.65; // default medium-high failure probability
     return 1 - (s.correct / s.attempts);
   }
 
-  // selection algorithm
-  function selectExam(num){
-    const lastRun = JSON.parse(localStorage.getItem(LASTRUN_KEY) || '[]');
-    const result = [];
-    const pool = questions.slice();
-
-    // 10% from last run (rounded)
-    const tenPct = Math.round(num * 0.10);
-    const sixtyPct = Math.round(num * 0.60);
-
-    // pick 10% from lastRun if available
-    if(lastRun.length>0 && tenPct>0){
-      const candidates = lastRun.filter(id => pool.find(q=>q.id===id));
-      shuffle(candidates);
-      for(let i=0;i<Math.min(tenPct,candidates.length);i++){
-        const qid = candidates[i];
-        const idx = pool.findIndex(q=>q.id===qid);
-        if(idx>=0){ result.push(pool.splice(idx,1)[0]); }
-      }
+  function getRevisitBoost(q){
+    const s = stats[q.id];
+    if(!s || !s.attempts) return 0.15;
+    const accuracy = s.correct / s.attempts;
+    const daysSinceLastSeen = s.lastUsedAt ? (Date.now() - s.lastUsedAt) / (1000 * 60 * 60 * 24) : 999;
+    let boost = 0;
+    if(accuracy > 0.8){
+      boost += 0.10 + Math.min(0.20, daysSinceLastSeen / 60);
+    } else if(accuracy < 0.5){
+      boost += 0.35 + Math.min(0.20, (0.5 - accuracy) * 0.8);
     }
+    if(daysSinceLastSeen > 14){ boost += 0.08; }
+    return boost;
+  }
 
-    // 60% from highest failure rate (tie-breaker: times used desc)
-    // prepare ranking
-    const ranked = pool.map(q => ({
-      q,
-      failure: getFailureRate(q),
-      times: (stats[q.id] && stats[q.id].attempts) || 0
-    })).sort((a,b)=>{
-      if(b.failure!==a.failure) return b.failure - a.failure;
-      return b.times - a.times; // prefer those executed more when failure ties
+  function scoreCandidate(q, moduleKey, mode, selectedByModule){
+    const s = stats[q.id] || { attempts: 0, correct: 0, lastUsedAt: 0 };
+    const attempts = s.attempts || 0;
+    const accuracy = attempts ? s.correct / attempts : 0.5;
+    const failureRate = getFailureRate(q);
+    const recency = s.lastUsedAt ? Math.max(0.2, 1 - Math.min((Date.now() - s.lastUsedAt) / (1000 * 60 * 60 * 24 * 30), 1)) : 0.65;
+    const moduleBalancePenalty = selectedByModule[moduleKey] ? 0.18 : 0;
+    const easePenalty = accuracy > 0.85 ? 0.16 : 0;
+    const difficultyBoost = mode === 'certification' ? 0.18 : 0;
+    const weakAreaBoost = failureRate * 1.25;
+    const revisitBoost = getRevisitBoost(q);
+    const moduleWeight = moduleKey === 'module_05' || moduleKey === 'module_07' || moduleKey === 'module_08' ? 1.12 : 1.0;
+    return (getTopicWeight(q) + weakAreaBoost + revisitBoost + difficultyBoost) * moduleWeight * (0.75 + recency * 0.45) * (1 - moduleBalancePenalty) - easePenalty + Math.random() * 0.04;
+  }
+
+  function computeModuleTargets(num){
+    const moduleWeights = {
+      module_01: 1.0,
+      module_02: 1.1,
+      module_03: 1.1,
+      module_04: 1.2,
+      module_05: 1.35,
+      module_06: 1.2,
+      module_07: 1.35,
+      module_08: 1.25,
+      module_general: 1.0
+    };
+    const modules = Object.keys(moduleWeights);
+    const totalWeight = modules.reduce((sum, key) => sum + moduleWeights[key], 0);
+    const targets = {};
+    modules.forEach((moduleKey) => {
+      targets[moduleKey] = 0;
     });
 
-    let need = sixtyPct;
-    for(let item of ranked){
-      if(need<=0) break;
-      const idx = pool.findIndex(p=>p.id===item.q.id);
-      if(idx>=0){ result.push(pool.splice(idx,1)[0]); need--; }
+    let remaining = num;
+    modules.forEach((moduleKey) => {
+      const raw = num * (moduleWeights[moduleKey] / totalWeight);
+      const target = Math.max(1, Math.floor(raw));
+      const assigned = Math.min(target, remaining);
+      targets[moduleKey] = assigned;
+      remaining -= assigned;
+    });
+
+    while(remaining > 0){
+      const moduleKey = modules.sort((a,b) => moduleWeights[b] - moduleWeights[a])[0];
+      targets[moduleKey] += 1;
+      remaining -= 1;
     }
 
-    // fill remaining to reach desired number using random selection
-    while(result.length < num && pool.length>0){
-      const idx = Math.floor(Math.random()*pool.length);
-      result.push(pool.splice(idx,1)[0]);
+    return targets;
+  }
+
+  function removeQuestionFromPool(pool, qid){
+    const idx = pool.findIndex(q => q.id === qid);
+    if(idx >= 0) pool.splice(idx, 1);
+  }
+
+  function persistState(){
+    try {
+      localStorage.setItem(STATS_KEY, JSON.stringify(stats));
+      localStorage.setItem(LASTRUN_KEY, JSON.stringify(lastRun));
+    } catch (err) {
+      console.warn('localStorage persistence unavailable', err);
     }
 
-    // final shuffle
+    if('indexedDB' in window){
+      const request = indexedDB.open(DB_NAME, DB_VERSION);
+      request.onupgradeneeded = () => {
+        const db = request.result;
+        if(!db.objectStoreNames.contains(STORE_NAME)){
+          db.createObjectStore(STORE_NAME, { keyPath: 'id' });
+        }
+      };
+      request.onsuccess = () => {
+        const db = request.result;
+        const tx = db.transaction(STORE_NAME, 'readwrite');
+        const store = tx.objectStore(STORE_NAME);
+        store.put({ id: 'state', stats, lastRun, updatedAt: Date.now() });
+      };
+      request.onerror = () => console.warn('IndexedDB persistence unavailable');
+    }
+  }
+
+  function loadPersistedState(){
+    const legacyStats = JSON.parse(localStorage.getItem(STATS_KEY) || '{}');
+    const legacyLastRun = JSON.parse(localStorage.getItem(LASTRUN_KEY) || '[]');
+    if(legacyStats && Object.keys(legacyStats).length){
+      stats = legacyStats;
+      lastRun = legacyLastRun;
+    }
+
+    if('indexedDB' in window){
+      const request = indexedDB.open(DB_NAME, DB_VERSION);
+      request.onupgradeneeded = () => {
+        const db = request.result;
+        if(!db.objectStoreNames.contains(STORE_NAME)){
+          db.createObjectStore(STORE_NAME, { keyPath: 'id' });
+        }
+      };
+      request.onsuccess = () => {
+        const db = request.result;
+        const tx = db.transaction(STORE_NAME, 'readonly');
+        const store = tx.objectStore(STORE_NAME);
+        const getReq = store.get('state');
+        getReq.onsuccess = () => {
+          const record = getReq.result;
+          if(record && record.stats){
+            stats = record.stats;
+            lastRun = record.lastRun || [];
+          }
+          persistState();
+        };
+      };
+      request.onerror = () => {};
+    }
+  }
+
+  function selectExam(num, mode='balanced'){
+    const result = [];
+    const pool = questions.slice();
+    const targets = computeModuleTargets(num);
+    const selectedByModule = Object.fromEntries(Object.keys(targets).map(moduleKey => [moduleKey, 0]));
+
+    Object.entries(targets).forEach(([moduleKey, target]) => {
+      if(target <= 0) return;
+      const moduleQuestions = pool.filter(q => getModuleKey(q) === moduleKey)
+        .sort((a,b) => scoreCandidate(b, moduleKey, mode, selectedByModule) - scoreCandidate(a, moduleKey, mode, selectedByModule));
+      const picks = Math.min(target, moduleQuestions.length);
+      for(let i=0; i<picks && result.length < num; i++){
+        const q = moduleQuestions[i];
+        result.push(q);
+        selectedByModule[moduleKey] += 1;
+        removeQuestionFromPool(pool, q.id);
+      }
+    });
+
+    while(result.length < num && pool.length > 0){
+      const ranked = pool
+        .map(q => ({ q, score: scoreCandidate(q, getModuleKey(q), mode, selectedByModule) }))
+        .sort((a,b) => b.score - a.score);
+      const pick = ranked[0];
+      if(!pick) break;
+      result.push(pick.q);
+      removeQuestionFromPool(pool, pick.q.id);
+    }
+
     shuffle(result);
-    // store last run ids
-    localStorage.setItem(LASTRUN_KEY, JSON.stringify(result.map(q=>q.id)));
+    lastRun = result.map(q => q.id);
+    persistState();
     return result;
   }
+
+  loadPersistedState();
 
   // UI helpers
   const startBtn = document.getElementById('startBtn');
@@ -89,11 +245,12 @@
   startBtn.onclick = ()=>{
     const num = parseInt(document.getElementById('numQuestions').value,10);
     const durationMin = parseInt(document.getElementById('durationMin').value,10);
-    startExam(num, durationMin*60);
+    const mode = document.getElementById('examMode').value;
+    startExam(num, durationMin*60, mode);
   };
 
-  function startExam(num, durationSec){
-    const selected = selectExam(num);
+  function startExam(num, durationSec, mode='balanced'){
+    const selected = selectExam(num, mode);
     exam = {
       questions: selected,
       answers: new Array(selected.length).fill(null),
@@ -186,7 +343,7 @@
       stats[q.id] = s;
       if(ok) correctCount++;
     });
-    saveStats();
+    persistState();
     // show results with explanations for wrong answers
     showResults(results, correctCount);
   }
