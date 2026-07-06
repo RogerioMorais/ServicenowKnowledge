@@ -225,8 +225,6 @@
     return result;
   }
 
-  loadPersistedState();
-
   // UI helpers
   const startBtn = document.getElementById('startBtn');
   const resumeBtn = document.getElementById('resumeBtn');
@@ -238,6 +236,20 @@
   const prevBtn = document.getElementById('prevBtn');
   const nextBtn = document.getElementById('nextBtn');
   const submitBtn = document.getElementById('submitBtn');
+  const detailModal = document.getElementById('detailModal');
+  const detailModalTitle = document.getElementById('detailModalTitle');
+  const detailModalBody = document.getElementById('detailModalBody');
+  const detailModalClose = document.getElementById('detailModalClose');
+  const detailModalOpenLink = document.getElementById('detailModalOpenLink');
+
+  loadPersistedState();
+
+  if(detailModalClose){
+    detailModalClose.onclick = ()=>{ if(detailModal) detailModal.style.display='none'; };
+  }
+  if(detailModal){
+    detailModal.onclick = (e)=>{ if(e.target===detailModal) detailModal.style.display='none'; };
+  }
 
   let exam = null; // { questions: [], answers: [], startedAt, durationSec }
   let timerInterval = null;
@@ -352,7 +364,42 @@
     return '/' + path.split('/').map(segment => encodeURIComponent(segment)).join('/');
   }
 
-  function getSourceDetails(q){
+  function slugify(text){
+    return String(text || '').toLowerCase().trim()
+      .normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/(^-|-$)/g, '');
+  }
+
+  function extractSectionFromMarkdown(markdown, anchor, fallbackLabel){
+    const lines = markdown.split(/\r?\n/);
+    const headingRegex = /^(#{1,6})\s+(.*)$/;
+    const headings = [];
+    lines.forEach((line, index) => {
+      const match = line.match(headingRegex);
+      if(match){ headings.push({ index, level: match[1].length, text: match[2].trim() }); }
+    });
+
+    const targetSlug = slugify(anchor || '');
+    const targetLabelSlug = slugify(fallbackLabel || '');
+    const matchHeading = headings.find((heading) => {
+      if(targetSlug && slugify(heading.text) === targetSlug) return true;
+      return !!targetLabelSlug && slugify(heading.text) === targetLabelSlug;
+    });
+
+    if(!matchHeading) return markdown.trim();
+
+    const startIndex = matchHeading.index;
+    let endIndex = lines.length;
+    for(let i = startIndex + 1; i < lines.length; i++){
+      const match = lines[i].match(headingRegex);
+      if(match && match[1].length <= matchHeading.level){ endIndex = i; break; }
+    }
+
+    return lines.slice(startIndex, endIndex).join('\n').trim();
+  }
+
+  async function getTopicDetails(q){
     const sourceMap = {
       q15: { path: 'Adm Fundations/basic/mosulo 05.md', anchor: 'employee-center', label: 'Module 05 — Employee Center' },
       q16: { path: 'Adm Fundations/basic/mosulo 05.md', anchor: 'service-portal', label: 'Module 05 — Service Portal' },
@@ -376,25 +423,60 @@
       q37: { path: 'Adm Fundations/basic/modulo 07.md', anchor: '3-data-policy', label: 'Module 07 — Data Policy' },
       q38: { path: 'Adm Fundations/basic/modulo 08.md', anchor: '4-logging', label: 'Module 08 — Logging' },
       q39: { path: 'Adm Fundations/basic/modulo 07.md', anchor: 'atf', label: 'Module 07 — ATF' },
-      q40: { path: 'Adm Fundations/basic/modulo 03.md', anchor: 'forms-and-lists', label: 'Module 03 — Forms, Lists and dot-walking' }
+      q40: { path: 'Adm Fundations/basic/modulo 03.md', anchor: 'forms-and-lists', label: 'Module 03 — Forms, Lists and dot-walking' },
+      q104: { path: 'Adm Fundations/basic/mosulo 05.md', anchor: 'data-pills', label: 'Module 05 — Data Pills' }
     };
 
-    if(q && q.id && sourceMap[q.id]){
-      const item = sourceMap[q.id];
-      const href = `${toUrlPath(item.path)}${item.anchor ? '#' + item.anchor : ''}`;
-      return `<a href="${href}" target="_blank" rel="noopener noreferrer">${item.label}</a>`;
-    }
-
-    if(q && q.source){
-      const raw = q.source;
-      if(raw.includes(' — ')){
-        const [path, label] = raw.split(' — ');
-        return `<a href="${toUrlPath(path)}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+    const item = (q && q.id && sourceMap[q.id]) || (q && q.details) || null;
+    if(!item){
+      if(q && q.source){
+        const raw = q.source;
+        if(raw.includes(' — ')){
+          const [path, label] = raw.split(' — ');
+          return { path, label, anchor: '' };
+        }
+        return { path: raw, label: raw, anchor: '' };
       }
-      return `<a href="${toUrlPath(raw)}" target="_blank" rel="noopener noreferrer">${raw}</a>`;
+      return null;
     }
 
-    return 'Review the study notes';
+    const detailItem = { ...item, label: item.label || 'Study topic', path: item.path || '', anchor: item.anchor || '', excerpt: item.excerpt || '' };
+    if(detailItem.excerpt) return detailItem;
+
+    if(detailItem.path){
+      try{
+        const response = await fetch(toUrlPath(detailItem.path));
+        if(response.ok){
+          const markdown = await response.text();
+          detailItem.excerpt = extractSectionFromMarkdown(markdown, detailItem.anchor, detailItem.label);
+        }
+      } catch(err){
+        console.warn('Unable to load topic details', err);
+      }
+    }
+
+    return detailItem;
+  }
+
+  async function showTopicDetails(q){
+    const item = await getTopicDetails(q);
+    if(!item) return;
+    if(detailModalTitle) detailModalTitle.textContent = item.label || 'Study topic';
+    if(detailModalBody){
+      detailModalBody.innerHTML = '';
+      const pre = document.createElement('pre');
+      pre.className = 'topic-snippet';
+      pre.textContent = item.excerpt || 'No topic excerpt is available yet.';
+      detailModalBody.appendChild(pre);
+    }
+    if(detailModalOpenLink){
+      const viewerUrl = new URL('module-viewer.html', window.location.href);
+      viewerUrl.searchParams.set('file', item.path || '');
+      if(item.anchor) viewerUrl.searchParams.set('anchor', item.anchor);
+      detailModalOpenLink.href = viewerUrl.toString();
+      detailModalOpenLink.style.display = item.path ? 'inline-block' : 'none';
+    }
+    if(detailModal) detailModal.style.display = 'flex';
   }
 
   function showResults(results, correctCount){
@@ -413,7 +495,14 @@
       if(!r.ok){
         const expl = document.createElement('div'); expl.className='explanation'; expl.innerHTML = `<strong>Explanation:</strong> ${r.q.explanation}`;
         item.appendChild(expl);
-        const src = document.createElement('div'); src.className='source'; src.innerHTML = `See details: ${getSourceDetails(r.q)}`;
+        const src = document.createElement('div'); src.className='source';
+        const srcLabel = document.createElement('span'); srcLabel.textContent = 'See details: ';
+        const detailBtn = document.createElement('button');
+        detailBtn.className = 'detail-btn';
+        detailBtn.textContent = 'Open topic details';
+        detailBtn.onclick = ()=> showTopicDetails(r.q);
+        src.appendChild(srcLabel);
+        src.appendChild(detailBtn);
         item.appendChild(src);
       }
       list.appendChild(item);

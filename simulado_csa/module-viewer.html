@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Study module viewer</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:20px;background:#f6f8fa;color:#222;line-height:1.5}
+    .card{max-width:1000px;margin:0 auto;background:#fff;padding:24px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+    h1{margin-top:0}
+    .meta{color:#666;font-size:14px;margin-bottom:16px}
+    .content{background:#f8fafc;padding:16px;border-radius:6px;border:1px solid #e5e7eb}
+    .content h1,.content h2,.content h3,.content h4{margin-top:1.2em}
+    .content pre{white-space:pre-wrap;background:#fff;padding:12px;border-radius:6px;border:1px solid #e5e7eb;overflow:auto}
+    .content code{background:#eef2ff;padding:2px 4px;border-radius:4px}
+    .content ul{padding-left:20px}
+    .content a{color:#0b5cff}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1 id="title">Study module</h1>
+    <div id="meta" class="meta"></div>
+    <div id="content" class="content">Loading…</div>
+  </div>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const file = params.get('file') || '';
+    const anchor = params.get('anchor') || '';
+    const titleEl = document.getElementById('title');
+    const metaEl = document.getElementById('meta');
+    const contentEl = document.getElementById('content');
+
+    function slugify(text){
+      return String(text || '').toLowerCase().trim()
+        .normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/(^-|-$)/g, '');
+    }
+
+    function escapeHtml(value){
+      return String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    }
+
+    function renderMarkdown(markdown){
+      const lines = markdown.split(/\r?\n/);
+      const html = [];
+      let paragraph = [];
+      let listItems = [];
+      let codeLines = [];
+      let inCodeBlock = false;
+      let inList = false;
+
+      const flushParagraph = () => {
+        if(paragraph.length){
+          html.push(`<p>${escapeHtml(paragraph.join(' '))}</p>`);
+          paragraph = [];
+        }
+      };
+      const flushList = () => {
+        if(listItems.length){
+          html.push(`<ul>${listItems.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>`);
+          listItems = [];
+          inList = false;
+        }
+      };
+      const flushCode = () => {
+        if(codeLines.length){
+          html.push(`<pre><code>${escapeHtml(codeLines.join('\n'))}</code></pre>`);
+          codeLines = [];
+        }
+      };
+
+      for(const rawLine of lines){
+        const line = rawLine.trimEnd();
+        if(/^```/.test(line)){ 
+          flushParagraph();
+          flushList();
+          if(inCodeBlock){
+            flushCode();
+            inCodeBlock = false;
+          } else {
+            inCodeBlock = true;
+          }
+          continue;
+        }
+
+        if(inCodeBlock){
+          codeLines.push(line);
+          continue;
+        }
+
+        const headingMatch = line.match(/^(#{1,6})\s+(.*)$/);
+        if(headingMatch){
+          flushParagraph();
+          flushList();
+          const level = headingMatch[1].length;
+          const text = headingMatch[2].trim();
+          const id = slugify(text);
+          html.push(`<h${level} id="${id}">${escapeHtml(text)}</h${level}>`);
+          continue;
+        }
+
+        if(/^[-*]\s+/.test(line)){ 
+          flushParagraph();
+          inList = true;
+          listItems.push(line.replace(/^[-*]\s+/, '').trim());
+          continue;
+        }
+
+        if(!line.trim()){
+          flushParagraph();
+          flushList();
+          continue;
+        }
+
+        if(inList){
+          flushList();
+        }
+        paragraph.push(line.trim());
+      }
+
+      flushParagraph();
+      flushList();
+      flushCode();
+      return html.join('');
+    }
+
+    async function loadFile(){
+      if(!file){
+        contentEl.textContent = 'No module was provided.';
+        return;
+      }
+      const response = await fetch('/' + file.split('/').map(segment => encodeURIComponent(segment)).join('/'));
+      if(!response.ok){
+        contentEl.textContent = 'Unable to load the selected module.';
+        return;
+      }
+      const markdown = await response.text();
+      const lines = markdown.split(/\r?\n/);
+      const headingRegex = /^(#{1,6})\s+(.*)$/;
+      const headings = [];
+      lines.forEach((line, index) => {
+        const match = line.match(headingRegex);
+        if(match){ headings.push({ index, level: match[1].length, text: match[2].trim() }); }
+      });
+
+      let targetIndex = 0;
+      if(anchor){
+        const targetSlug = slugify(anchor);
+        targetIndex = headings.findIndex((heading) => slugify(heading.text) === targetSlug);
+      }
+      if(targetIndex < 0) targetIndex = 0;
+
+      const startIndex = headings[targetIndex] ? headings[targetIndex].index : 0;
+      let endIndex = lines.length;
+      for(let i = startIndex + 1; i < lines.length; i++){
+        const match = lines[i].match(headingRegex);
+        if(match && match[1].length <= (headings[targetIndex]?.level || 0)){ endIndex = i; break; }
+      }
+      const section = lines.slice(startIndex, endIndex).join('\n').trim();
+      titleEl.textContent = decodeURIComponent(file.split('/').pop()) || 'Study module';
+      metaEl.textContent = anchor ? `Section: ${anchor}` : 'Full module view';
+      contentEl.innerHTML = renderMarkdown(section || markdown.trim());
+      if(anchor){
+        const target = document.getElementById(slugify(anchor));
+        if(target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    loadFile().catch(() => {
+      contentEl.textContent = 'Unable to load the selected module.';
+    });
+  </script>
+</body>
+</html>

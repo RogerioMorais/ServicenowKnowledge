@@ -14,3 +14,11 @@ h1{margin-top:0}
 .explanation{margin-top:12px;padding:12px;background:#fffbe6;border:1px solid #ffe58f;border-radius:6px}
 .source{font-size:13px;color:#0b5cff;margin-top:6px}
 .results-list{margin-top:12px}
+.detail-btn{border:0;background:none;color:#0b5cff;padding:0;cursor:pointer;text-decoration:underline;font:inherit}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;padding:20px;z-index:1000}
+.modal-content{background:#fff;max-width:760px;width:min(100%,760px);max-height:85vh;overflow:auto;border-radius:8px;box-shadow:0 12px 30px rgba(0,0,0,.2)}
+.modal-header{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;border-bottom:1px solid #eee}
+.modal-close{border:0;background:none;font-size:24px;cursor:pointer}
+.modal-body{padding:16px 20px;white-space:pre-wrap;line-height:1.5}
+.modal-footer{padding:0 20px 16px}
+.topic-snippet{margin:0;background:#f8fafc;padding:12px;border-radius:6px;border:1px solid #e5e7eb;overflow:auto}
