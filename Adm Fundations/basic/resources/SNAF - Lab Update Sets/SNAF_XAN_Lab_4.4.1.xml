@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-12-02 21:15:16">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Create Infinity suggested relationships</description>
+<inserted/>
+<name>SNAF_XAN_Lab_4.4.1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>96e81d68219a5a107f44387bff0922b1</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:16</sys_created_on>
+<sys_id>69a69e6821de5a107f44387bff0922e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:16</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>cmdb_rel_type_suggest_bcdad1e8219a5a107f44387bff0922c1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_rel_type_suggest"><cmdb_rel_type_suggest action="INSERT_OR_UPDATE"><base_class>u_cmdb_ci_hardware_hhd</base_class><child>true</child><cmdb_rel_type display_value="Runs on::Runs">60bc4e22c0a8010e01f074cbe6bd73c3</cmdb_rel_type><dependent_class>service_offering</dependent_class><parent>false</parent><relationship>child:60bc4e22c0a8010e01f074cbe6bd73c3</relationship><sys_class_name>cmdb_rel_type_suggest</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:53:54</sys_created_on><sys_id>bcdad1e8219a5a107f44387bff0922c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>cmdb_rel_type_suggest_bcdad1e8219a5a107f44387bff0922c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:53:54</sys_updated_on></cmdb_rel_type_suggest></record_update>]]></payload>
+<payload_hash>-1255257810</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.4.1">69a69e6821de5a107f44387bff0922e9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:16</sys_created_on>
+<sys_id>2da69e6821de5a107f44387bff0922e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193884af59f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:16</sys_updated_on>
+<table/>
+<target_name>u_cmdb_ci_hardware_hhd</target_name>
+<type>Suggested Relationship</type>
+<update_domain>global</update_domain>
+<update_guid>f0dad1e81d9a5a1036b3959e6365eac3</update_guid>
+<update_guid_history>f0dad1e81d9a5a1036b3959e6365eac3:-1255257810</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>service_offering_9c990924215a5a107f44387bff092212</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="service_offering"><service_offering action="INSERT_OR_UPDATE"><aliases/><asset/><asset_tag/><assigned/><assigned_to/><assignment_group display_value="Training Technology Support" name="Training Technology Support">a6d98d24215a5a107f44387bff092241</assignment_group><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><billing>monthly</billing><busines_criticality>2 - somewhat critical</busines_criticality><business_contact/><business_need/><business_relation_manager/><business_unit/><can_print>false</can_print><category/><change_control display_value="CAB Approval" name="CAB Approval">b85d44954a3623120004689b2d5dd60a</change_control><checked_in/><checked_out/><checkout/><comments/><company/><compatibility_dependencies/><consumer_type>internal</consumer_type><contract/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><delivery_date/><delivery_manager/><department/><description>Infinity (HHD) 3D handheld projectors which show 3D images and videos</description><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><end_date/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><install_date/><install_status>1</install_status><invoice_number/><ip_address/><justification/><last_discovered/><last_review_date/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location/><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><monitoring_requirements/><name>Infinity (HHD)</name><number>BSN0001022</number><operational_status>1</operational_status><order/><order_date/><owned_by display_value="Annette Frietas">62826bf03710200044e0bfc8bcbe5de8</owned_by><parent display_value="Training">6b690524215a5a107f44387bff092254</parent><po_number/><portfolio_status>pipeline</portfolio_status><prerequisites/><price_model>per_unit</price_model><price_unit/><product_instance_id/><published_ref/><purchase_date/><schedule/><serial_number/><service_classification>Business Service</service_classification><service_level_requirement/><service_owner_delegate/><service_status>requirements</service_status><short_description>Infinity (HHD) 3D handheld projectors</short_description><skip_sync>false</skip_sync><sla/><spm_service_portfolio/><spm_taxonomy_node/><stakeholders/><start_date/><state/><subcategory/><support_group display_value="Training Technology Support" name="Training Technology Support">a6d98d24215a5a107f44387bff092241</support_group><supported_by/><sys_class_name>service_offering</sys_class_name><sys_class_path>/!!/!7/!$</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:39:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9c990924215a5a107f44387bff092212</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:43:56</sys_updated_on><technical_contact/><unit_description/><unverified>false</unverified><used_for>Production</used_for><user_group/><vendor/><version/><warranty_expiration/></service_offering><sys_translated_text action="delete_multiple" query="documentkey=9c990924215a5a107f44387bff092212"/><fx_price action="delete_multiple" query="id=9c990924215a5a107f44387bff092212"/></record_update>]]></payload>
+<payload_hash>-931193558</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.4.1">69a69e6821de5a107f44387bff0922e9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:16</sys_created_on>
+<sys_id>65a69e6821de5a107f44387bff0922ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193884ddf780000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:16</sys_updated_on>
+<table/>
+<target_name>Infinity (HHD)</target_name>
+<type>Offering</type>
+<update_domain>global</update_domain>
+<update_guid>a38b916cbb9a5a10ff48d642c712b086</update_guid>
+<update_guid_history>a38b916cbb9a5a10ff48d642c712b086:-931193558</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>incident_ad9bd16c219a5a107f44387bff0922dd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="incident"><incident action="INSERT_OR_UPDATE"><active>true</active><activity_due/><additional_assignee_list/><approval>not requested</approval><approval_history/><approval_set/><assigned_to/><assignment_group display_value="Training Technology Support" name="Training Technology Support">a6d98d24215a5a107f44387bff092241</assignment_group><business_duration/><business_impact/><business_service display_value="Training">6b690524215a5a107f44387bff092254</business_service><business_stc/><calendar_duration/><calendar_stc/><caller_id display_value="Rita Center">f1826bf03710200044e0bfc8bcbe5d3c</caller_id><category>inquiry</category><cause/><caused_by/><child_incidents>0</child_incidents><close_code/><close_notes/><closed_at/><closed_by/><cmdb_ci display_value="Infinity HHD Device">16b7d128219a5a107f44387bff09228b</cmdb_ci><comments/><comments_and_work_notes/><company display_value="ACME Japan">81fd65ecac1d55eb42a426568fc87a63</company><contact_type/><contract/><correlation_display/><correlation_id/><delivery_plan/><delivery_task/><description/><due_date/><escalation>0</escalation><expected_start/><follow_up/><group_list/><hold_reason/><impact>3</impact><incident_state>1</incident_state><knowledge>false</knowledge><location/><made_sla>true</made_sla><notify>1</notify><number>INC0010011</number><opened_at>2024-12-02 16:57:13</opened_at><opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by><order/><origin_id/><origin_table/><parent/><parent_incident/><priority>5</priority><problem_id/><reassignment_count>0</reassignment_count><rejection_goto/><reopen_count>0</reopen_count><reopened_by/><reopened_time/><resolved_at/><resolved_by/><rfc/><route_reason/><service_offering display_value="Infinity (HHD)">9c990924215a5a107f44387bff092212</service_offering><severity>3</severity><short_description>Device Fails to cast images</short_description><skills/><sla_due/><sn_esign_document/><sn_esign_esignature_configuration/><state>1</state><subcategory/><sys_class_name>incident</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:58:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ad9bd16c219a5a107f44387bff0922dd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:58:02</sys_updated_on><task_effective_number>INC0010011</task_effective_number><time_worked/><u_pilo0>true</u_pilo0><u_pilot>false</u_pilot><universal_request/><upon_approval>proceed</upon_approval><upon_reject>cancel</upon_reject><urgency>3</urgency><user_input/><variables/><watch_list/><wf_activity/><work_end/><work_notes/><work_notes_list/><work_start/></incident></record_update>]]></payload>
+<payload_hash>-1782309189</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.4.1">69a69e6821de5a107f44387bff0922e9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:16</sys_created_on>
+<sys_id>a1a69e6821de5a107f44387bff0922ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193884f0f170000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:16</sys_updated_on>
+<table/>
+<target_name>INC0010011</target_name>
+<type>Incident</type>
+<update_domain>global</update_domain>
+<update_guid>26dbd96c839a5a10882e2966b74a94ff</update_guid>
+<update_guid_history>26dbd96c839a5a10882e2966b74a94ff:-1782309189</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>cmdb_rel_type_suggest_f0dad1e8219a5a107f44387bff0922c0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_rel_type_suggest"><cmdb_rel_type_suggest action="INSERT_OR_UPDATE"><base_class>service_offering</base_class><child>false</child><cmdb_rel_type display_value="Runs on::Runs">60bc4e22c0a8010e01f074cbe6bd73c3</cmdb_rel_type><dependent_class>u_cmdb_ci_hardware_hhd</dependent_class><parent>true</parent><relationship>parent:60bc4e22c0a8010e01f074cbe6bd73c3</relationship><sys_class_name>cmdb_rel_type_suggest</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:53:54</sys_created_on><sys_id>f0dad1e8219a5a107f44387bff0922c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>service_offering</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>cmdb_rel_type_suggest_f0dad1e8219a5a107f44387bff0922c0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:53:54</sys_updated_on></cmdb_rel_type_suggest></record_update>]]></payload>
+<payload_hash>-1307176109</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.4.1">69a69e6821de5a107f44387bff0922e9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:16</sys_created_on>
+<sys_id>eda69e6821de5a107f44387bff0922e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193884af5b70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:16</sys_updated_on>
+<table/>
+<target_name>service_offering</target_name>
+<type>Suggested Relationship</type>
+<update_domain>global</update_domain>
+<update_guid>7cda912c449a5a10d2eaea24c2d033bb</update_guid>
+<update_guid_history>7cda912c449a5a10d2eaea24c2d033bb:-1307176109</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

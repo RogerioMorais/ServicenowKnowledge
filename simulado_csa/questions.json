@@ -1,0 +1,562 @@
+[
+  {
+    "id": "q1",
+    "category": "Platform",
+    "question": "What is ServiceNow?",
+    "options": [
+      "A cloud-based platform for digital workflow and automation",
+      "A desktop operating system",
+      "A database management system only",
+      "A hardware monitoring tool"
+    ],
+    "answer": 0,
+    "explanation": "ServiceNow is a cloud-based platform used for digital workflows, automation, low-code development and enterprise service management.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q2",
+    "category": "Data Model",
+    "question": "In ServiceNow data model terms, what does a 'Table' represent?",
+    "options": [
+      "A structure that stores records",
+      "A single data value",
+      "A user account",
+      "A network interface"
+    ],
+    "answer": 0,
+    "explanation": "A Table is the structure that stores records (rows) in the ServiceNow database.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q3",
+    "category": "Data Model",
+    "question": "What is 'sys_id' in ServiceNow?",
+    "options": [
+      "A unique identifier for a record",
+      "The visible incident number",
+      "A field label",
+      "A role name"
+    ],
+    "answer": 0,
+    "explanation": "The 'sys_id' is the unique identifier of a record in ServiceNow.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q4",
+    "category": "Users & Access",
+    "question": "Which object groups users for assignment and notifications?",
+    "options": [
+      "Group",
+      "Role",
+      "ACL",
+      "Field"
+    ],
+    "answer": 0,
+    "explanation": "A Group collects users for organization, assignments and notifications.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q5",
+    "category": "Users & Access",
+    "question": "What does a Role define in ServiceNow?",
+    "options": [
+      "Permissions and capabilities of a user",
+      "The layout of a form",
+      "A portal URL",
+      "A data import mapping"
+    ],
+    "answer": 0,
+    "explanation": "A Role defines the permissions and capabilities granted to users in ServiceNow.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q6",
+    "category": "Security",
+    "question": "What is an ACL in ServiceNow?",
+    "options": [
+      "An Access Control rule that controls read/write/create/delete on data",
+      "A type of notification",
+      "A portal widget",
+      "A script include"
+    ],
+    "answer": 0,
+    "explanation": "An ACL (Access Control List) in ServiceNow defines rules that control access to data at the table, record or field level.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q7",
+    "category": "Instances",
+    "question": "Which instance type should carry real operational data?",
+    "options": [
+      "Production",
+      "Development",
+      "Test",
+      "PDI"
+    ],
+    "answer": 0,
+    "explanation": "The Production instance contains real operational data for end users.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q8",
+    "category": "Instances",
+    "question": "What is a PDI (Personal Developer Instance)?",
+    "options": [
+      "An instance for learning and development provided by ServiceNow",
+      "The production instance for enterprises",
+      "A type of ACL",
+      "A database table"
+    ],
+    "answer": 0,
+    "explanation": "A PDI is a Personal Developer Instance used for learning, development and testing by individuals.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q9",
+    "category": "Configuration",
+    "question": "Which is a characteristic of configuration (vs customization)?",
+    "options": [
+      "Uses native features with less risk during upgrades",
+      "Always requires heavy coding",
+      "Always breaks on upgrades",
+      "Requires a separate database"
+    ],
+    "answer": 0,
+    "explanation": "Configuration leverages native platform features with lower risk and usually less code, making upgrades easier.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q10",
+    "category": "Data Import",
+    "question": "What is the correct import flow for external data into a target table?",
+    "options": [
+      "Data Source → Import Set → Transform Map → Target Table",
+      "Transform Map → Import Set → Data Source → Target Table",
+      "Target Table → Import Set → Data Source",
+      "Import Set → Data Source → Transform Map"
+    ],
+    "answer": 0,
+    "explanation": "Data is imported via a Data Source into an Import Set, then a Transform Map maps the data into the Target Table.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q11",
+    "category": "CMDB",
+    "question": "What does CMDB store?",
+    "options": [
+      "Configuration Items (CIs) and their relationships",
+      "User credentials",
+      "Notifications",
+      "Portal widgets"
+    ],
+    "answer": 0,
+    "explanation": "The CMDB stores Configuration Items and the relationships between them.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q12",
+    "category": "Lists & Forms",
+    "question": "What is a List in ServiceNow?",
+    "options": [
+      "A view that shows multiple records",
+      "A single record view",
+      "A background job",
+      "A security role"
+    ],
+    "answer": 0,
+    "explanation": "A List displays multiple records from a table.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q13",
+    "category": "Lists & Forms",
+    "question": "What is a View?",
+    "options": [
+      "A presentation configuration for lists or forms",
+      "A data import format",
+      "A user role",
+      "A transform map"
+    ],
+    "answer": 0,
+    "explanation": "A View changes how data is presented without altering the underlying records.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q14",
+    "category": "Filters",
+    "question": "What are the three parts of a filter?",
+    "options": [
+      "Field, Operator, Value",
+      "Table, Record, Field",
+      "User, Group, Role",
+      "Source, Import Set, Transform Map"
+    ],
+    "answer": 0,
+    "explanation": "A filter consists of Field, Operator and Value.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q15",
+    "category": "Portals",
+    "question": "What is the Employee Center URL path?",
+    "options": [
+      "/esc",
+      "/sp",
+      "/kb",
+      "/home"
+    ],
+    "answer": 0,
+    "explanation": "The Employee Center is typically accessed at /esc.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q16",
+    "category": "Portals",
+    "question": "What is the Service Portal URL path?",
+    "options": [
+      "/sp",
+      "/esc",
+      "/kb",
+      "/portal"
+    ],
+    "answer": 0,
+    "explanation": "The Service Portal is typically accessed at /sp.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q17",
+    "category": "Knowledge",
+    "question": "Which stage comes after 'Draft' in the article lifecycle?",
+    "options": [
+      "Approval",
+      "Published",
+      "Retired",
+      "Archived"
+    ],
+    "answer": 0,
+    "explanation": "After Draft the article typically goes to Approval before being Published.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q18",
+    "category": "Knowledge",
+    "question": "What does 'User Criteria' control in Knowledge Management?",
+    "options": [
+      "Who can read or contribute to articles",
+      "The layout of a knowledge article",
+      "Email templates",
+      "Update sets"
+    ],
+    "answer": 0,
+    "explanation": "User Criteria control access like 'Can Read' or 'Can Contribute' for knowledge content.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q19",
+    "category": "Catalog",
+    "question": "In Service Catalog, what does RITM stand for?",
+    "options": [
+      "Requested Item",
+      "Request Ticket",
+      "Runtime Item",
+      "Related Item"
+    ],
+    "answer": 0,
+    "explanation": "RITM stands for Requested Item — an item within a request.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q20",
+    "category": "Catalog",
+    "question": "What is the full structure REQ → RITM → SCTASK used to represent?",
+    "options": [
+      "Request → Requested Item → Service Catalog Task",
+      "Record → Item → Task",
+      "Role → Group → User",
+      "Import → Transform → Target"
+    ],
+    "answer": 0,
+    "explanation": "REQ is the overall Request, RITM the individual Requested Item, and SCTASK the task to fulfill it.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q21",
+    "category": "Notifications",
+    "question": "Which of these can trigger a Notification?",
+    "options": [
+      "Record Created",
+      "Only manual emails",
+      "Portal theme change",
+      "A UI Policy"
+    ],
+    "answer": 0,
+    "explanation": "Notifications can be triggered by events like Record Created, Record Updated, or an Event.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q22",
+    "category": "Notifications",
+    "question": "Will an inactive user normally receive notifications?",
+    "options": [
+      "No",
+      "Yes, always",
+      "Only for incidents",
+      "Only if subscribed"
+    ],
+    "answer": 0,
+    "explanation": "Inactive users typically do not receive notifications.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q23",
+    "category": "Scripting",
+    "question": "Which executes on the client (browser)?",
+    "options": [
+      "Client Script",
+      "Business Rule",
+      "Script Include",
+      "Scheduled Job"
+    ],
+    "answer": 0,
+    "explanation": "Client Scripts run in the browser and affect the UI.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q24",
+    "category": "Scripting",
+    "question": "Which executes on the server?",
+    "options": [
+      "Business Rule",
+      "Client Script",
+      "UI Policy",
+      "Catalog Client Script"
+    ],
+    "answer": 0,
+    "explanation": "Business Rules execute on the server to apply business logic.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q25",
+    "category": "Scripting",
+    "question": "What is the main purpose of a Data Policy?",
+    "options": [
+      "Ensure data integrity regardless of how data is submitted",
+      "Change UI appearance",
+      "Send notifications",
+      "Control access"
+    ],
+    "answer": 0,
+    "explanation": "Data Policies enforce data integrity across forms, imports and integrations.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q26",
+    "category": "Update & Transport",
+    "question": "What is an Update Set used for?",
+    "options": [
+      "Grouping and transporting configuration changes between instances",
+      "Backing up the database",
+      "Managing knowledge articles",
+      "Scheduling jobs"
+    ],
+    "answer": 0,
+    "explanation": "Update Sets group configuration changes so they can be moved between instances (e.g., Dev → Test → Prod).",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q27",
+    "category": "Testing",
+    "question": "What does ATF stand for?",
+    "options": [
+      "Automated Test Framework",
+      "Active Test Flow",
+      "Application Test File",
+      "API Test Function"
+    ],
+    "answer": 0,
+    "explanation": "ATF is the Automated Test Framework used to create and run automated tests in ServiceNow.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q28",
+    "category": "Security",
+    "question": "Who is typically responsible for data governance in the Shared Responsibility Model?",
+    "options": [
+      "The customer (client)",
+      "ServiceNow only",
+      "The infrastructure provider only",
+      "No one"
+    ],
+    "answer": 0,
+    "explanation": "In the Shared Responsibility Model, the customer is responsible for data governance and access control.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q29",
+    "category": "Encryption",
+    "question": "What protects data while it travels between client and server?",
+    "options": [
+      "TLS (encryption in transit)",
+      "Full disk encryption (at rest)",
+      "Update sets",
+      "User Criteria"
+    ],
+    "answer": 0,
+    "explanation": "TLS protects data in transit between the client and server.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q30",
+    "category": "Logs",
+    "question": "Which logs are typically accessible by the customer?",
+    "options": [
+      "Application Logs",
+      "Infrastructure Logs",
+      "Hypervisor Logs",
+      "Network device logs"
+    ],
+    "answer": 0,
+    "explanation": "Customers typically can view Application Logs for their instance; infrastructure logs are managed by ServiceNow.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q31",
+    "category": "Catalog",
+    "question": "What is a Record Producer used for in the Service Catalog?",
+    "options": [
+      "Create records in tables from catalog forms",
+      "Produce update sets",
+      "Manage user roles",
+      "Send notifications"
+    ],
+    "answer": 0,
+    "explanation": "Record Producers allow catalog users to create records in target tables via a simplified form.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q32",
+    "category": "Catalog",
+    "question": "What is a Variable Set?",
+    "options": [
+      "A reusable group of variables for catalog items",
+      "A set of user roles",
+      "A transform map component",
+      "A type of notification"
+    ],
+    "answer": 0,
+    "explanation": "Variable Sets are reusable collections of variables that can be shared across catalog items.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q33",
+    "category": "Performance",
+    "question": "Which practice helps reduce customization risk during upgrades?",
+    "options": [
+      "Favor configuration over customization",
+      "Avoid using roles",
+      "Disable notifications",
+      "Edit system tables directly"
+    ],
+    "answer": 0,
+    "explanation": "Favoring configuration (using native features) reduces upgrade risk compared to extensive customizations.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q34",
+    "category": "Data Model",
+    "question": "What is Dot-Walking used for?",
+    "options": [
+      "Accessing fields on related records",
+      "Running background scripts",
+      "Scheduling updates",
+      "Sending notifications"
+    ],
+    "answer": 0,
+    "explanation": "Dot-Walking allows accessing fields on related records by traversing reference fields.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q35",
+    "category": "Knowledge",
+    "question": "If a Knowledge Base has no 'Can Read' criteria configured, who can read it?",
+    "options": [
+      "Everyone",
+      "Only admins",
+      "Only authors",
+      "No one"
+    ],
+    "answer": 0,
+    "explanation": "If no 'Can Read' criteria are set, the content may be accessible to all users.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q36",
+    "category": "Scripting",
+    "question": "Which script type is appropriate to make a field mandatory on the form only?",
+    "options": [
+      "UI Policy",
+      "Data Policy",
+      "Business Rule",
+      "Transform Map"
+    ],
+    "answer": 0,
+    "explanation": "UI Policy changes form behavior and visibility, making a field mandatory in the UI.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q37",
+    "category": "Scripting",
+    "question": "Which enforcement should you use to ensure a field is required during imports?",
+    "options": [
+      "Data Policy",
+      "UI Policy",
+      "Client Script",
+      "CSS"
+    ],
+    "answer": 0,
+    "explanation": "Data Policies enforce data integrity regardless of source, including imports and web services.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q38",
+    "category": "Security",
+    "question": "Which party usually manages infrastructure logs?",
+    "options": [
+      "ServiceNow",
+      "Customer",
+      "End user",
+      "Third-party admin"
+    ],
+    "answer": 0,
+    "explanation": "Infrastructure logs are typically managed by ServiceNow and not directly accessible by customers.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q39",
+    "category": "Testing",
+    "question": "What is the purpose of Automated Test Framework (ATF)?",
+    "options": [
+      "Automate tests to validate platform behavior",
+      "Automatically create update sets",
+      "Manage knowledge articles",
+      "Schedule imports"
+    ],
+    "answer": 0,
+    "explanation": "ATF is used to automate testing of functionality and configuration in ServiceNow.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  },
+  {
+    "id": "q40",
+    "category": "General",
+    "question": "Which three concepts should you memorize for quick recall on exams?",
+    "options": [
+      "REQ → RITM → SCTASK; sys_id; Data Source → Import Set → Transform Map",
+      "User → Group → Role; CSS; UI Theme",
+      "TLS; Update Set; Portal Theme",
+      "Client Script; Business Rule; UI Action"
+    ],
+    "answer": 0,
+    "explanation": "These are high-yield concepts often tested: the request flow, sys_id unique identifier, and import flow.",
+    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+  }
+]

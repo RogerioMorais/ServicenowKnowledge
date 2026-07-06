@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-12-02 21:15:34">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>HR KB User Criteria, Article, Roles, etc</description>
+<inserted/>
+<name>SNAF_XAN_Lab_5.1.1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>d46c1d6c219a5a107f44387bff092208</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>79b6d22821de5a107f44387bff09222c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_923d59ec219a5a107f44387bff0922d0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HR Knowledge Managers" name="HR Knowledge Managers">bf1dd5ec219a5a107f44387bff0922ce</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:04:22</sys_created_on><sys_id>923d59ec219a5a107f44387bff0922d0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:04:22</sys_updated_on><user display_value="Gracie Ehn">4a826bf03710200044e0bfc8bcbe5d76</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>2017578004</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>31b656a821de5a107f44387bff0922ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193885567830000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table/>
+<target_name>Gracie Ehn.HR Knowledge Managers</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>847dddecba9a5a10c14b72d81109f195</update_guid>
+<update_guid_history>847dddecba9a5a10c14b72d81109f195:2017578004</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_core_company_customer</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="core_company" version="2" view="customer"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>name</element><list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="9e5c0541830212107f44fd2d4eda1ee6">8fdc956c219a5a107f44387bff092272</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:02:46</sys_created_on><sys_id>4fdc956c219a5a107f44387bff092273</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:02:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>street</element><list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="9e5c0541830212107f44fd2d4eda1ee6">8fdc956c219a5a107f44387bff092272</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:02:46</sys_created_on><sys_id>47dc956c219a5a107f44387bff092274</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:02:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>city</element><list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="9e5c0541830212107f44fd2d4eda1ee6">8fdc956c219a5a107f44387bff092272</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:02:46</sys_created_on><sys_id>4bdc956c219a5a107f44387bff092274</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:02:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>zip</element><list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="9e5c0541830212107f44fd2d4eda1ee6">8fdc956c219a5a107f44387bff092272</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:02:46</sys_created_on><sys_id>4fdc956c219a5a107f44387bff092274</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:02:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>phone</element><list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="9e5c0541830212107f44fd2d4eda1ee6">8fdc956c219a5a107f44387bff092272</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:02:46</sys_created_on><sys_id>43dc956c219a5a107f44387bff092275</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:02:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_updated_on</element><list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="9e5c0541830212107f44fd2d4eda1ee6">8fdc956c219a5a107f44387bff092272</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:02:46</sys_created_on><sys_id>8bdc11ec219a5a107f44387bff092241</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:02:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>primary</element><list_id display_value="core_company" element="NULL" name="core_company" parent="NULL" relationship="NULL" sys_domain="global" view="9e5c0541830212107f44fd2d4eda1ee6">8fdc956c219a5a107f44387bff092272</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:02:46</sys_created_on><sys_id>8fdc11ec219a5a107f44387bff092241</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:02:46</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>core_company</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:02:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8fdc956c219a5a107f44387bff092272</sys_id><sys_mod_count>0</sys_mod_count><sys_name>core_company</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_core_company_customer</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:02:46</sys_updated_on><sys_user/><view display_value="Customer" name="customer">9e5c0541830212107f44fd2d4eda1ee6</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>356264041</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>35b656a821de5a107f44387bff0922eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193885316c70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table>core_company</table>
+<target_name>Company</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>4fdc11ec249a5a100c58346ed169c543</update_guid>
+<update_guid_history>4fdc11ec249a5a100c58346ed169c543:356264041</update_guid_history>
+<update_set display_value=""/>
+<view>customer</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_uc_can_read_mtom_eabe1d6021da5a107f44387bff092205</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom"><kb_uc_can_read_mtom action="INSERT_OR_UPDATE"><kb_knowledge_base display_value="Human Resources General Knowledge">bb0370019f22120047a2d126c42e7073</kb_knowledge_base><sys_class_name>kb_uc_can_read_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:10:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>eabe1d6021da5a107f44387bff092205</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Human Resources General Knowledge.Cloud Dimensions Employees</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>kb_uc_can_read_mtom_eabe1d6021da5a107f44387bff092205</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:10:57</sys_updated_on><user_criteria display_value="Cloud Dimensions Employees">3b8e5d6021da5a107f44387bff092246</user_criteria></kb_uc_can_read_mtom></record_update>]]></payload>
+<payload_hash>-1157010562</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>39b6d22821de5a107f44387bff09222d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193885a92eb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table/>
+<target_name>Human Resources General Knowledge.Cloud Dimensions Employees</target_name>
+<type>Who Can Read Knowledge Base</type>
+<update_domain>global</update_domain>
+<update_guid>7abe51a00fda5a10e9ca542e530eddf5</update_guid>
+<update_guid_history>7abe51a00fda5a10e9ca542e530eddf5:-1157010562</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_knowledge_97fd5d2021da5a107f44387bff0922b7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;&lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;article_id&gt;97fd5d2021da5a107f44387bff0922b7&lt;/article_id&gt;&lt;article_type&gt;text&lt;/article_type&gt;&lt;author display_value="Jasmin Gum"&gt;b282abf03710200044e0bfc8bcbe5d31&lt;/author&gt;&lt;base_version/&gt;&lt;can_read_user_criteria/&gt;&lt;cannot_read_user_criteria/&gt;&lt;category/&gt;&lt;cmdb_ci/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;disable_commenting&gt;false&lt;/disable_commenting&gt;&lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;&lt;display_attachments&gt;false&lt;/display_attachments&gt;&lt;display_number&gt;KB0010851 v1.0&lt;/display_number&gt;&lt;flagged&gt;false&lt;/flagged&gt;&lt;generated_with_now_assist&gt;false&lt;/generated_with_now_assist&gt;&lt;helpful_count&gt;0&lt;/helpful_count&gt;&lt;image/&gt;&lt;instrumentation_metadata/&gt;&lt;kb_category/&gt;&lt;kb_knowledge_base display_value="Human Resources General Knowledge"&gt;bb0370019f22120047a2d126c42e7073&lt;/kb_knowledge_base&gt;&lt;latest&gt;true&lt;/latest&gt;&lt;latest_aqi/&gt;&lt;meta/&gt;&lt;meta_description&gt;Infinity Testing Open Enrollment What is Infinity? Infinity is Cloud Dimensions latest product offering,&lt;/meta_description&gt;&lt;number&gt;KB0010851&lt;/number&gt;&lt;ownership_group/&gt;&lt;published&gt;2024-12-02&lt;/published&gt;&lt;rating/&gt;&lt;replacement_article/&gt;&lt;retired/&gt;&lt;revised_by/&gt;&lt;roles/&gt;&lt;scheduled_publish_date/&gt;&lt;short_description&gt;Infinity_Open_Enrollment&lt;/short_description&gt;&lt;source/&gt;&lt;summary display_value="KB0010851"&gt;2ffd5d2021da5a107f44387bff0922cc&lt;/summary&gt;&lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jasmin.gum&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 17:07:43&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;97fd5d2021da5a107f44387bff0922b7&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;gracie.ehn&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 17:09:53&lt;/sys_updated_on&gt;&lt;sys_view_count&gt;1&lt;/sys_view_count&gt;&lt;taxonomy_topic/&gt;&lt;text&gt;&lt;![CDATA[&lt;p&gt; &lt;/p&gt;
+&lt;h1 style="font-size: 12.0px; color: #345a8a; ;margin-top: 24.0pt;"&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 12.0px;"&gt;Infinity Testing Open Enrollment&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;What is Infinity?&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Infinity is Cloud Dimensions latest product offering, a &lt;/span&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Holographic &lt;/span&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Handheld&lt;/span&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt; &lt;/span&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Device (HHD). It is a projector which displays 3D images and videos. The devices will be used to train technicians in the field how to repair equipment.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;The device is going to be piloted next month internally with the technical leads. Then after the pilot they will be released to all the technicians. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;After go-live the devices will be branded and advertised internally as the “Infinity HHD.” The labels on the device and the support materials will reference Infinity.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;What does this open enrollment mean?&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Infinity has been tested many times over by teams that are closest to it – that is, multiple Cloud Dimensions teams that support Infinity have had their han&lt;/span&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;ds on it for a few months now.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Because of how well the Infinity devices are shaping up, we want to extend the testing audience to &lt;/span&gt;&lt;strong&gt;&lt;em&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;all &lt;/span&gt;&lt;/em&gt;&lt;/strong&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Cloud Dimensions employees.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Enro&lt;/span&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;ll in the testing process now.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;In other words, get in on the fun and help us make Infinity even better!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Requirements &lt;/span&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;For &lt;/span&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Testing Infinity&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;You must be an employee of Cloud Dimensions and receive approval from your manager.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;How to order an Infinity through the Service Catalog&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Follow these steps to receive your very own Infinity:&lt;/span&gt;&lt;/p&gt;
+&lt;p class="list_Paragraph" style="font-size: 12.0px; ;margin-left: 36.0pt;"&gt;1. &lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Log into the Cloud Dimensions ServiceNow instance&lt;/span&gt;&lt;/p&gt;
+&lt;p class="list_Paragraph" style="font-size: 12.0px; ;margin-left: 36.0pt;"&gt;2. &lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Navigate to &lt;/span&gt;&lt;strong&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Self-Service &amp;gt; Service Catalog&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p class="list_Paragraph" style="font-size: 12.0px; ;margin-left: 36.0pt;"&gt;3. &lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Click on the &lt;/span&gt;&lt;strong&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Hardware&lt;/span&gt;&lt;/strong&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt; category&lt;/span&gt;&lt;/p&gt;
+&lt;p class="list_Paragraph" style="font-size: 12.0px; ;margin-left: 36.0pt;"&gt;4. &lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Scroll until you see &lt;/span&gt;&lt;strong&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Infinity&lt;/span&gt;&lt;/strong&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt; listed, then click on the title&lt;/span&gt;&lt;/p&gt;
+&lt;p class="list_Paragraph" style="font-size: 12.0px; ;margin-left: 36.0pt;"&gt;5. &lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Fill out the form: pick the color of Infinity you want to have – memory must be the default 256GB for this testing period&lt;/span&gt;&lt;/p&gt;
+&lt;p class="list_Paragraph" style="font-size: 12.0px; ;margin-left: 36.0pt;"&gt;6. &lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Click &lt;/span&gt;&lt;strong&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Order Now&lt;/span&gt;&lt;/strong&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt; or add the item to your cart if you plan to request additional items in the Service Catalog&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;What if I run into problems?&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;Problems – small or big – as well as any other feedback (comments, concerns, questions) can be address to our Infinity Support team at cdis&amp;#64;example.com&lt;/span&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;We hope that you have an enjoyable time testing the Infinity, and we thank you for&lt;/span&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt; your time and timely feedback.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt;The HR Group&lt;/span&gt;&lt;/em&gt;&lt;span style="font-family: Century Gothic,Arial; font-size: 10px;"&gt; &lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/text&gt;&lt;topic&gt;General&lt;/topic&gt;&lt;use_count&gt;0&lt;/use_count&gt;&lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;&lt;version display_value="1.0"&gt;477e996021da5a107f44387bff0922e4&lt;/version&gt;&lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;&lt;wiki/&gt;&lt;workflow_state&gt;published&lt;/workflow_state&gt;&lt;/kb_knowledge&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=97fd5d2021da5a107f44387bff0922b7"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>216886144</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>3db6d22821de5a107f44387bff09222c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193885b01680000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table/>
+<target_name>KB0010851 v1.0</target_name>
+<type>Knowledge</type>
+<update_domain>global</update_domain>
+<update_guid>e1de55a00dda5a109c9ca618d47780b8</update_guid>
+<update_guid_history>e1de55a00dda5a109c9ca618d47780b8:216886144</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Human Resources: Core">d4ac3fff5b311200a4656ede91f91af2</application>
+<category>customer</category>
+<comments/>
+<name>sys_restricted_caller_access_fd8d912021da5a107f44387bff09226d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access"><sys_restricted_caller_access action="INSERT_OR_UPDATE"><description/><operation>read</operation><rca_type>real_rca</rca_type><source>ebf2247bb712230026778d78ee11a9bc</source><source_scope display_value="Global">global</source_scope><source_table>sys_script_include</source_table><source_type>2</source_type><status>0</status><sys_class_name>sys_restricted_caller_access</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:05:42</sys_created_on><sys_id>fd8d912021da5a107f44387bff09226d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>global</sys_name><sys_package display_value="Human Resources: Core" source="sn_hr_core">d4ac3fff5b311200a4656ede91f91af2</sys_package><sys_policy/><sys_scope display_value="Human Resources: Core">d4ac3fff5b311200a4656ede91f91af2</sys_scope><sys_update_name>sys_restricted_caller_access_fd8d912021da5a107f44387bff09226d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:05:42</sys_updated_on><target/><target_scope display_value="Human Resources: Core">d4ac3fff5b311200a4656ede91f91af2</target_scope><target_table>sys_scope</target_table><target_type>3</target_type></sys_restricted_caller_access></record_update>]]></payload>
+<payload_hash>2057295906</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>71b656a821de5a107f44387bff0922eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938855c5040000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table/>
+<target_name>global</target_name>
+<type>Restricted Caller Access Privilege</type>
+<update_domain>global</update_domain>
+<update_guid>758d912067da5a1073f2271dcd3a3c70</update_guid>
+<update_guid_history>758d912067da5a1073f2271dcd3a3c70:2057295906</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_uc_can_contribute_mtom_b9bd952021da5a107f44387bff0922c0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_contribute_mtom"><kb_uc_can_contribute_mtom action="INSERT_OR_UPDATE"><kb_knowledge_base display_value="Human Resources General Knowledge">bb0370019f22120047a2d126c42e7073</kb_knowledge_base><sys_class_name>kb_uc_can_contribute_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:06:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b9bd952021da5a107f44387bff0922c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Human Resources General Knowledge.HR Knowledge Managers</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>kb_uc_can_contribute_mtom_b9bd952021da5a107f44387bff0922c0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:06:31</sys_updated_on><user_criteria display_value="HR Knowledge Managers">2cad552021da5a107f44387bff092242</user_criteria></kb_uc_can_contribute_mtom></record_update>]]></payload>
+<payload_hash>1099477209</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>75b6d22821de5a107f44387bff09222d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193885683820000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table/>
+<target_name>Human Resources General Knowledge.HR Knowledge Managers</target_name>
+<type>Who Can Contribute To Knowledge Base</type>
+<update_domain>global</update_domain>
+<update_guid>f9bd9520a8da5a103c18bfcb9aec03c2</update_guid>
+<update_guid_history>f9bd9520a8da5a103c18bfcb9aec03c2:1099477209</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>user_criteria_3b8e5d6021da5a107f44387bff092246</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="user_criteria"&gt;&lt;user_criteria action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;company&gt;f66b14e1c611227b0166c3a0df4046ff&lt;/company&gt;&lt;department/&gt;&lt;group/&gt;&lt;location/&gt;&lt;match_all&gt;false&lt;/match_all&gt;&lt;name&gt;Cloud Dimensions Employees&lt;/name&gt;&lt;role/&gt;&lt;script&gt;&lt;![CDATA[/** Scripted User Criteria is not cached, and evaluated everytime, so performance is dependent on the script.
+* Populate `answer` with true/false or evaluate to true/false
+* The script is evaluated in the scope the user criteria is defined
+* Don't use `current` in the script or populate the variable
+* Don't use `gs.getUser()` or  `gs.getUserID()`, 
+* instead use `user_id` which contains the user sys_id against whom the evaluation is happening.
+*/]]&gt;&lt;/script&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;user_criteria&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 17:10:28&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3b8e5d6021da5a107f44387bff092246&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Cloud Dimensions Employees&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;user_criteria_3b8e5d6021da5a107f44387bff092246&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 17:10:28&lt;/sys_updated_on&gt;&lt;user/&gt;&lt;/user_criteria&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3b8e5d6021da5a107f44387bff092246"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1064057003</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>79b656a821de5a107f44387bff0922ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193885a20f70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table/>
+<target_name>Cloud Dimensions Employees</target_name>
+<type>User Criteria</type>
+<update_domain>global</update_domain>
+<update_guid>639e5d60b6da5a108fba3cd4809ba981</update_guid>
+<update_guid_history>639e5d60b6da5a108fba3cd4809ba981:-1064057003</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_523d59ec219a5a107f44387bff0922d3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HR Knowledge Managers" name="HR Knowledge Managers">bf1dd5ec219a5a107f44387bff0922ce</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:04:22</sys_created_on><sys_id>523d59ec219a5a107f44387bff0922d3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:04:22</sys_updated_on><user display_value="Jasmin Gum">b282abf03710200044e0bfc8bcbe5d31</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>-457925220</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>7db656a821de5a107f44387bff0922eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193885567120000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table/>
+<target_name>Jasmin Gum.HR Knowledge Managers</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>447dddecd79a5a10d978905beb500793</update_guid>
+<update_guid_history>447dddecd79a5a10d978905beb500793:-457925220</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_knowledge_summary_2ffd5d2021da5a107f44387bff0922cc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_knowledge_summary"><kb_knowledge_summary action="INSERT_OR_UPDATE"><number>KB0010851</number><sys_created_by>jasmin.gum</sys_created_by><sys_created_on>2024-12-02 17:07:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2ffd5d2021da5a107f44387bff0922cc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>jasmin.gum</sys_updated_by><sys_updated_on>2024-12-02 17:07:44</sys_updated_on></kb_knowledge_summary></record_update>]]></payload>
+<payload_hash>1162574280</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>b1b6d22821de5a107f44387bff09222d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193885b01e70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table/>
+<target_name>KB0010851</target_name>
+<type>Knowledge Summary</type>
+<update_domain>global</update_domain>
+<update_guid>25de55a0c8da5a10fe8b88a325cbe8bc</update_guid>
+<update_guid_history>25de55a0c8da5a10fe8b88a325cbe8bc:1162574280</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>user_criteria_2cad552021da5a107f44387bff092242</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="user_criteria"&gt;&lt;user_criteria action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;company/&gt;&lt;department/&gt;&lt;group name="HR Knowledge Managers"&gt;bf1dd5ec219a5a107f44387bff0922ce&lt;/group&gt;&lt;location/&gt;&lt;match_all&gt;false&lt;/match_all&gt;&lt;name&gt;HR Knowledge Managers&lt;/name&gt;&lt;role/&gt;&lt;script&gt;&lt;![CDATA[/** Scripted User Criteria is not cached, and evaluated everytime, so performance is dependent on the script.
+* Populate `answer` with true/false or evaluate to true/false
+* The script is evaluated in the scope the user criteria is defined
+* Don't use `current` in the script or populate the variable
+* Don't use `gs.getUser()` or  `gs.getUserID()`, 
+* instead use `user_id` which contains the user sys_id against whom the evaluation is happening.
+*/]]&gt;&lt;/script&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;user_criteria&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 17:06:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2cad552021da5a107f44387bff092242&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;HR Knowledge Managers&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;user_criteria_2cad552021da5a107f44387bff092242&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 17:06:31&lt;/sys_updated_on&gt;&lt;user/&gt;&lt;/user_criteria&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2cad552021da5a107f44387bff092242"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-887848948</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>b5b656a821de5a107f44387bff0922ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938856834c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table/>
+<target_name>HR Knowledge Managers</target_name>
+<type>User Criteria</type>
+<update_domain>global</update_domain>
+<update_guid>75bd912063da5a1031822abec9e1b5f5</update_guid>
+<update_guid_history>75bd912063da5a1031822abec9e1b5f5:-887848948</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_46cd276ba9fe19810024aa59b51d6ef7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_user"><sys_user action="INSERT_OR_UPDATE"><accumulated_roles/><active>true</active><avatar/><building/><calendar_integration/><city/><company display_value="Cloud Dimensions">f66b14e1c611227b0166c3a0df4046ff</company><correlation_id/><cost_center display_value="Sales">7fb1cc99c0a80a6d30c04574d14c0acf</cost_center><country/><date_format/><default_perspective/><department display_value="Sales">221db0edc611228401760aec06c9d929</department><edu_status/><email>megan.burke@example.com</email><employee_number/><enable_multifactor_authn>false</enable_multifactor_authn><failed_attempts/><federated_id>7c1bRYYjzMpR1aIFVQJXaEV0VNYFvu+6ZlPeutAR+1s=</federated_id><first_name>Megan</first_name><gender>Female</gender><hashed_user_id>800680d33692187b60d25b62d3991996f7ba57eef19e321fb57e4146a2ef9142</hashed_user_id><home_phone/><hr_integration_source/><internal_integration_user>false</internal_integration_user><introduction/><last_login/><last_login_device/><last_login_time/><last_name>Burke</last_name><last_password/><ldap_server/><location display_value="3121 High Point Road, Greensboro,NC">25ab9ddd0a0a0bb3003572b22b3b4e55</location><locked_out>false</locked_out><manager/><middle_name/><mobile_phone/><name>Megan Burke</name><notification>1</notification><password_needs_reset>false</password_needs_reset><phone/><photo/><preferred_language/><roles/><schedule/><source/><state/><street/><sys_class_name>sys_user</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2007-08-12 23:16:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>46cd276ba9fe19810024aa59b51d6ef7</sys_id><sys_mod_count>12</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:03:39</sys_updated_on><time_format/><time_zone/><title>Inside Sales</title><transaction_log/><user_name>megan.burke</user_name><user_password/><vip>false</vip><web_service_access_only>false</web_service_access_only><zip/></sys_user></record_update>]]></payload>
+<payload_hash>831101725</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>b9b656a821de5a107f44387bff0922eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938853fbf30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table/>
+<target_name>Megan Burke</target_name>
+<type>User</type>
+<update_domain>global</update_domain>
+<update_guid>991dddacbf9a5a10e41d54b7ed4b282f</update_guid>
+<update_guid_history>991dddacbf9a5a10e41d54b7ed4b282f:831101725</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_group_has_role_6e6d9dec219a5a107f44387bff0922bf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_group_has_role"><sys_group_has_role action="INSERT_OR_UPDATE"><granted_by/><group display_value="HR Knowledge Managers" name="HR Knowledge Managers">bf1dd5ec219a5a107f44387bff0922ce</group><inherits>true</inherits><role display_value="approver_user" name="approver_user">debab85bff02110053ccffffffffffb6</role><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:05:12</sys_created_on><sys_id>6e6d9dec219a5a107f44387bff0922bf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:05:12</sys_updated_on></sys_group_has_role></record_update>]]></payload>
+<payload_hash>-774260879</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>bdb656a821de5a107f44387bff0922ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193885566d90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table/>
+<target_name>approver_user.HR Knowledge Managers</target_name>
+<type>Group Role</type>
+<update_domain>global</update_domain>
+<update_guid>4c7d95ec239a5a101ae41935e8d9bfaa</update_guid>
+<update_guid_history>4c7d95ec239a5a101ae41935e8d9bfaa:-774260879</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_group_bf1dd5ec219a5a107f44387bff0922ce</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group"><sys_user_group action="INSERT_OR_UPDATE"><active>true</active><cost_center/><default_assignee/><description>This group contains the individuals with the Knowledge Manager [knowledge_manager] role.</description><email/><exclude_manager>false</exclude_manager><include_members>false</include_members><manager display_value="Gracie Ehn">4a826bf03710200044e0bfc8bcbe5d76</manager><name>HR Knowledge Managers</name><parent/><points>0</points><roles/><source/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:04:03</sys_created_on><sys_id>bf1dd5ec219a5a107f44387bff0922ce</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:04:42</sys_updated_on><type/></sys_user_group></record_update>]]></payload>
+<payload_hash>301554073</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>f1b656a821de5a107f44387bff0922ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193885566bb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table/>
+<target_name>HR Knowledge Managers</target_name>
+<type>Group</type>
+<update_domain>global</update_domain>
+<update_guid>087d95ec289a5a10b0d04c01375641a8</update_guid>
+<update_guid_history>087d95ec289a5a10b0d04c01375641a8:301554073</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_sys_user_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="sys_user" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>user_name</element><list_id display_value="sys_user" element="NULL" name="sys_user" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">350dd1ec219a5a107f44387bff092242</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:03:31</sys_created_on><sys_id>3d0dd1ec219a5a107f44387bff092242</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:03:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>name</element><list_id display_value="sys_user" element="NULL" name="sys_user" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">350dd1ec219a5a107f44387bff092242</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:03:31</sys_created_on><sys_id>310dd1ec219a5a107f44387bff092243</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:03:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>email</element><list_id display_value="sys_user" element="NULL" name="sys_user" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">350dd1ec219a5a107f44387bff092242</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:03:31</sys_created_on><sys_id>350dd1ec219a5a107f44387bff092243</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:03:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>company</element><list_id display_value="sys_user" element="NULL" name="sys_user" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">350dd1ec219a5a107f44387bff092242</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:03:31</sys_created_on><sys_id>390dd1ec219a5a107f44387bff092243</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:03:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>active</element><list_id display_value="sys_user" element="NULL" name="sys_user" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">350dd1ec219a5a107f44387bff092242</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:03:31</sys_created_on><sys_id>3d0dd1ec219a5a107f44387bff092243</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:03:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_created_on</element><list_id display_value="sys_user" element="NULL" name="sys_user" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">350dd1ec219a5a107f44387bff092242</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:03:31</sys_created_on><sys_id>310dd1ec219a5a107f44387bff092244</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:03:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_updated_on</element><list_id display_value="sys_user" element="NULL" name="sys_user" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">350dd1ec219a5a107f44387bff092242</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:03:31</sys_created_on><sys_id>350dd1ec219a5a107f44387bff092244</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:03:31</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>sys_user</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:03:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>350dd1ec219a5a107f44387bff092242</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_user</sys_name><sys_package display_value="Contextual Security: Role Management" source="com.glide.role_management">f99cc581830212107f44fd2d4eda1ec0</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_sys_user_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:03:31</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>-2096967301</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>f5b656a821de5a107f44387bff0922eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938853c52e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table>sys_user</table>
+<target_name>User</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>3d0d15ece39a5a101db1e52b020ea0c7</update_guid>
+<update_guid_history>3d0d15ece39a5a101db1e52b020ea0c7:-2096967301,b90dd1ece39a5a1067eba40f95000d3d:902930193</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_group_has_role_235d5dec219a5a107f44387bff092275</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_group_has_role"><sys_group_has_role action="INSERT_OR_UPDATE"><granted_by/><group display_value="HR Knowledge Managers" name="HR Knowledge Managers">bf1dd5ec219a5a107f44387bff0922ce</group><inherits>true</inherits><role display_value="knowledge_manager" name="knowledge_manager">f8bfbd02eb202100216a87b9d106fe92</role><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:05:00</sys_created_on><sys_id>235d5dec219a5a107f44387bff092275</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:05:00</sys_updated_on></sys_group_has_role></record_update>]]></payload>
+<payload_hash>1338769881</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>f9b656a821de5a107f44387bff0922ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193885566f30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table/>
+<target_name>knowledge_manager.HR Knowledge Managers</target_name>
+<type>Group Role</type>
+<update_domain>global</update_domain>
+<update_guid>807dddecce9a5a10e7d06b42c4b78a91</update_guid>
+<update_guid_history>807dddecce9a5a10e7d06b42c4b78a91:1338769881</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_version_477e996021da5a107f44387bff0922e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_version"><kb_version action="INSERT_OR_UPDATE"><knowledge display_value="KB0010851 v1.0">97fd5d2021da5a107f44387bff0922b7</knowledge><modified_by display_value="Gracie Ehn">4a826bf03710200044e0bfc8bcbe5d76</modified_by><modified_on>2024-12-02 17:09:53</modified_on><snapshot>6</snapshot><sys_created_by>gracie.ehn</sys_created_by><sys_created_on>2024-12-02 17:09:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>477e996021da5a107f44387bff0922e4</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>gracie.ehn</sys_updated_by><sys_updated_on>2024-12-02 17:09:53</sys_updated_on><version>1.0</version></kb_version></record_update>]]></payload>
+<payload_hash>1248907766</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>f9b6d22821de5a107f44387bff09222d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193885b01cb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table/>
+<target_name>1.0</target_name>
+<type>Knowledge Version</type>
+<update_domain>global</update_domain>
+<update_guid>65de55a036da5a10ce180e7c76e353ba</update_guid>
+<update_guid_history>65de55a036da5a10ce180e7c76e353ba:1248907766</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_knowledge_base_bb0370019f22120047a2d126c42e7073</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_knowledge_base"><kb_knowledge_base action="INSERT_OR_UPDATE"><active>true</active><application display_value="Human Resources: Core">d4ac3fff5b311200a4656ede91f91af2</application><approval_description/><article_validity/><card_color/><checklist/><data_policy/><description>Human Resources articles, policies, and blogs</description><disable_category_editing>false</disable_category_editing><disable_commenting>false</disable_commenting><disable_mark_as_helpful>false</disable_mark_as_helpful><disable_rating>false</disable_rating><disable_suggesting>false</disable_suggesting><enable_socialqa>true</enable_socialqa><icon/><kb_managers/><kb_version>3</kb_version><mandatory_fields/><order/><owner display_value="Gracie Ehn">4a826bf03710200044e0bfc8bcbe5d76</owner><question_annotation/><retire_workflow display_value="Knowledge - Approval Retire">3bf3fb92c30031000096dfdc64d3ae8c</retire_workflow><sys_created_by>admin</sys_created_by><sys_created_on>2014-10-28 17:45:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bb0370019f22120047a2d126c42e7073</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:10:57</sys_updated_on><table>kb_knowledge</table><template/><title>Human Resources General Knowledge</title><workflow display_value="Knowledge - Approval Publish">111b7b119f113100d8f8700c267fcfa0</workflow></kb_knowledge_base><sys_translated_text action="delete_multiple" query="documentkey=bb0370019f22120047a2d126c42e7073"/><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes/><compressed>true</compressed><content_type>image/png</content_type><file_name>icon</file_name><hash/><image_height/><image_width/><size_bytes>1928</size_bytes><size_compressed>1665</size_compressed><state/><sys_created_by>admin</sys_created_by><sys_created_on>2014-11-12 18:45:32</sys_created_on><sys_id>fb0370019f22120047a2d126c42e7073</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2014-11-12 18:45:32</sys_updated_on><table_name>ZZ_YYkb_knowledge_base</table_name><table_sys_id>bb0370019f22120047a2d126c42e7073</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="icon" sys_id="fb0370019f22120047a2d126c42e7073">fb0370019f22120047a2d126c42e7073</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2014-09-16 08:22:24</sys_created_on><sys_id>3f0370019f22120047a2d126c42e7073</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>6wzwc+flkuJiYGDg9fRwCQLSqiDMwQYkj85TYAZSkiWuESXB+Wkl5YlFqQyOKflJqQqeuYnpqUGpiSmVhSdTbRgYmJUzQyJKInx9rJLzc/USQWr0KnILGEDAxr6iIDE5O7VEISk1PTPPVun97v1KCpkptkrhpr4GvgXOqRmZHlVFqcFVfiHJVdnJlilK9nYKNhVWQANyU0sSFSpyc/KKrSpslcDmWgHZIGF9JQWwkpJsWyWIoyJ8AxSc84tSFUz1THWTDQxNFMwt9QxNDU0sDHUUjAwMjfUNjPUNjXUNjawMLK0MTRWgQAloW1FKmlWQixvULiDPVimjpKTASl+/vLxcr9xYL78oXd/Q0tJS38BI38hIF6hCt7gyrySxQjevWBlmgktqcXJRZkFJZn6eAoifmJRfWmKrpATzQm4B3Ni8YmgwAQNMvyKxQN9Qz0AfSaGvL36lublw1cUlQalp+FUXh1QWpOoHpRbnlxYlAyMuTRmkucDKuSg1sSS/KCQ/PwcWigEZ+SX5xRn5BQrOzgoavonJmXkgviZYg6+vlWdecUliXnKqp4utElBELzMzxcrAydjF0MncyNjEzcDQ0NXEwsLRzMLN0sDEzdHA0MDYAqbXJT+5NDc1rwSmNwWh1xinXlBagOhOLcosS01xK8rPVQD72SoTt1sMcLsFojcFt1sMcerVBzpGHy2mYULA5ANiwtMtkANP+al5wOReBEzXXhXvmBgYGLs8XRxDKm4l/fn/357Z7EGx8szGawndx2LWPPJJmbVdpOO/cOf0SVkW3KxytkxHJnOsOKl8PCFJdirLkVSHNSxH1gRsTHXYM6thH4NCX9Oj+w41/B27GyrklvZ5sTyydLBh7vi9IGmJyo5gBx5vG7aAzQ4XreYLuYcyffRROOcktJk9iVOhTHGB+JJnfALnnYSSW2Z5Tlw8pXEHY/cOYRFhptMXfrQ3WvReenF4mrNj2zMBydr9Hme/Pnm2b32Aj/ABJ2bj3o0dd9kflTO/XGEccWTRxiW6u6y8JLtvrG7s21c9RerAEQOOgwtKRFZevM50RC7lRjDzEeuMpyu0U5YdFt/Cs1I0wGbWsraUWUyh4uknC65YR7VdiVnCdjtjltIVrlKlw/PKFO65a7vvVdqc99to1jI251lMpXq5K25Eyu5TNO2Mud9v9qmte7HEyocrjjvkuLi6SzqdXaKx0J/xUZrCP44jxzVLJqgKPGcq1F3a94otiU9BjzHJjkv2K2dH9MK0oCcaFyKChAW2Mxrqt/b94jlSz6HJxGHAIJwQ1MxSujcJVFR5uvq5rHNKaAIA4Ul4jBcFAAA=
+		</data><length>1328</length><position>1</position><sys_attachment display_value="icon" sys_id="fb0370019f22120047a2d126c42e7073">fb0370019f22120047a2d126c42e7073</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2014-09-16 08:22:24</sys_created_on><sys_id>7f0370019f22120047a2d126c42e7073</sys_id></sys_attachment_doc></record_update>]]></payload>
+<payload_hash>-202016054</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_5.1.1">79b6d22821de5a107f44387bff09222c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:15:34</sys_created_on>
+<sys_id>fdb6d22821de5a107f44387bff09222c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193885aa43f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:15:34</sys_updated_on>
+<table>kb_knowledge</table>
+<target_name>Human Resources General Knowledge</target_name>
+<type>Knowledge Base</type>
+<update_domain>global</update_domain>
+<update_guid>b3bedd60e2da5a1073be4e209460b8cb</update_guid>
+<update_guid_history>b3bedd60e2da5a1073be4e209460b8cb:-202016054,3ccdd5204ada5a1053395874de89de45:-202016054</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

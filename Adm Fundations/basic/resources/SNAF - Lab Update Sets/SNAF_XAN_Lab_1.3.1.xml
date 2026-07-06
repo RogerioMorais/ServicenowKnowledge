@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-12-02 21:11:19">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Only contains incident created by Beth in Classic UI</description>
+<inserted/>
+<name>SNAF_XAN_Lab_1.3.1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>2aba78ec21d65a107f44387bff092273</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:11:19</sys_created_on>
+<sys_id>67b5de2821de5a107f44387bff092273</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:11:19</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>incident_6d3b7820211a5a107f44387bff0922bc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="incident"><incident action="INSERT_OR_UPDATE"><active>true</active><activity_due>2024-12-02 16:38:15</activity_due><additional_assignee_list/><approval>not requested</approval><approval_history/><approval_set/><assigned_to/><assignment_group display_value="Conference Event App Support" name="Conference Event App Support">6c67e51b87cdd1108f60b88c8bbb35c6</assignment_group><business_duration/><business_impact/><business_service display_value="Conference Event Services">87235e1e878151108f60b88c8bbb351a</business_service><business_stc/><calendar_duration/><calendar_stc/><caller_id display_value="Fred Luddy">5137153cc611227c000bbd1bd8cd2005</caller_id><category>software</category><cause/><caused_by/><child_incidents>0</child_incidents><close_code/><close_notes/><closed_at/><closed_by/><cmdb_ci display_value="Event Mobile for Staff Application">76b89ee3874d15108f60b88c8bbb358a</cmdb_ci><comments/><comments_and_work_notes/><company display_value="ACME North America">31bea3d53790200044e0bfc8bcbe5dec</company><contact_type>phone</contact_type><contract/><correlation_display/><correlation_id/><delivery_plan/><delivery_task/><description>It was working yesterday, but not this morning. This is urgent! The event starts in 3 hours</description><due_date/><escalation>0</escalation><expected_start/><follow_up/><group_list/><hold_reason/><impact>1</impact><incident_state>1</incident_state><knowledge>false</knowledge><location/><made_sla>true</made_sla><notify>1</notify><number>INC0010001</number><opened_at>2024-12-02 14:35:46</opened_at><opened_by display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</opened_by><order/><origin_id/><origin_table/><parent/><parent_incident/><priority>1</priority><problem_id/><reassignment_count>0</reassignment_count><rejection_goto/><reopen_count>0</reopen_count><reopened_by/><reopened_time/><resolved_at/><resolved_by/><rfc/><route_reason/><service_offering display_value="Event Mobile for Staff Service Offering">2ff6a11b87cdd1108f60b88c8bbb35bd</service_offering><severity>3</severity><short_description>Cannot get the Conference Event Mobile app for staff to launch. It is flashing error 555.</short_description><skills/><sla_due/><sn_esign_document/><sn_esign_esignature_configuration/><state>1</state><subcategory/><sys_class_name>incident</sys_class_name><sys_created_by>beth.anglin</sys_created_by><sys_created_on>2024-12-02 14:37:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6d3b7820211a5a107f44387bff0922bc</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>beth.anglin</sys_updated_by><sys_updated_on>2024-12-02 14:38:15</sys_updated_on><task_effective_number>INC0010001</task_effective_number><time_worked/><universal_request/><upon_approval>proceed</upon_approval><upon_reject>cancel</upon_reject><urgency>1</urgency><user_input/><variables/><watch_list/><wf_activity/><work_end/><work_notes/><work_notes_list/><work_start/></incident></record_update>]]></payload>
+<payload_hash>163522193</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.3.1">67b5de2821de5a107f44387bff092273</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:11:19</sys_created_on>
+<sys_id>2bb5de2821de5a107f44387bff092273</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387cfa69c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:11:19</sys_updated_on>
+<table/>
+<target_name>INC0010001</target_name>
+<type>Incident</type>
+<update_domain>global</update_domain>
+<update_guid>c40cbc60671a5a102b5e6be325785c8d</update_guid>
+<update_guid_history>c40cbc60671a5a102b5e6be325785c8d:163522193</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

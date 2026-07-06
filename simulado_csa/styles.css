@@ -1,0 +1,14 @@
+body{font-family:Arial,Helvetica,sans-serif;background:#f6f8fa;color:#222;margin:0;padding:20px}
+.container{max-width:900px;margin:0 auto;background:#fff;padding:20px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+h1{margin-top:0}
+.controls label{margin-right:12px}
+.question{padding:16px;border:1px solid #eee;border-radius:6px;margin-top:12px}
+.options{margin-top:12px}
+.option{display:block;padding:10px;border:1px solid #ddd;border-radius:6px;margin-bottom:8px;cursor:pointer}
+.option.selected{background:#e6f0ff;border-color:#7aa7ff}
+.timer{font-weight:600}
+.nav{margin-top:12px}
+.log{margin-top:16px;color:#666;font-size:14px}
+.explanation{margin-top:12px;padding:12px;background:#fffbe6;border:1px solid #ffe58f;border-radius:6px}
+.source{font-size:13px;color:#0b5cff;margin-top:6px}
+.results-list{margin-top:12px}

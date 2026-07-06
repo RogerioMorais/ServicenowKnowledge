@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-12-02 21:12:42">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Updated Incident from Lab 1.3.1 in SOW</description>
+<inserted/>
+<name>SNAF_XAN_Lab_1.3.2</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>c71c3860211a5a107f44387bff0922e5</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:12:41</sys_created_on>
+<sys_id>bb06da6421de5a107f44387bff0922f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:12:41</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>one_api_feature_646cf0a0211a5a107f44387bff0922ae</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="one_api_feature"><one_api_feature action="INSERT_OR_UPDATE"><input_processor display_value="OneExtendGenericCapabilityRequestProcessor">a7eb538353111110c271ddeeff7b12a8</input_processor><name>1dbdf571fc387110f87736513ef7b2af</name><output_processor/><short_description>Auto Generated </short_description><sys_class_name>one_api_feature</sys_class_name><sys_created_by>beth.anglin</sys_created_by><sys_created_on>2024-12-02 14:40:53</sys_created_on><sys_id>646cf0a0211a5a107f44387bff0922ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1dbdf571fc387110f87736513ef7b2af</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>one_api_feature_646cf0a0211a5a107f44387bff0922ae</sys_update_name><sys_updated_by>beth.anglin</sys_updated_by><sys_updated_on>2024-12-02 14:40:53</sys_updated_on></one_api_feature></record_update>]]></payload>
+<payload_hash>-1874875723</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.3.2">bb06da6421de5a107f44387bff0922f7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:12:41</sys_created_on>
+<sys_id>3306da6421de5a107f44387bff0922f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387d130cb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:12:41</sys_updated_on>
+<table/>
+<target_name>1dbdf571fc387110f87736513ef7b2af</target_name>
+<type>One API Feature</type>
+<update_domain>global</update_domain>
+<update_guid>686cf0a0fd1a5a10328d27cd290802b0</update_guid>
+<update_guid_history>686cf0a0fd1a5a10328d27cd290802b0:-1874875723</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>one_api_service_plan_feature_a46cf4a0211a5a107f44387bff0922c0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="one_api_service_plan_feature"&gt;&lt;one_api_service_plan_feature action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applicability_condition/&gt;&lt;applicability_condition_table/&gt;&lt;applicability_script&gt;&lt;![CDATA[(function(featureInput, previousFeatureOutputs) {  
+	/* customize condition logic here, return true or false */  
+	return true;
+  })(featureInput, previousFeatureOutputs);]]&gt;&lt;/applicability_script&gt;&lt;applicability_type&gt;script&lt;/applicability_type&gt;&lt;delay_output_processing&gt;false&lt;/delay_output_processing&gt;&lt;depends_on/&gt;&lt;depends_on_list/&gt;&lt;error_policy&gt;continue_service_plan_execution&lt;/error_policy&gt;&lt;feature display_value="1dbdf571fc387110f87736513ef7b2af"&gt;646cf0a0211a5a107f44387bff0922ae&lt;/feature&gt;&lt;return_request&gt;false&lt;/return_request&gt;&lt;service_plan display_value="Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25"&gt;286cf4a0211a5a107f44387bff0922bd&lt;/service_plan&gt;&lt;sys_class_name&gt;one_api_service_plan_feature&lt;/sys_class_name&gt;&lt;sys_created_by&gt;beth.anglin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 14:40:54&lt;/sys_created_on&gt;&lt;sys_id&gt;a46cf4a0211a5a107f44387bff0922c0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25: 1dbdf571fc387110f87736513ef7b2af&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;one_api_service_plan_feature_a46cf4a0211a5a107f44387bff0922c0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;beth.anglin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 14:40:54&lt;/sys_updated_on&gt;&lt;timeout_policy&gt;continue_service_plan_execution&lt;/timeout_policy&gt;&lt;timeout_sec&gt;240&lt;/timeout_sec&gt;&lt;/one_api_service_plan_feature&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1389389881</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.3.2">bb06da6421de5a107f44387bff0922f7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:12:41</sys_created_on>
+<sys_id>7b06da6421de5a107f44387bff0922f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387d1313f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:12:41</sys_updated_on>
+<table/>
+<target_name>Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25: 1dbdf571fc387110f87736513ef7b2af</target_name>
+<type>One API Service Plan Feature</type>
+<update_domain>global</update_domain>
+<update_guid>286cf4a0001a5a1096bb1fa16409aec2</update_guid>
+<update_guid_history>286cf4a0001a5a1096bb1fa16409aec2:1389389881</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>incident_6d3b7820211a5a107f44387bff0922bc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="incident"><incident action="INSERT_OR_UPDATE"><active>true</active><activity_due>2024-12-02 16:41:25</activity_due><additional_assignee_list/><approval>not requested</approval><approval_history/><approval_set/><assigned_to display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</assigned_to><assignment_group display_value="Conference Event App Support" name="Conference Event App Support">6c67e51b87cdd1108f60b88c8bbb35c6</assignment_group><business_duration>1970-01-01 00:00:00</business_duration><business_impact/><business_service display_value="Conference Event Services">87235e1e878151108f60b88c8bbb351a</business_service><business_stc>0</business_stc><calendar_duration>1970-01-01 00:06:36</calendar_duration><calendar_stc>396</calendar_stc><caller_id display_value="Fred Luddy">5137153cc611227c000bbd1bd8cd2005</caller_id><category>software</category><cause/><caused_by/><child_incidents>0</child_incidents><close_code>Workaround provided</close_code><close_notes>Used vendor instructions to restart client.</close_notes><closed_at/><closed_by/><cmdb_ci display_value="Event Mobile for Staff Application">76b89ee3874d15108f60b88c8bbb358a</cmdb_ci><comments/><comments_and_work_notes/><company display_value="ACME North America">31bea3d53790200044e0bfc8bcbe5dec</company><contact_type>phone</contact_type><contract/><correlation_display/><correlation_id/><delivery_plan/><delivery_task/><description>It was working yesterday, but not this morning. This is urgent! The event starts in 3 hours</description><due_date/><escalation>0</escalation><expected_start/><follow_up/><group_list/><hold_reason/><impact>1</impact><incident_state>6</incident_state><knowledge>false</knowledge><location/><made_sla>true</made_sla><notify>1</notify><number>INC0010001</number><opened_at>2024-12-02 14:35:46</opened_at><opened_by display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</opened_by><order/><origin_id/><origin_table/><parent/><parent_incident/><priority>1</priority><problem_id/><reassignment_count>0</reassignment_count><rejection_goto/><reopen_count>0</reopen_count><reopened_by/><reopened_time/><resolved_at>2024-12-02 14:42:22</resolved_at><resolved_by display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</resolved_by><rfc/><route_reason/><service_offering display_value="Event Mobile for Staff Service Offering">2ff6a11b87cdd1108f60b88c8bbb35bd</service_offering><severity>3</severity><short_description>Cannot get the Conference Event Mobile app for staff to launch. It is flashing error 555.</short_description><skills/><sla_due/><sn_esign_document/><sn_esign_esignature_configuration/><state>6</state><subcategory/><sys_class_name>incident</sys_class_name><sys_created_by>beth.anglin</sys_created_by><sys_created_on>2024-12-02 14:37:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6d3b7820211a5a107f44387bff0922bc</sys_id><sys_mod_count>4</sys_mod_count><sys_updated_by>beth.anglin</sys_updated_by><sys_updated_on>2024-12-02 14:42:22</sys_updated_on><task_effective_number>INC0010001</task_effective_number><time_worked/><universal_request/><upon_approval>proceed</upon_approval><upon_reject>cancel</upon_reject><urgency>1</urgency><user_input/><variables/><watch_list/><wf_activity/><work_end/><work_notes/><work_notes_list/><work_start/></incident></record_update>]]></payload>
+<payload_hash>-795316041</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.3.2">bb06da6421de5a107f44387bff0922f7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:12:41</sys_created_on>
+<sys_id>7f06da6421de5a107f44387bff0922f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387d2cabb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:12:41</sys_updated_on>
+<table/>
+<target_name>INC0010001</target_name>
+<type>Incident</type>
+<update_domain>global</update_domain>
+<update_guid>16cc30e05f1a5a1070ef553acdceee35</update_guid>
+<update_guid_history>16cc30e05f1a5a1070ef553acdceee35:-795316041,c40cbc60671a5a102b5e6be325785c8d:163522193</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>one_api_service_plan_286cf4a0211a5a107f44387bff0922bd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="one_api_service_plan"><one_api_service_plan action="INSERT_OR_UPDATE"><active>true</active><input_processor/><name>Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25</name><output_processor display_value="OneExtendOutputProcessor">250bd34353111110c271ddeeff7b12da</output_processor><sys_class_name>one_api_service_plan</sys_class_name><sys_created_by>beth.anglin</sys_created_by><sys_created_on>2024-12-02 14:40:54</sys_created_on><sys_id>286cf4a0211a5a107f44387bff0922bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>one_api_service_plan_286cf4a0211a5a107f44387bff0922bd</sys_update_name><sys_updated_by>beth.anglin</sys_updated_by><sys_updated_on>2024-12-02 14:40:54</sys_updated_on><timeout_ms>240000</timeout_ms></one_api_service_plan></record_update>]]></payload>
+<payload_hash>-565186361</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.3.2">bb06da6421de5a107f44387bff0922f7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:12:41</sys_created_on>
+<sys_id>b706da6421de5a107f44387bff0922f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387d131120000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:12:41</sys_updated_on>
+<table/>
+<target_name>Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25</target_name>
+<type>One API Service Plan</type>
+<update_domain>global</update_domain>
+<update_guid>a06cf4a07a1a5a10902b477aae0f5cbf</update_guid>
+<update_guid_history>a06cf4a07a1a5a10902b477aae0f5cbf:-565186361</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>one_api_feature_provider_246cf4a0211a5a107f44387bff0922ba</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="one_api_feature_provider"&gt;&lt;one_api_feature_provider action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;feature display_value="1dbdf571fc387110f87736513ef7b2af"&gt;646cf0a0211a5a107f44387bff0922ae&lt;/feature&gt;&lt;feature_service display_value="OneExtendGenericProvider"&gt;5233278353111110c271ddeeff7b129b&lt;/feature_service&gt;&lt;feature_service_factory&gt;&lt;![CDATA[(function() { return new global.OneExtendGenericProvider(); })()]]&gt;&lt;/feature_service_factory&gt;&lt;name&gt;Form Autocomplete provider&lt;/name&gt;&lt;short_description&gt;Auto Generated &lt;/short_description&gt;&lt;sys_class_name&gt;one_api_feature_provider&lt;/sys_class_name&gt;&lt;sys_created_by&gt;beth.anglin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 14:40:53&lt;/sys_created_on&gt;&lt;sys_id&gt;246cf4a0211a5a107f44387bff0922ba&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Form Autocomplete provider&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;one_api_feature_provider_246cf4a0211a5a107f44387bff0922ba&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;beth.anglin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 14:40:53&lt;/sys_updated_on&gt;&lt;type&gt;script&lt;/type&gt;&lt;type_document display_value="SOWTaskIntelligenceAjaxHelper"&gt;2e0e7d71fc387110f87736513ef7b26e&lt;/type_document&gt;&lt;/one_api_feature_provider&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-477238747</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.3.2">bb06da6421de5a107f44387bff0922f7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:12:41</sys_created_on>
+<sys_id>f306da6421de5a107f44387bff0922f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387d130f30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:12:41</sys_updated_on>
+<table/>
+<target_name>Form Autocomplete provider</target_name>
+<type>One API Feature Provider</type>
+<update_domain>global</update_domain>
+<update_guid>246cf4a0de1a5a10b45c6037f70bb2bc</update_guid>
+<update_guid_history>246cf4a0de1a5a10b45c6037f70bb2bc:-477238747</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

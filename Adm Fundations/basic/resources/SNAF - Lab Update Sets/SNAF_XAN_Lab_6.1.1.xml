@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-12-02 21:16:27">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Dashboard and Data Visulization</description>
+<inserted/>
+<name>SNAF_XAN_Lab_6.1.1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>72f4a5e821da5a107f44387bff09220d</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:16:27</sys_created_on>
+<sys_id>7ee656a821de5a107f44387bff0922e0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:16:27</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_419529e821da5a107f44387bff092233</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard"><par_dashboard action="INSERT_OR_UPDATE"><active>true</active><certified>false</certified><description/><experience/><grid>48</grid><name>Infinity HHD Product Monitoring</name><sys_class_name>par_dashboard</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:40:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>419529e821da5a107f44387bff092233</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Infinity HHD Product Monitoring</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_419529e821da5a107f44387bff092233</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:40:53</sys_updated_on><sys_ux_app_config/><sys_ux_app_route/><sys_ux_macroponent/><sys_ux_screen/><sys_ux_screen_type/></par_dashboard></record_update>]]></payload>
+<payload_hash>-1206680911</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_6.1.1">7ee656a821de5a107f44387bff0922e0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:16:27</sys_created_on>
+<sys_id>32e656a821de5a107f44387bff0922e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938875fa8b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:16:27</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Product Monitoring</target_name>
+<type>PAR Dashboard</type>
+<update_domain>global</update_domain>
+<update_guid>d59529e8bcda5a10dc371b09ac50a435</update_guid>
+<update_guid_history>d59529e8bcda5a10dc371b09ac50a435:-1206680911</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_visualization_190761ac21da5a107f44387bff0922b2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization"><par_visualization action="INSERT_OR_UPDATE"><active>true</active><certified>false</certified><description/><macroponent display_value="Donut">a2b0596cec6b9d49dd1ff9bf76b5084b</macroponent><name>HHD Incidents - by Pilot, Inquiry, Firmware</name><properties>{"selectedElements":[],"showDataLabels":false,"dataLabelsType":"both","truncationType":"end","showRegister":true,"registerPosition":"bottom","registerOrientation":"horizontal","showRegisterOnSameLine":false,"showRegisterValue":false,"legendHorizontalAlignment":"center","legendExpandToFit":false,"showRegisterPercentage":false,"newReporting":false,"additionalGroupByConfig":[{"id":"u_pilot","label":"Pilot (u_pilot)"},{"id":"category","label":"Category"},{"id":"subcategory","label":"Subcategory"}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"refreshRequest":"","showAdditionalGroupBySelector":false,"dataPassthrough":null,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"colorConfig":{"type":"default"},"componentId":"b8do2jsn","configVersion":"23.0.0-ci-SNAPSHOT","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"id":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","isDatabaseView":false,"filterQuery":"service_offering=9c990924215a5a107f44387bff092212","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"incident","label":"Incident"}],"filterConfigurations":[],"groupBy":[{"groupBy":[{"dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","groupByField":"u_pilot","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkzTlRFMk1UWXpPVEE9MTcxMjc1MTYxODg5MQ==","numberFormat":{"customFormat":false}}],"sortBy":"value"}</properties><requested_by/><scheduled_count>0</scheduled_count><sys_class_name>par_visualization</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:47:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>190761ac21da5a107f44387bff0922b2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>HHD Incidents - by Pilot, Inquiry, Firmware</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_visualization_190761ac21da5a107f44387bff0922b2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:49:04</sys_updated_on><type>Donut</type></par_visualization></record_update>]]></payload>
+<payload_hash>-1608109189</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_6.1.1">7ee656a821de5a107f44387bff0922e0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:16:27</sys_created_on>
+<sys_id>3ae656a821de5a107f44387bff0922e2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193887d78290000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:16:27</sys_updated_on>
+<table/>
+<target_name>HHD Incidents - by Pilot, Inquiry, Firmware</target_name>
+<type>PAR Visualization</type>
+<update_domain>global</update_domain>
+<update_guid>05776dacf1da5a10f2c4232b794a2828</update_guid>
+<update_guid_history>05776dacf1da5a10f2c4232b794a2828:-1608109189,190761acacda5a10fafc16cf385236b5:-341455647</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_permission_8018adec21da5a107f44387bff092228</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>false</can_share><can_write>true</can_write><dashboard display_value="Infinity HHD Product Monitoring">419529e821da5a107f44387bff092233</dashboard><group display_value="Training Technology Support" name="Training Technology Support">a6d98d24215a5a107f44387bff092241</group><owner>false</owner><role/><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:51:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8018adec21da5a107f44387bff092228</sys_id><sys_mod_count>0</sys_mod_count><sys_name>419529e821da5a107f44387bff092233</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_permission_8018adec21da5a107f44387bff092228</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:51:44</sys_updated_on><user/></par_dashboard_permission></record_update>]]></payload>
+<payload_hash>-1529521034</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_6.1.1">7ee656a821de5a107f44387bff0922e0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:16:27</sys_created_on>
+<sys_id>3ee656a821de5a107f44387bff0922e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193887fe8470000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:16:27</sys_updated_on>
+<table/>
+<target_name>419529e821da5a107f44387bff092233</target_name>
+<type>PAR Dashboard Permission</type>
+<update_domain>global</update_domain>
+<update_guid>cc18adecc8da5a10ab544975d17c4e29</update_guid>
+<update_guid_history>cc18adecc8da5a10ab544975d17c4e29:-1529521034</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_visibility_9d95a52c21da5a107f44387bff092244</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility"><par_dashboard_visibility action="INSERT_OR_UPDATE"><dashboard display_value="Infinity HHD Product Monitoring">419529e821da5a107f44387bff092233</dashboard><experience display_value="Platform Analytics">08c73d60537101100834ddeeff7b1287</experience><sys_class_name>par_dashboard_visibility</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:40:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9d95a52c21da5a107f44387bff092244</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_visibility_9d95a52c21da5a107f44387bff092244</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:40:53</sys_updated_on></par_dashboard_visibility></record_update>]]></payload>
+<payload_hash>1167383387</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_6.1.1">7ee656a821de5a107f44387bff0922e0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:16:27</sys_created_on>
+<sys_id>76e656a821de5a107f44387bff0922e2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938875fc350000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:16:27</sys_updated_on>
+<table/>
+<target_name/>
+<type>PAR Dashboard Visibility</type>
+<update_domain>global</update_domain>
+<update_guid>5995a52c14da5a102f1fa36ba3e20b46</update_guid>
+<update_guid_history>5995a52c14da5a102f1fa36ba3e20b46:1167383387</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_permission_1d9529e821da5a107f44387bff092236</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>true</can_share><can_write>true</can_write><dashboard display_value="Infinity HHD Product Monitoring">419529e821da5a107f44387bff092233</dashboard><group/><owner>true</owner><role/><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:40:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1d9529e821da5a107f44387bff092236</sys_id><sys_mod_count>0</sys_mod_count><sys_name>419529e821da5a107f44387bff092233</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_permission_1d9529e821da5a107f44387bff092236</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:40:53</sys_updated_on><user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user></par_dashboard_permission></record_update>]]></payload>
+<payload_hash>-1929061299</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_6.1.1">7ee656a821de5a107f44387bff0922e0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:16:27</sys_created_on>
+<sys_id>7ae656a821de5a107f44387bff0922e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938875fad20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:16:27</sys_updated_on>
+<table/>
+<target_name>419529e821da5a107f44387bff092233</target_name>
+<type>PAR Dashboard Permission</type>
+<update_domain>global</update_domain>
+<update_guid>519529e891da5a10b8a73baa40559a39</update_guid>
+<update_guid_history>519529e891da5a10b8a73baa40559a39:-1929061299</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_user_metadata_559529e821da5a107f44387bff09223a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata"><par_dashboard_user_metadata action="INSERT_OR_UPDATE"><background_color/><cache_expiration_time>0</cache_expiration_time><card_bg_image/><created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user><created_on>2024-12-02 17:40:53</created_on><dashboard display_value="Infinity HHD Product Monitoring">419529e821da5a107f44387bff092233</dashboard><enable_data_cache>false</enable_data_cache><include_custom_insights>true</include_custom_insights><include_key_contributors>true</include_key_contributors><include_kpi_signals>true</include_kpi_signals><include_predictive_target>true</include_predictive_target><include_predictive_thresholds>true</include_predictive_thresholds><include_process_mining>true</include_process_mining><include_severity>true</include_severity><include_target>true</include_target><include_thresholds>true</include_thresholds><include_trends>true</include_trends><include_widget_notification>true</include_widget_notification><last_updated_on>2024-12-02 17:51:44</last_updated_on><po_project_id_list/><refresh_information>false</refresh_information><refresh_interval>-1</refresh_interval><requested_by_user/><schedule_repetition>false</schedule_repetition><show_insights_panel>true</show_insights_panel><sys_class_name>par_dashboard_user_metadata</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:40:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>559529e821da5a107f44387bff09223a</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_user_metadata_559529e821da5a107f44387bff09223a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:51:44</sys_updated_on><updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user><use_custom_tab_colors>false</use_custom_tab_colors></par_dashboard_user_metadata></record_update>]]></payload>
+<payload_hash>-1096310359</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_6.1.1">7ee656a821de5a107f44387bff0922e0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:16:27</sys_created_on>
+<sys_id>b2e656a821de5a107f44387bff0922e2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193887fe9290000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:16:27</sys_updated_on>
+<table/>
+<target_name/>
+<type>PAR Dashboard Metadata</type>
+<update_domain>global</update_domain>
+<update_guid>0818adec57da5a10ee598e7ec337ff2d</update_guid>
+<update_guid_history>0818adec57da5a10ee598e7ec337ff2d:-1096310359,9595a52c54da5a10f56ee696d70f2522:1276494934</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_canvas_9995a52c21da5a107f44387bff092229</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="Infinity HHD Product Monitoring">419529e821da5a107f44387bff092233</dashboard><dashboard_tab display_value="New Tab 1">5995a52c21da5a107f44387bff092226</dashboard_tab><layout>[]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:40:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9995a52c21da5a107f44387bff092229</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_canvas_9995a52c21da5a107f44387bff092229</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:40:53</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+<payload_hash>-355554564</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_6.1.1">7ee656a821de5a107f44387bff0922e0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:16:27</sys_created_on>
+<sys_id>b6e656a821de5a107f44387bff0922e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938875fc120000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:16:27</sys_updated_on>
+<table/>
+<target_name/>
+<type>PAR Dashboard Page Canvas</type>
+<update_domain>global</update_domain>
+<update_guid>1d95a52c92da5a107f560a5b90a4412a</update_guid>
+<update_guid_history>1d95a52c92da5a107f560a5b90a4412a:-355554564</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_canvas_9995a52c21da5a107f44387bff092223</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="Infinity HHD Product Monitoring">419529e821da5a107f44387bff092233</dashboard><dashboard_tab/><layout>[]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:40:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9995a52c21da5a107f44387bff092223</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_canvas_9995a52c21da5a107f44387bff092223</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:40:53</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+<payload_hash>-927079825</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_6.1.1">7ee656a821de5a107f44387bff0922e0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:16:27</sys_created_on>
+<sys_id>f2e656a821de5a107f44387bff0922e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938875fbe00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:16:27</sys_updated_on>
+<table/>
+<target_name/>
+<type>PAR Dashboard Page Canvas</type>
+<update_domain>global</update_domain>
+<update_guid>1595a52caada5a105c5ffdb513f05f25</update_guid>
+<update_guid_history>1595a52caada5a105c5ffdb513f05f25:-927079825</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_tab_5995a52c21da5a107f44387bff092226</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab"><par_dashboard_tab action="INSERT_OR_UPDATE"><active>true</active><background_color/><dashboard display_value="Infinity HHD Product Monitoring">419529e821da5a107f44387bff092233</dashboard><name>New Tab 1</name><order>0</order><sys_class_name>par_dashboard_tab</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 17:40:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5995a52c21da5a107f44387bff092226</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Tab 1</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_tab_5995a52c21da5a107f44387bff092226</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 17:40:53</sys_updated_on></par_dashboard_tab></record_update>]]></payload>
+<payload_hash>2106152044</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_6.1.1">7ee656a821de5a107f44387bff0922e0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:16:27</sys_created_on>
+<sys_id>fee656a821de5a107f44387bff0922e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938875fbfe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:16:27</sys_updated_on>
+<table/>
+<target_name>New Tab 1</target_name>
+<type>PAR Dashboard Tab</type>
+<update_domain>global</update_domain>
+<update_guid>9595a52c2dda5a100eca44985053e228</update_guid>
+<update_guid_history>9595a52c2dda5a100eca44985053e228:2106152044</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

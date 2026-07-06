@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-12-02 21:10:58">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Create Bob and Jane HR user records, add to HR groups, assign roles</description>
+<inserted/>
+<name>SNAF_XAN_Lab_1.2.1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>bab7f8a821d65a107f44387bff0922c7</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>eea55a2821de5a107f44387bff09225b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_6d69306c21d65a107f44387bff09223b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HR Admin" name="HR Admin">723aa84f5ba02200502f6ede91f91aea</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 14:27:51</sys_created_on><sys_id>6d69306c21d65a107f44387bff09223b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 14:27:51</sys_updated_on><user display_value="Bob HR Support">92483ce421d65a107f44387bff09221e</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>817269748</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>22a55a2821de5a107f44387bff09225f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c746e60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>Bob HR Support.HR Admin</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>86e930ac43d65a10914d1ea8560e5ead</update_guid>
+<update_guid_history>86e930ac43d65a10914d1ea8560e5ead:817269748,bbc97c6c0ad65a1001671066cd1a397a:817269748</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_65afaf07931331003b4bb095e57ffbac</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HR Systems Support" name="HR Systems Support">249faf07931331003b4bb095e57ffb79</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2015-04-13 11:50:57</sys_created_on><sys_id>65afaf07931331003b4bb095e57ffbac</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-04-13 11:50:57</sys_updated_on><user display_value="Chad Araiza">7e82abf03710200044e0bfc8bcbe5d0e</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>1920732585</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>26a55a2821de5a107f44387bff09225e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c786cc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>Chad Araiza.HR Systems Support</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>4ef974aca4d65a10f29d906a16b6b40a</update_guid>
+<update_guid_history>4ef974aca4d65a10f29d906a16b6b40a:1920732585</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_1ef8b42c21d65a107f44387bff09224d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HR Systems" name="HR Systems">730370019f22120047a2d126c42e702c</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 14:26:00</sys_created_on><sys_id>1ef8b42c21d65a107f44387bff09224d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 14:26:00</sys_updated_on><user display_value="Bob HR Support">92483ce421d65a107f44387bff09221e</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>-866079340</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>2aa55a2821de5a107f44387bff09225d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c76e440000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>Bob HR Support.HR Systems</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>1cf97c6cded65a1018d7760939bede21</update_guid>
+<update_guid_history>1cf97c6cded65a1018d7760939bede21:-866079340,e7c97c6c96d65a10347d49d313071f78:-866079340</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_group_730370019f22120047a2d126c42e702c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group"><sys_user_group action="INSERT_OR_UPDATE"><active>true</active><cost_center/><default_assignee/><description>Group that manages HR Systems requests</description><email/><exclude_manager>false</exclude_manager><include_members>false</include_members><manager/><name>HR Systems</name><parent display_value="HR" name="HR">ff0370019f22120047a2d126c42e702b</parent><points>0</points><roles/><source/><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-30 01:28:02</sys_created_on><sys_id>730370019f22120047a2d126c42e702c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-30 01:28:02</sys_updated_on><type>7a5370019f22120047a2d126c42e705c</type></sys_user_group></record_update>]]></payload>
+<payload_hash>-1979985168</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>2aa55a2821de5a107f44387bff092260</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c76ddf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>HR Systems</target_name>
+<type>Group</type>
+<update_domain>global</update_domain>
+<update_guid>94f97c6c76d65a10dd94a147aaffe01d</update_guid>
+<update_guid_history>94f97c6c76d65a10dd94a147aaffe01d:-1979985168</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_group_has_role_b46aac4f5ba02200502f6ede91f91a8d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_group_has_role"><sys_group_has_role action="INSERT_OR_UPDATE"><granted_by/><group display_value="HR Admin" name="HR Admin">723aa84f5ba02200502f6ede91f91aea</group><inherits>true</inherits><role display_value="sn_hr_core.admin" name="sn_hr_core.admin">725370019f22120047a2d126c42e705e</role><sys_created_by>admin</sys_created_by><sys_created_on>2016-07-15 17:09:54</sys_created_on><sys_id>b46aac4f5ba02200502f6ede91f91a8d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2016-07-15 17:09:54</sys_updated_on></sys_group_has_role></record_update>]]></payload>
+<payload_hash>-800614885</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>2ea55a2821de5a107f44387bff09225c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c746b10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>sn_hr_core.admin.HR Admin</target_name>
+<type>Group Role</type>
+<update_domain>global</update_domain>
+<update_guid>02e930ac1ad65a105cddbe21d5fa76a9</update_guid>
+<update_guid_history>02e930ac1ad65a105cddbe21d5fa76a9:-800614885</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_f169706c21d65a107f44387bff092262</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HR Admin" name="HR Admin">723aa84f5ba02200502f6ede91f91aea</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 14:27:52</sys_created_on><sys_id>f169706c21d65a107f44387bff092262</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 14:27:52</sys_updated_on><user display_value="Jane HR Support">d7783ce421d65a107f44387bff092212</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>-170820863</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>2ea55a2821de5a107f44387bff09225f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c747010000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>Jane HR Support.HR Admin</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>02e930ac90d65a10e87e798bada1eeaf</update_guid>
+<update_guid_history>02e930ac90d65a10e87e798bada1eeaf:-170820863,22d970ac69d65a10847874cb52b4b962:-170820863</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_65afaf07931331003b4bb095e57ffbab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HR Systems Support" name="HR Systems Support">249faf07931331003b4bb095e57ffb79</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2015-04-13 11:50:57</sys_created_on><sys_id>65afaf07931331003b4bb095e57ffbab</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-04-14 03:35:50</sys_updated_on><user display_value="Patty Bernasconi">3682abf03710200044e0bfc8bcbe5d17</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>644571481</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>62a55a2821de5a107f44387bff09225e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c786650000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>Patty Bernasconi.HR Systems Support</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>79f974ac5dd65a10834c5116a4d00608</update_guid>
+<update_guid_history>79f974ac5dd65a10834c5116a4d00608:644571481</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_d7783ce421d65a107f44387bff092212</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_user"><sys_user action="INSERT_OR_UPDATE"><accumulated_roles/><active>true</active><avatar/><building/><calendar_integration>1</calendar_integration><city/><company/><correlation_id/><cost_center/><country/><date_format/><default_perspective/><department display_value="HR">93b25282c0a8000b0b55c8ab34e2f1e6</department><edu_status>faculty</edu_status><email>Jane@example.com</email><employee_number/><enable_multifactor_authn>false</enable_multifactor_authn><failed_attempts/><federated_id>GayWkskAxqZHWt0qyYbOj6uFADqh2ZKmnWZxmlqSQpM=</federated_id><first_name>Jane</first_name><gender/><hashed_user_id>af7d4ccd64e6e557331c8c638dc1f38f21086b1ab7d4df9ecbe01beaacf08b4f</hashed_user_id><home_phone/><hr_integration_source/><internal_integration_user>false</internal_integration_user><introduction/><last_login/><last_login_device/><last_login_time/><last_name>HR Support</last_name><last_password/><ldap_server/><location/><locked_out>false</locked_out><manager/><middle_name/><mobile_phone/><name>Jane HR Support</name><notification>2</notification><password_needs_reset>false</password_needs_reset><phone/><photo/><preferred_language/><roles/><schedule/><source/><state/><street/><sys_class_name>sys_user</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 14:23:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d7783ce421d65a107f44387bff092212</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 14:23:53</sys_updated_on><time_format/><time_zone/><title/><transaction_log/><user_name>Jane.HR_Support</user_name><user_password/><vip>false</vip><web_service_access_only>false</web_service_access_only><zip/></sys_user></record_update>]]></payload>
+<payload_hash>-121871610</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>66a55a2821de5a107f44387bff09225d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c70fa00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>Jane HR Support</target_name>
+<type>User</type>
+<update_domain>global</update_domain>
+<update_guid>66d9f42c64d65a100d39de60132dce09</update_guid>
+<update_guid_history>66d9f42c64d65a100d39de60132dce09:-121871610</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_group_723aa84f5ba02200502f6ede91f91aea</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group"><sys_user_group action="INSERT_OR_UPDATE"><active>true</active><cost_center/><default_assignee/><description>Group for managing HR App via Delegated Development</description><email/><exclude_manager>false</exclude_manager><include_members>false</include_members><manager/><name>HR Admin</name><parent/><points>0</points><roles/><source/><sys_created_by>admin</sys_created_by><sys_created_on>2016-07-15 17:09:20</sys_created_on><sys_id>723aa84f5ba02200502f6ede91f91aea</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2016-07-15 17:09:44</sys_updated_on><type/></sys_user_group></record_update>]]></payload>
+<payload_hash>-159915268</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>66a55a2821de5a107f44387bff092260</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c746950000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>HR Admin</target_name>
+<type>Group</type>
+<update_domain>global</update_domain>
+<update_guid>cae930aca1d65a10dc67938a34c4cca6</update_guid>
+<update_guid_history>cae930aca1d65a10dc67938a34c4cca6:-159915268</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_bc29b82c21d65a107f44387bff092266</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HR Systems Support" name="HR Systems Support">249faf07931331003b4bb095e57ffb79</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 14:26:42</sys_created_on><sys_id>bc29b82c21d65a107f44387bff092266</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 14:26:42</sys_updated_on><user display_value="Bob HR Support">92483ce421d65a107f44387bff09221e</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>788724695</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>6aa55a2821de5a107f44387bff09225f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c787840000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>Bob HR Support.HR Systems Support</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>86f974aca7d65a108b123476bfe4c322</update_guid>
+<update_guid_history>86f974aca7d65a108b123476bfe4c322:788724695,33c930ac50d65a105a3a1ad2a97d3367:788724695</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_6af8f42c21d65a107f44387bff09223d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HR Systems" name="HR Systems">730370019f22120047a2d126c42e702c</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 14:26:00</sys_created_on><sys_id>6af8f42c21d65a107f44387bff09223d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 14:26:00</sys_updated_on><user display_value="Jane HR Support">d7783ce421d65a107f44387bff092212</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>-815035039</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>6ea55a2821de5a107f44387bff09225e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c76e590000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>Jane HR Support.HR Systems</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>94f97c6ce7d65a10ceb043d6d4487023</update_guid>
+<update_guid_history>94f97c6ce7d65a10ceb043d6d4487023:-815035039,aed970ac04d65a10a3370d03ae7b3e5f:-815035039</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_92483ce421d65a107f44387bff09221e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_user"><sys_user action="INSERT_OR_UPDATE"><accumulated_roles/><active>true</active><avatar/><building/><calendar_integration>1</calendar_integration><city/><company/><correlation_id/><cost_center/><country/><date_format/><default_perspective/><department display_value="HR">93b25282c0a8000b0b55c8ab34e2f1e6</department><edu_status>faculty</edu_status><email>Bob@example.com</email><employee_number/><enable_multifactor_authn>false</enable_multifactor_authn><failed_attempts/><federated_id>Fhi3y8yvVmGXLsx5xbjMzfrFeD9iWxoAdqfsPnyyPz4=</federated_id><first_name>Bob</first_name><gender/><hashed_user_id>939efef94d021b107c486e38bd1381e212e0c31869bc2c782a0bfd54251c107a</hashed_user_id><home_phone/><hr_integration_source/><internal_integration_user>false</internal_integration_user><introduction/><last_login/><last_login_device/><last_login_time/><last_name>HR Support</last_name><last_password/><ldap_server/><location/><locked_out>false</locked_out><manager/><middle_name/><mobile_phone/><name>Bob HR Support</name><notification>2</notification><password_needs_reset>false</password_needs_reset><phone/><photo/><preferred_language/><roles/><schedule/><source/><state/><street/><sys_class_name>sys_user</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 14:23:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>92483ce421d65a107f44387bff09221e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 14:23:28</sys_updated_on><time_format/><time_zone/><title/><transaction_log/><user_name>Bob.HR_Support</user_name><user_password/><vip>false</vip><web_service_access_only>false</web_service_access_only><zip/></sys_user></record_update>]]></payload>
+<payload_hash>787733148</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>a2a55a2821de5a107f44387bff09225d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c6e1150000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>Bob HR Support</target_name>
+<type>User</type>
+<update_domain>global</update_domain>
+<update_guid>6fc97c6c19d65a1015c09ef3e0fafc76</update_guid>
+<update_guid_history>6fc97c6c19d65a1015c09ef3e0fafc76:787733148</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_group_249faf07931331003b4bb095e57ffb79</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group"><sys_user_group action="INSERT_OR_UPDATE"><active>true</active><cost_center/><default_assignee/><description>HR Systems Support</description><email/><exclude_manager>false</exclude_manager><include_members>false</include_members><manager/><name>HR Systems Support</name><parent/><points>0</points><roles/><source/><sys_created_by>admin</sys_created_by><sys_created_on>2015-04-13 11:50:42</sys_created_on><sys_id>249faf07931331003b4bb095e57ffb79</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-04-13 11:50:42</sys_updated_on><type/></sys_user_group></record_update>]]></payload>
+<payload_hash>1581308660</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>a2a55a2821de5a107f44387bff092260</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c7860a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>HR Systems Support</target_name>
+<type>Group</type>
+<update_domain>global</update_domain>
+<update_guid>79f930ac8ad65a102427fb95243aea70</update_guid>
+<update_guid_history>79f930ac8ad65a102427fb95243aea70:1581308660</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_6dafaf07931331003b4bb095e57ffbac</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HR Systems Support" name="HR Systems Support">249faf07931331003b4bb095e57ffb79</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2015-04-13 11:50:57</sys_created_on><sys_id>6dafaf07931331003b4bb095e57ffbac</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-04-14 03:35:55</sys_updated_on><user display_value="Randal Gansen">fa82abf03710200044e0bfc8bcbe5d16</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>-740693204</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>a6a55a2821de5a107f44387bff09225f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c7876a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>Randal Gansen.HR Systems Support</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>06f974ace4d65a10f2cb72586c082920</update_guid>
+<update_guid_history>06f974ace4d65a10f2cb72586c082920:-740693204</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_69afaf07931331003b4bb095e57ffbac</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HR Systems Support" name="HR Systems Support">249faf07931331003b4bb095e57ffb79</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2015-04-13 11:50:57</sys_created_on><sys_id>69afaf07931331003b4bb095e57ffbac</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-04-13 11:50:57</sys_updated_on><user display_value="Chad Miklas">b682abf03710200044e0bfc8bcbe5d0a</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>-577730984</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>aaa55a2821de5a107f44387bff09225e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c787360000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>Chad Miklas.HR Systems Support</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>46f974ac1bd65a10485312cf2794770f</update_guid>
+<update_guid_history>46f974ac1bd65a10485312cf2794770f:-577730984</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_61afaf07931331003b4bb095e57ffbad</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HR Systems Support" name="HR Systems Support">249faf07931331003b4bb095e57ffb79</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2015-04-13 11:50:57</sys_created_on><sys_id>61afaf07931331003b4bb095e57ffbad</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-04-13 11:50:57</sys_updated_on><user display_value="Charity Dyckman">9a826bf03710200044e0bfc8bcbe5d9b</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>1575668467</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>aea55a2821de5a107f44387bff09225d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c786420000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>Charity Dyckman.HR Systems Support</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>75f974acedd65a10f41569f78f6d9f06</update_guid>
+<update_guid_history>75f974acedd65a10f41569f78f6d9f06:1575668467</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sn_hr_core_case_payroll_9d5ab8ac21d65a107f44387bff092289</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sn_hr_core_case_payroll"&gt;&lt;sn_hr_core_case_payroll action="INSERT_OR_UPDATE"&gt;&lt;account_nickname/&gt;&lt;account_number/&gt;&lt;account_type/&gt;&lt;active&gt;true&lt;/active&gt;&lt;activity_due/&gt;&lt;actual_resolution_time/&gt;&lt;additional_assignee_list/&gt;&lt;approval&gt;not requested&lt;/approval&gt;&lt;approval_flow_params/&gt;&lt;approval_history/&gt;&lt;approval_set/&gt;&lt;assigned_to display_value="Terrance Nimmer"&gt;5e826bf03710200044e0bfc8bcbe5da1&lt;/assigned_to&gt;&lt;assignment_group display_value="HR Tier 1" name="HR Tier 1"&gt;22d52c269f221200d9011977677fcf97&lt;/assignment_group&gt;&lt;bulk_case_request/&gt;&lt;business_duration/&gt;&lt;business_justification/&gt;&lt;business_service display_value="Direct Deposit Setup"&gt;7a47ac50a371311013c5265765fcda98&lt;/business_service&gt;&lt;calendar_duration/&gt;&lt;case_reassignment_count&gt;0&lt;/case_reassignment_count&gt;&lt;case_support_team/&gt;&lt;close_notes/&gt;&lt;closed_at/&gt;&lt;closed_by/&gt;&lt;cmdb_ci/&gt;&lt;collaborators/&gt;&lt;comments/&gt;&lt;comments_and_work_notes/&gt;&lt;company display_value="ACME North America"&gt;31bea3d53790200044e0bfc8bcbe5dec&lt;/company&gt;&lt;contact_type/&gt;&lt;contract/&gt;&lt;correlation_display/&gt;&lt;correlation_id/&gt;&lt;delivery_plan/&gt;&lt;delivery_task/&gt;&lt;department display_value="IT"&gt;221f79b7c6112284005d646b76ab978c&lt;/department&gt;&lt;deposit_amount&gt;0&lt;/deposit_amount&gt;&lt;deposit_percent&gt;0&lt;/deposit_percent&gt;&lt;deposit_type/&gt;&lt;description/&gt;&lt;details/&gt;&lt;direct_deposit/&gt;&lt;due_date/&gt;&lt;employee_percent_complete&gt;0&lt;/employee_percent_complete&gt;&lt;escalation&gt;0&lt;/escalation&gt;&lt;ettr/&gt;&lt;expected_start/&gt;&lt;follow_up/&gt;&lt;fulfillment_instructions&gt;&lt;![CDATA[&lt;p&gt;Direct Deposit inquiries should be answered within 24 hours if possible. Please review the attached details and policy document. If they do not contain the answer, escalate this to tier two.&lt;/p&gt;
+&lt;div&gt;
+&lt;div&gt;If this question is specific to Direct Deposit enrollment, the case should be migrated to a &amp;#34;Direct Deposit Enrollment&amp;#34; case.&lt;/div&gt;
+&lt;/div&gt;&lt;a id="sn_hr_fi_kbs_KB0000139" target="_blank" href="kb_view.do?sysparm_article&amp;#61;KB0000139" rel="noopener noreferrer nofollow"&gt;KB0000139 - Direct Deposit Setup Instruction
+		&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;]]&gt;&lt;/fulfillment_instructions&gt;&lt;group_list/&gt;&lt;hr_profile display_value="Beth Anglin"&gt;ff0370019f22120047a2d126c42e7022&lt;/hr_profile&gt;&lt;hr_service display_value="Direct Deposit Inquiry"&gt;5a28cde49f331200d9011977677fcf01&lt;/hr_service&gt;&lt;impact&gt;3&lt;/impact&gt;&lt;initiated_from/&gt;&lt;knowledge&gt;false&lt;/knowledge&gt;&lt;location display_value="6304 Northwest Barry Road, Kansas City,MO"&gt;25ab9d720a0a0bb300793d3a6b891f82&lt;/location&gt;&lt;made_sla&gt;true&lt;/made_sla&gt;&lt;max_ettr/&gt;&lt;min_ettr/&gt;&lt;number&gt;HRC0001003&lt;/number&gt;&lt;opened_at&gt;2024-12-02 14:31:56&lt;/opened_at&gt;&lt;opened_by display_value="Bob HR Support"&gt;92483ce421d65a107f44387bff09221e&lt;/opened_by&gt;&lt;opened_for display_value="Beth Anglin"&gt;46d44a23a9fe19810012d100cca80666&lt;/opened_for&gt;&lt;order/&gt;&lt;parent/&gt;&lt;pay_discrepancy_type/&gt;&lt;payload/&gt;&lt;pending_approval_action/&gt;&lt;predicted_hr_service/&gt;&lt;priority&gt;4&lt;/priority&gt;&lt;reassignment_count&gt;0&lt;/reassignment_count&gt;&lt;rejection_goto/&gt;&lt;resolution_requires/&gt;&lt;rich_description/&gt;&lt;route_reason/&gt;&lt;routing_number/&gt;&lt;service_activities_triggered&gt;false&lt;/service_activities_triggered&gt;&lt;service_offering display_value="Direct Deposit Inquiry"&gt;fa47ac50a371311013c5265765fcdaa6&lt;/service_offering&gt;&lt;short_description&gt;Direct deposit inquiry&lt;/short_description&gt;&lt;skills&gt;7f0370019f22120047a2d126c42e706e&lt;/skills&gt;&lt;skip_auto_assign&gt;false&lt;/skip_auto_assign&gt;&lt;skip_automatic_user_acceptance_state&gt;false&lt;/skip_automatic_user_acceptance_state&gt;&lt;sla&gt;0&lt;/sla&gt;&lt;sla_breached&gt;false&lt;/sla_breached&gt;&lt;sla_due/&gt;&lt;sla_suspended&gt;false&lt;/sla_suspended&gt;&lt;sla_suspended_for/&gt;&lt;sla_suspended_on/&gt;&lt;sla_suspended_reason/&gt;&lt;sn_esign_document/&gt;&lt;sn_esign_esignature_configuration/&gt;&lt;source/&gt;&lt;state&gt;1&lt;/state&gt;&lt;subject_person display_value="Beth Anglin"&gt;46d44a23a9fe19810012d100cca80666&lt;/subject_person&gt;&lt;subject_person_hr_profile display_value="Beth Anglin"&gt;ff0370019f22120047a2d126c42e7022&lt;/subject_person_hr_profile&gt;&lt;subject_person_job/&gt;&lt;submitter_can_cancel&gt;true&lt;/submitter_can_cancel&gt;&lt;sys_class_name&gt;sn_hr_core_case_payroll&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Bob.HR_Support&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 14:31:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9d5ab8ac21d65a107f44387bff092289&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Bob.HR_Support&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 14:32:21&lt;/sys_updated_on&gt;&lt;task_effective_number&gt;HRC0001003&lt;/task_effective_number&gt;&lt;task_percent_complete&gt;0&lt;/task_percent_complete&gt;&lt;template display_value="Direct Deposit Inquiry"&gt;1628cde49f331200d9011977677fcf01&lt;/template&gt;&lt;template_invoked&gt;true&lt;/template_invoked&gt;&lt;time_worked/&gt;&lt;topic_category display_value="Payroll Administration"&gt;8869360d9f321200d9011977677fcfd3&lt;/topic_category&gt;&lt;topic_detail display_value="Direct Deposit Setup"&gt;e442838d9f321200d9011977677fcf29&lt;/topic_detail&gt;&lt;transferred_from/&gt;&lt;transferred_to/&gt;&lt;universal_request/&gt;&lt;upon_approval&gt;proceed&lt;/upon_approval&gt;&lt;upon_reject&gt;cancel&lt;/upon_reject&gt;&lt;urgency&gt;3&lt;/urgency&gt;&lt;user_input/&gt;&lt;variables/&gt;&lt;watch_list/&gt;&lt;wf_activity/&gt;&lt;work_end/&gt;&lt;work_notes/&gt;&lt;work_notes_list/&gt;&lt;work_start/&gt;&lt;workflow/&gt;&lt;workflow_invoked&gt;false&lt;/workflow_invoked&gt;&lt;/sn_hr_core_case_payroll&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9d5ab8ac21d65a107f44387bff092289"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>232037650</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>e2a55a2821de5a107f44387bff09225c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c9de480000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>HRC0001003</target_name>
+<type>HR Payroll Case</type>
+<update_domain>global</update_domain>
+<update_guid>9f8a74ec3ed65a10f1cd7ed57b7f63a6</update_guid>
+<update_guid_history>9f8a74ec3ed65a10f1cd7ed57b7f63a6:232037650</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_6dafaf07931331003b4bb095e57ffbab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HR Systems Support" name="HR Systems Support">249faf07931331003b4bb095e57ffb79</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2015-04-13 11:50:57</sys_created_on><sys_id>6dafaf07931331003b4bb095e57ffbab</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-04-13 11:50:57</sys_updated_on><user display_value="Allyson Gillispie">06826bf03710200044e0bfc8bcbe5d8a</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>-655320208</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>e2a55a2821de5a107f44387bff09225f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c787500000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>Allyson Gillispie.HR Systems Support</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>02f974ac3bd65a10a1657d75c614d71e</update_guid>
+<update_guid_history>02f974ac3bd65a10a1657d75c614d71e:-655320208</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_69afaf07931331003b4bb095e57ffbab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HR Systems Support" name="HR Systems Support">249faf07931331003b4bb095e57ffb79</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2015-04-13 11:50:57</sys_created_on><sys_id>69afaf07931331003b4bb095e57ffbab</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-04-13 11:50:57</sys_updated_on><user display_value="Allie Pumphrey">aa826bf03710200044e0bfc8bcbe5de8</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>1709956075</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>e6a55a2821de5a107f44387bff09225e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c7871c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>Allie Pumphrey.HR Systems Support</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>42f974ac35d65a10b9c75914a57af60d</update_guid>
+<update_guid_history>42f974ac35d65a10b9c75914a57af60d:1709956075</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_61afaf07931331003b4bb095e57ffbac</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HR Systems Support" name="HR Systems Support">249faf07931331003b4bb095e57ffb79</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2015-04-13 11:50:57</sys_created_on><sys_id>61afaf07931331003b4bb095e57ffbac</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-04-13 11:50:57</sys_updated_on><user display_value="Alva Pennigton">ca826bf03710200044e0bfc8bcbe5d89</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>1010786514</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>eaa55a2821de5a107f44387bff09225d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c786280000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>Alva Pennigton.HR Systems Support</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>fdf930ac8ed65a1023e8d2f04dcb7d72</update_guid>
+<update_guid_history>fdf930ac8ed65a1023e8d2f04dcb7d72:1010786514</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_group_type_7a5370019f22120047a2d126c42e705c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group_type"><sys_user_group_type action="INSERT_OR_UPDATE"><description>The type all groups used by the HR Core tables should be associated with</description><name>human_resources</name><sys_created_by>admin</sys_created_by><sys_created_on>2013-07-17 15:14:48</sys_created_on><sys_id>7a5370019f22120047a2d126c42e705c</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2013-07-19 23:06:20</sys_updated_on></sys_user_group_type></record_update>]]></payload>
+<payload_hash>-857068738</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>eaa55a2821de5a107f44387bff092260</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c76e260000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>human_resources</target_name>
+<type>Group Type</type>
+<update_domain>global</update_domain>
+<update_guid>d4f97c6c9bd65a10b336d40325ff221f</update_guid>
+<update_guid_history>d4f97c6c9bd65a10b336d40325ff221f:-857068738</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_group_has_role_ec59bc2c21d65a107f44387bff09222c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_group_has_role"><sys_group_has_role action="INSERT_OR_UPDATE"><granted_by/><group display_value="HR Admin" name="HR Admin">723aa84f5ba02200502f6ede91f91aea</group><inherits>true</inherits><role display_value="impersonator" name="impersonator">bca873d30a000704013944bd9a5e03a4</role><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 14:27:31</sys_created_on><sys_id>ec59bc2c21d65a107f44387bff09222c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 14:27:31</sys_updated_on></sys_group_has_role></record_update>]]></payload>
+<payload_hash>1672814234</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>eea55a2821de5a107f44387bff09225c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c746cc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>impersonator.HR Admin</target_name>
+<type>Group Role</type>
+<update_domain>global</update_domain>
+<update_guid>c2e930acf6d65a1006891bf855e82dab</update_guid>
+<update_guid_history>c2e930acf6d65a1006891bf855e82dab:1672814234</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_fc29b82c21d65a107f44387bff092268</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HR Systems Support" name="HR Systems Support">249faf07931331003b4bb095e57ffb79</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 14:26:42</sys_created_on><sys_id>fc29b82c21d65a107f44387bff092268</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 14:26:42</sys_updated_on><user display_value="Jane HR Support">d7783ce421d65a107f44387bff092212</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>-1055717506</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_1.2.1">eea55a2821de5a107f44387bff09225b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:10:58</sys_created_on>
+<sys_id>eea55a2821de5a107f44387bff09225f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19387c7879a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:10:58</sys_updated_on>
+<table/>
+<target_name>Jane HR Support.HR Systems Support</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>02f974ac8dd65a10f4df4a8ae53b2f24</update_guid>
+<update_guid_history>02f974ac8dd65a10f4df4a8ae53b2f24:-1055717506,a2d970acf6d65a109e0a048a0748fe64:-1055717506</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

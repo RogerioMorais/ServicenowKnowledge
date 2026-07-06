@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-12-02 21:14:41">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>ACL's on Incident Table, HHD Table, Asset Tagger Role &amp; Group</description>
+<inserted/>
+<name>SNAF_XAN_Lab_4.2.1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>7e1f492c215a5a107f44387bff09221b</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>fc869a6821de5a107f44387bff092279</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_3be41124219a5a107f44387bff0922ad</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="incident">service_offering=9c990924215a5a107f44387bff092212^EQ<item display_table="service_offering" display_value="Infinity (HHD)" endquery="false" field="service_offering" goto="false" newquery="false" operator="=" or="false" value="9c990924215a5a107f44387bff092212"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_type>allow</decision_type><description>u_holographic_handheld_hhd_user role required to write HHD incident records</description><local_or_existing>Local</local_or_existing><name>incident</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:28:10</sys_created_on><sys_id>3be41124219a5a107f44387bff0922ad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_3be41124219a5a107f44387bff0922ad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:28:10</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1970860883</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>30869a6821de5a107f44387bff09227c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883366690000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table>incident</table>
+<target_name>incident</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>3fe411243c9a5a10f4c50b384781b3af</update_guid>
+<update_guid_history>3fe411243c9a5a10f4c50b384781b3af:-1970860883</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_e80a4164215a5a107f44387bff0922a1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="Training Technology Support" name="Training Technology Support">a6d98d24215a5a107f44387bff092241</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:40:25</sys_created_on><sys_id>e80a4164215a5a107f44387bff0922a1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:40:25</sys_updated_on><user display_value="Bow Ruggeri">f298d2d2c611227b0106c6be7f154bc8</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>-1674219286</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>30869a6821de5a107f44387bff09227f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882e1c040000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>Bow Ruggeri.Training Technology Support</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>939351a0189a5a10ee8bf688d5f8a777</update_guid>
+<update_guid_history>939351a0189a5a10ee8bf688d5f8a777:-1674219286,911a0564e75a5a1061f74691b6ecbc23:-1674219286</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_86259524219a5a107f44387bff092294</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_hhd_asset_tagger</name><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:29:23</sys_created_on><sys_id>86259524219a5a107f44387bff092294</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hhd_asset_tagger</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_86259524219a5a107f44387bff092294</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:29:23</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>1258375907</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>348612a821de5a107f44387bff0922dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883485e80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>u_hhd_asset_tagger</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>713551245b9a5a106b8449e084f77d1a</update_guid>
+<update_guid_history>713551245b9a5a106b8449e084f77d1a:1258375907</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_group_has_role_87735d60219a5a107f44387bff092277</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_group_has_role"><sys_group_has_role action="INSERT_OR_UPDATE"><granted_by/><group display_value="Service Desk" name="Service Desk">d625dccec0a8016700a222a0f7900d06</group><inherits>true</inherits><role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">a4cc09e4215a5a107f44387bff0922b1</role><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:21:50</sys_created_on><sys_id>87735d60219a5a107f44387bff092277</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:21:50</sys_updated_on></sys_group_has_role></record_update>]]></payload>
+<payload_hash>-157750478</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>34869a6821de5a107f44387bff09227b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882dc30e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>u_holographic_handheld_hhd_user.Service Desk</target_name>
+<type>Group Role</type>
+<update_domain>global</update_domain>
+<update_guid>3583d9603b9a5a10280158f31fec19fd</update_guid>
+<update_guid_history>3583d9603b9a5a10280158f31fec19fd:-157750478</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_d6266b1fc0a8016700a112121c900054</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="Service Desk" name="Service Desk">d625dccec0a8016700a222a0f7900d06</group><points>0</points><scrum_role/><sys_created_by>glide.maint</sys_created_by><sys_created_on>2015-04-08 00:15:21</sys_created_on><sys_id>d6266b1fc0a8016700a112121c900054</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>glide.maint</sys_updated_by><sys_updated_on>2015-04-08 00:15:21</sys_updated_on><user display_value="David Loo">5137153cc611227c000bbd1bd8cd2007</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>1238768578</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>34869a6821de5a107f44387bff09227e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882dc35a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>David Loo.Service Desk</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>7d83dd603f9a5a104c4fae2e3e63d806</update_guid>
+<update_guid_history>7d83dd603f9a5a104c4fae2e3e63d806:1238768578</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_3eaecde8215a5a107f44387bff092259</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HHD">ef2245a8211a5a107f44387bff092243</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_cmdb_ci_hardware_hhd</name><order>100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>u_holographic_handheld_hhd_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:01:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3eaecde8215a5a107f44387bff092259</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_3eaecde8215a5a107f44387bff092259</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:21:04</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>281011155</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>38869a6821de5a107f44387bff09227a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882ce6b10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Create New</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>c053d560e99a5a10020d9e7ea06c216a</update_guid>
+<update_guid_history>c053d560e99a5a10020d9e7ea06c216a:281011155,f5ce412c5c5a5a10ae28ed5c301182ae:532676886</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_b6f59964219a5a107f44387bff09223d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:32:56</sys_created_on><sys_id>b6f59964219a5a107f44387bff09223d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_cmdb_ci_hardware_hhd">b8cc8168215a5a107f44387bff092298</sys_security_acl><sys_update_name>sys_security_acl_role_b6f59964219a5a107f44387bff09223d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:32:56</sys_updated_on><sys_user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">a4cc09e4215a5a107f44387bff0922b1</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1484442817</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>38869a6821de5a107f44387bff09227d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938837c6bf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>86061d646b9a5a107a8c10e8ad4a2807</update_guid>
+<update_guid_history>86061d646b9a5a107a8c10e8ad4a2807:-1484442817</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_30c41da0219a5a107f44387bff092212</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:27:38</sys_created_on><sys_id>30c41da0219a5a107f44387bff092212</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident.u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="incident">b7b4dda0219a5a107f44387bff092210</sys_security_acl><sys_update_name>sys_security_acl_role_30c41da0219a5a107f44387bff092212</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:27:38</sys_updated_on><sys_user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">a4cc09e4215a5a107f44387bff0922b1</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-243489186</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>3c869a6821de5a107f44387bff09227c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938832ebfe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table>incident</table>
+<target_name>incident.u_holographic_handheld_hhd_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>14d45de0fd9a5a10478db13d6baae7a0</update_guid>
+<update_guid_history>14d45de0fd9a5a10478db13d6baae7a0:-243489186</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_group_d625dccec0a8016700a222a0f7900d06</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group"><sys_user_group action="INSERT_OR_UPDATE"><active>true</active><cost_center/><default_assignee/><description/><email>service.desk@yourcompany.com</email><exclude_manager>false</exclude_manager><include_members>false</include_members><manager display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</manager><name>Service Desk</name><parent/><points>0</points><roles/><source/><sys_created_by>glide.maint</sys_created_by><sys_created_on>2024-11-20 00:14:56</sys_created_on><sys_id>d625dccec0a8016700a222a0f7900d06</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>glide.maint</sys_updated_by><sys_updated_on>2024-11-20 00:14:56</sys_updated_on><type/></sys_user_group></record_update>]]></payload>
+<payload_hash>-496801326</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>3c869a6821de5a107f44387bff09227f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882dc2d60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>Service Desk</target_name>
+<type>Group</type>
+<update_domain>global</update_domain>
+<update_guid>f983d960a09a5a10b7bae092c60f32f8</update_guid>
+<update_guid_history>f983d960a09a5a10b7bae092c60f32f8:-496801326</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_group_has_role_782f0babdb41551084e650d3e29619d7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_group_has_role"><sys_group_has_role action="INSERT_OR_UPDATE"><granted_by/><group display_value="Service Desk" name="Service Desk">d625dccec0a8016700a222a0f7900d06</group><inherits>true</inherits><role display_value="service_viewer" name="service_viewer">e70eac1d3be31300bc1e832b44efc47c</role><sys_created_by>diana.admin</sys_created_by><sys_created_on>2022-08-07 21:00:46</sys_created_on><sys_id>782f0babdb41551084e650d3e29619d7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>diana.admin</sys_updated_by><sys_updated_on>2022-08-07 21:00:46</sys_updated_on></sys_group_has_role></record_update>]]></payload>
+<payload_hash>1134807495</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>70869a6821de5a107f44387bff09227b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882dc3280000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>service_viewer.Service Desk</target_name>
+<type>Group Role</type>
+<update_domain>global</update_domain>
+<update_guid>7983dd602f9a5a10225b97dc94740b02</update_guid>
+<update_guid_history>7983dd602f9a5a10225b97dc94740b02:1134807495</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_d6266a10c0a8016700a11212dabddd67</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="Service Desk" name="Service Desk">d625dccec0a8016700a222a0f7900d06</group><points>0</points><scrum_role/><sys_created_by>glide.maint</sys_created_by><sys_created_on>2015-04-08 00:15:21</sys_created_on><sys_id>d6266a10c0a8016700a11212dabddd67</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>glide.maint</sys_updated_by><sys_updated_on>2015-04-08 00:15:21</sys_updated_on><user display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>-843629583</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>70869a6821de5a107f44387bff09227e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882dc3410000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>Beth Anglin.Service Desk</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>f983dd601e9a5a10d578637711554104</update_guid>
+<update_guid_history>f983dd601e9a5a10d578637711554104:-843629583</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_1d5249a8211a5a107f44387bff092299</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HHD">ef2245a8211a5a107f44387bff092243</application><assessment/><device_type/><filter table="incident">service_offering=9c990924215a5a107f44387bff092212^EQ<item display_table="service_offering" display_value="Infinity (HHD)" endquery="false" field="service_offering" goto="false" newquery="false" operator="=" or="false" value="9c990924215a5a107f44387bff092212"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint>HHD Incidents and Inquiries</hint><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Incidents and Inquiries</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>incident</name><order>10</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>u_holographic_handheld_hhd_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:08:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1d5249a8211a5a107f44387bff092299</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Incidents and Inquiries</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_1d5249a8211a5a107f44387bff092299</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:20:37</sys_updated_on><timeline_page/><title>Incidents and Inquiries</title><uncancelable>false</uncancelable><view_name>HHD</view_name><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-1403713337</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>74869a6821de5a107f44387bff09227a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882c7cd40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table>incident</table>
+<target_name>Incidents and Inquiries</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>993351ecd75a5a10cfb06265131b32f1</update_guid>
+<update_guid_history>993351ecd75a5a10cfb06265131b32f1:-1403713337,558b09e4e55a5a104c2b337b9961a9f5:836827195,9f92cda82a1a5a106a60d6f2e0ac986f:52190629</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_a4755524219a5a107f44387bff09226b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:30:33</sys_created_on><sys_id>a4755524219a5a107f44387bff09226b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd.asset_tag.u_hhd_asset_tagger</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_cmdb_ci_hardware_hhd.asset_tag">fb651d24219a5a107f44387bff0922cd</sys_security_acl><sys_update_name>sys_security_acl_role_a4755524219a5a107f44387bff09226b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:30:33</sys_updated_on><sys_user_role display_value="u_hhd_asset_tagger" name="u_hhd_asset_tagger">86259524219a5a107f44387bff092294</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1132224900</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>74869a6821de5a107f44387bff09227d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883594420000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd.asset_tag</table>
+<target_name>u_cmdb_ci_hardware_hhd.asset_tag.u_hhd_asset_tagger</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>36755924429a5a10bc43eb43dc6c9bb0</update_guid>
+<update_guid_history>36755924429a5a10bc43eb43dc6c9bb0:1132224900</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_17455924219a5a107f44387bff0922b6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:30:20</sys_created_on><sys_id>17455924219a5a107f44387bff0922b6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd.u_hhd_asset_tagger</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_cmdb_ci_hardware_hhd">b8cc8168215a5a107f44387bff092298</sys_security_acl><sys_update_name>sys_security_acl_role_17455924219a5a107f44387bff0922b6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:30:20</sys_updated_on><sys_user_role display_value="u_hhd_asset_tagger" name="u_hhd_asset_tagger">86259524219a5a107f44387bff092294</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-276810065</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>78869a6821de5a107f44387bff09227c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938837c5700000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd.u_hhd_asset_tagger</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>3d061964009a5a104e4d6aaf530badf3</update_guid>
+<update_guid_history>3d061964009a5a104e4d6aaf530badf3:-276810065,b7651d24019a5a105d2570fc6bf7decc:-32993989</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_group_a6d98d24215a5a107f44387bff092241</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group"><sys_user_group action="INSERT_OR_UPDATE"><active>true</active><cost_center/><default_assignee/><description/><email/><exclude_manager>false</exclude_manager><include_members>false</include_members><manager/><name>Training Technology Support</name><parent/><points>0</points><roles/><source/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:39:54</sys_created_on><sys_id>a6d98d24215a5a107f44387bff092241</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:39:54</sys_updated_on><type/></sys_user_group></record_update>]]></payload>
+<payload_hash>133730787</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>78869a6821de5a107f44387bff09227f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882e1b1b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>Training Technology Support</target_name>
+<type>Group</type>
+<update_domain>global</update_domain>
+<update_guid>1f93d960969a5a108cc231fdb343ea67</update_guid>
+<update_guid_history>1f93d960969a5a108cc231fdb343ea67:133730787,191a8d24a75a5a1087ca4b3402d0f85e:133730787</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_0f149da0219a5a107f44387bff092270</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="incident">service_offering=9c990924215a5a107f44387bff092212^EQ<item display_table="service_offering" display_value="Infinity (HHD)" endquery="false" field="service_offering" goto="false" newquery="false" operator="=" or="false" value="9c990924215a5a107f44387bff092212"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_type>allow</decision_type><description> u_holographic_handheld_hhd_user role required to read HHD incident records</description><local_or_existing>Local</local_or_existing><name>incident</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:26:30</sys_created_on><sys_id>0f149da0219a5a107f44387bff092270</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_0f149da0219a5a107f44387bff092270</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:26:30</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1398325376</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>7c869a6821de5a107f44387bff09227b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938831e0d50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table>incident</table>
+<target_name>incident</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>6f8411e09c9a5a10cedd536ce169b833</update_guid>
+<update_guid_history>6f8411e09c9a5a10cedd536ce169b833:1398325376</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_e80a4164215a5a107f44387bff09229f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="Training Technology Support" name="Training Technology Support">a6d98d24215a5a107f44387bff092241</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:40:25</sys_created_on><sys_id>e80a4164215a5a107f44387bff09229f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:40:25</sys_updated_on><user display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>-741971262</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>7c869a6821de5a107f44387bff09227e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882e1bec0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>Beth Anglin.Training Technology Support</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>d79351a02d9a5a10f2f72fb7b64f9b75</update_guid>
+<update_guid_history>d79351a02d9a5a10f2f72fb7b64f9b75:-741971262,111a05644b5a5a1090e77b946eedc621:-741971262</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_ef2245a8211a5a107f44387bff092243</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint>Holographic Handheld Devices</hint><name/><order>100</order><roles>u_holographic_handheld_hhd_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:06:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ef2245a8211a5a107f44387bff092243</sys_id><sys_mod_count>1</sys_mod_count><sys_name>HHD</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_ef2245a8211a5a107f44387bff092243</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:19:54</sys_updated_on><title>HHD</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>-2026446464</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>b0869a6821de5a107f44387bff09227a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882bd54f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>HHD</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>fe03d160ef9a5a10f234a04e360faca3</update_guid>
+<update_guid_history>fe03d160ef9a5a10f234a04e360faca3:-2026446464,6242c5a84d1a5a10eb01edde7e49105b:493406698</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_60249da0219a5a107f44387bff0922fe</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:26:30</sys_created_on><sys_id>60249da0219a5a107f44387bff0922fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">0f149da0219a5a107f44387bff092270</sys_security_acl><sys_update_name>sys_security_acl_role_60249da0219a5a107f44387bff0922fe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:26:30</sys_updated_on><sys_user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">a4cc09e4215a5a107f44387bff0922b1</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>823824071</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>b0869a6821de5a107f44387bff09227d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938831e0a30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table>0f149da0219a5a107f44387bff092270</table>
+<target_name>.u_holographic_handheld_hhd_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>278411e07e9a5a10db513d5a2150c02f</update_guid>
+<update_guid_history>278411e07e9a5a10db513d5a2150c02f:823824071</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_fb651d24219a5a107f44387bff0922cd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on u_cmdb_ci_hardware_hhd</description><local_or_existing>Local</local_or_existing><name>u_cmdb_ci_hardware_hhd.asset_tag</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:30:20</sys_created_on><sys_id>fb651d24219a5a107f44387bff0922cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd.asset_tag</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_fb651d24219a5a107f44387bff0922cd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:30:20</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-876720422</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>b4869a6821de5a107f44387bff09227c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883564da0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd.asset_tag</table>
+<target_name>u_cmdb_ci_hardware_hhd.asset_tag</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>3f651d24119a5a10fb838e1ce2de5fcf</update_guid>
+<update_guid_history>3f651d24119a5a10fb838e1ce2de5fcf:-876720422</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_group_11955164219a5a107f44387bff09220c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group"><sys_user_group action="INSERT_OR_UPDATE"><active>true</active><cost_center/><default_assignee/><description/><email/><exclude_manager>false</exclude_manager><include_members>false</include_members><manager/><name>HHD Asset Taggers</name><parent/><points>0</points><roles/><source/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:31:09</sys_created_on><sys_id>11955164219a5a107f44387bff09220c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:31:09</sys_updated_on><type/></sys_user_group></record_update>]]></payload>
+<payload_hash>1033734103</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>b4869a6821de5a107f44387bff09227f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938836ac060000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>HHD Asset Taggers</target_name>
+<type>Group</type>
+<update_domain>global</update_domain>
+<update_guid>1cc59d24dc9a5a107c937a4562cfb1af</update_guid>
+<update_guid_history>1cc59d24dc9a5a107c937a4562cfb1af:1033734103</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_group_has_role_fe0a8164215a5a107f44387bff0922a4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_group_has_role"><sys_group_has_role action="INSERT_OR_UPDATE"><granted_by/><group display_value="Training Technology Support" name="Training Technology Support">a6d98d24215a5a107f44387bff092241</group><inherits>true</inherits><role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</role><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:40:35</sys_created_on><sys_id>fe0a8164215a5a107f44387bff0922a4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:40:35</sys_updated_on></sys_group_has_role></record_update>]]></payload>
+<payload_hash>-1142514662</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>b8869a6821de5a107f44387bff09227b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882e1b520000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>itil.Training Technology Support</target_name>
+<type>Group Role</type>
+<update_domain>global</update_domain>
+<update_guid>5f9351a0c19a5a1061b3c892b98c586f</update_guid>
+<update_guid_history>5f9351a0c19a5a1061b3c892b98c586f:-1142514662,dd1a8d249f5a5a10f3bc15461f638360:-1142514662</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_e80a4164215a5a107f44387bff09229b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="Training Technology Support" name="Training Technology Support">a6d98d24215a5a107f44387bff092241</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:40:25</sys_created_on><sys_id>e80a4164215a5a107f44387bff09229b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:40:25</sys_updated_on><user display_value="Annette Frietas">62826bf03710200044e0bfc8bcbe5de8</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>1571750479</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>b8869a6821de5a107f44387bff09227e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882e1bd50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>Annette Frietas.Training Technology Support</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>1f9351a0149a5a109aa8e047fdbe4d73</update_guid>
+<update_guid_history>1f9351a0149a5a109aa8e047fdbe4d73:1571750479,9d1a0564eb5a5a10e916d40f8cff171e:1571750479</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_group_has_role_62a59164219a5a107f44387bff09229d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_group_has_role"><sys_group_has_role action="INSERT_OR_UPDATE"><granted_by/><group display_value="HHD Asset Taggers" name="HHD Asset Taggers">11955164219a5a107f44387bff09220c</group><inherits>true</inherits><role display_value="u_hhd_asset_tagger" name="u_hhd_asset_tagger">86259524219a5a107f44387bff092294</role><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:31:21</sys_created_on><sys_id>62a59164219a5a107f44387bff09229d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:31:21</sys_updated_on></sys_group_has_role></record_update>]]></payload>
+<payload_hash>-359680601</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>bc869a6821de5a107f44387bff09227a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938836ac230000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>u_hhd_asset_tagger.HHD Asset Taggers</target_name>
+<type>Group Role</type>
+<update_domain>global</update_domain>
+<update_guid>50c59d24569a5a10f118ac5e67b7ceb2</update_guid>
+<update_guid_history>50c59d24569a5a10f118ac5e67b7ceb2:-359680601</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_0ab5d164219a5a107f44387bff09228f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="HHD Asset Taggers" name="HHD Asset Taggers">11955164219a5a107f44387bff09220c</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:31:35</sys_created_on><sys_id>0ab5d164219a5a107f44387bff09228f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:31:35</sys_updated_on><user display_value="Annette Frietas">62826bf03710200044e0bfc8bcbe5de8</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>1637953759</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>bc869a6821de5a107f44387bff09227d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938836ac3d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>Annette Frietas.HHD Asset Taggers</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>14c59d24389a5a10ec661263317656b4</update_guid>
+<update_guid_history>14c59d24389a5a10ec661263317656b4:1637953759</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_b7b4dda0219a5a107f44387bff092210</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="incident">service_offering=9c990924215a5a107f44387bff092212^EQ<item display_table="service_offering" display_value="Infinity (HHD)" endquery="false" field="service_offering" goto="false" newquery="false" operator="=" or="false" value="9c990924215a5a107f44387bff092212"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_type>allow</decision_type><description>u_holographic_handheld_hhd_user role required to write HHD incident records</description><local_or_existing>Local</local_or_existing><name>incident</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:27:20</sys_created_on><sys_id>b7b4dda0219a5a107f44387bff092210</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_b7b4dda0219a5a107f44387bff092210</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:27:20</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1094578467</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>f0869a6821de5a107f44387bff09227c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938832a34b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table>incident</table>
+<target_name>incident</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>bbb4dda09e9a5a107184b075e8fe9412</update_guid>
+<update_guid_history>bbb4dda09e9a5a107184b075e8fe9412:-1094578467</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_e80a4164215a5a107f44387bff0922a3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="Training Technology Support" name="Training Technology Support">a6d98d24215a5a107f44387bff092241</group><points>0</points><scrum_role/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:40:25</sys_created_on><sys_id>e80a4164215a5a107f44387bff0922a3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:40:25</sys_updated_on><user display_value="David Loo">5137153cc611227c000bbd1bd8cd2007</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>349489875</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>f0869a6821de5a107f44387bff09227f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882e1c1c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>David Loo.Training Technology Support</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>5f9351a0849a5a10222cd9098dfb1b78</update_guid>
+<update_guid_history>5f9351a0849a5a10222cd9098dfb1b78:349489875,151a0564015a5a10ef37963eb8869225:349489875</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_05d395a0219a5a107f44387bff0922fd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag/><assigned/><assigned_to/><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location/><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Test Annette</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number/><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>annette.frietas</sys_created_by><sys_created_on>2024-12-02 16:23:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>05d395a0219a5a107f44387bff0922fd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>annette.frietas</sys_updated_by><sys_updated_on>2024-12-02 16:23:32</sys_updated_on><u_firmware_version/><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>1269517955</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>f48612a821de5a107f44387bff0922dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882f65970000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>Test Annette</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>fbe355a0249a5a1016ec5ed5284a38c9</update_guid>
+<update_guid_history>fbe355a0249a5a1016ec5ed5284a38c9:1269517955</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_group_has_role_e693dd60219a5a107f44387bff0922f9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_group_has_role"><sys_group_has_role action="INSERT_OR_UPDATE"><granted_by/><group display_value="Training Technology Support" name="Training Technology Support">a6d98d24215a5a107f44387bff092241</group><inherits>true</inherits><role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">a4cc09e4215a5a107f44387bff0922b1</role><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:22:20</sys_created_on><sys_id>e693dd60219a5a107f44387bff0922f9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:22:20</sys_updated_on></sys_group_has_role></record_update>]]></payload>
+<payload_hash>819335875</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>f4869a6821de5a107f44387bff09227b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882e1bb70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>u_holographic_handheld_hhd_user.Training Technology Support</target_name>
+<type>Group Role</type>
+<update_domain>global</update_domain>
+<update_guid>5b9351a0159a5a107c161f4badf99271</update_guid>
+<update_guid_history>5b9351a0159a5a107c161f4badf99271:819335875</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_d6266bb0c0a8016700a1121231cdd959</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="Service Desk" name="Service Desk">d625dccec0a8016700a222a0f7900d06</group><points>0</points><scrum_role/><sys_created_by>glide.maint</sys_created_by><sys_created_on>2015-04-08 00:15:21</sys_created_on><sys_id>d6266bb0c0a8016700a1121231cdd959</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>glide.maint</sys_updated_by><sys_updated_on>2015-04-08 00:15:21</sys_updated_on><user display_value="ITIL User">681b365ec0a80164000fb0b05854a0cd</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>1901754026</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>f4869a6821de5a107f44387bff09227e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882dc3740000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>ITIL User.Service Desk</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>fd83dd60659a5a10e0f79816088f0608</update_guid>
+<update_guid_history>fd83dd60659a5a10e0f79816088f0608:1901754026</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_group_has_role_4282e20f88e59d107f444d125260617c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_group_has_role"><sys_group_has_role action="INSERT_OR_UPDATE"><granted_by/><group display_value="Service Desk" name="Service Desk">d625dccec0a8016700a222a0f7900d06</group><inherits>true</inherits><role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</role><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-31 01:00:18</sys_created_on><sys_id>4282e20f88e59d107f444d125260617c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-31 01:00:18</sys_updated_on></sys_group_has_role></record_update>]]></payload>
+<payload_hash>441052617</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>f8869a6821de5a107f44387bff09227a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193882dc2f20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table/>
+<target_name>itil.Service Desk</target_name>
+<type>Group Role</type>
+<update_domain>global</update_domain>
+<update_guid>3183d960cd9a5a10d8fee6dcb212bdfb</update_guid>
+<update_guid_history>3183d960cd9a5a10d8fee6dcb212bdfb:441052617</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_fccc8168215a5a107f44387bff09229b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:27</sys_created_on><sys_id>fccc8168215a5a107f44387bff09229b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_cmdb_ci_hardware_hhd">b8cc8168215a5a107f44387bff092298</sys_security_acl><sys_update_name>sys_security_acl_role_fccc8168215a5a107f44387bff09229b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:52:27</sys_updated_on><sys_user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">a4cc09e4215a5a107f44387bff0922b1</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-876441781</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>f8869a6821de5a107f44387bff09227d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883563dc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>bf651d248a9a5a10a911f689c0b82ec8</update_guid>
+<update_guid_history>bf651d248a9a5a10a911f689c0b82ec8:-876441781,70cc8168235a5a10a9fe321d6f4e229e:-1484442817</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_38f45de0219a5a107f44387bff0922a6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:28:21</sys_created_on><sys_id>38f45de0219a5a107f44387bff0922a6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident.u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="incident">3be41124219a5a107f44387bff0922ad</sys_security_acl><sys_update_name>sys_security_acl_role_38f45de0219a5a107f44387bff0922a6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:28:21</sys_updated_on><sys_user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">a4cc09e4215a5a107f44387bff0922b1</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1463113552</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.2.1">fc869a6821de5a107f44387bff092279</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:40</sys_created_on>
+<sys_id>fc869a6821de5a107f44387bff09227c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883394160000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:40</sys_updated_on>
+<table>incident</table>
+<target_name>incident.u_holographic_handheld_hhd_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>32f451246d9a5a109a351cb760968ee4</update_guid>
+<update_guid_history>32f451246d9a5a109a351cb760968ee4:1463113552</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

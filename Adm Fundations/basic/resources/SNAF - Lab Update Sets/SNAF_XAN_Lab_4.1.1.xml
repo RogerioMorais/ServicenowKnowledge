@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-12-02 21:14:19">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Created HHD Table, added fields, list and form view, new Module and updated HHD and Assignees module</description>
+<inserted/>
+<name>SNAF_XAN_Lab_4.1.1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>941c49e4215a5a107f44387bff09222a</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>2366d66821de5a107f44387bff09221c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_fccc8168215a5a107f44387bff09229b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:27</sys_created_on><sys_id>fccc8168215a5a107f44387bff09229b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_cmdb_ci_hardware_hhd">b8cc8168215a5a107f44387bff092298</sys_security_acl><sys_update_name>sys_security_acl_role_fccc8168215a5a107f44387bff09229b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:52:27</sys_updated_on><sys_user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">a4cc09e4215a5a107f44387bff0922b1</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1484442817</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>2366d66821de5a107f44387bff09221f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938812b3cf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>70cc8168235a5a10a9fe321d6f4e229e</update_guid>
+<update_guid_history>70cc8168235a5a10a9fe321d6f4e229e:-1484442817</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_fccc8168215a5a107f44387bff092291</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on u_cmdb_ci_hardware_hhd</description><local_or_existing>Local</local_or_existing><name>u_cmdb_ci_hardware_hhd</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:27</sys_created_on><sys_id>fccc8168215a5a107f44387bff092291</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_fccc8168215a5a107f44387bff092291</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:52:27</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-553517416</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>2766d66821de5a107f44387bff09221e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938812b3730000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>30cc81681d5a5a1071e0b3d264c35194</update_guid>
+<update_guid_history>30cc81681d5a5a1071e0b3d264c35194:-553517416</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cmdb_ci_hardware_hhd__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Holographic Handheld HHD" language="en" table="u_cmdb_ci_hardware_hhd"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Holographic Handheld HHD</label><language>en</language><name>u_cmdb_ci_hardware_hhd</name><plural>Holographic Handheld HHDs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:27</sys_created_on><sys_id>f8cc8168215a5a107f44387bff0922b3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Holographic Handheld HHD</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cmdb_ci_hardware_hhd__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:52:27</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-828990827</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>2b66d66821de5a107f44387bff09221d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938812bfa00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>65ccc1687e5a5a1089dd945b08dbbf6a</update_guid>
+<update_guid_history>65ccc1687e5a5a1089dd945b08dbbf6a:-828990827</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cmdb_ci_hardware_hhd_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" extends="cmdb_ci_hardware" table="u_cmdb_ci_hardware_hhd"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_cmdb_ci_hardware_hhd&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 15:52:27&lt;/sys_created_on&gt;&lt;sys_id&gt;30cc8168215a5a107f44387bff0922a6&lt;/sys_id&gt;&lt;sys_name&gt;u_cmdb_ci_hardware_hhd&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_cmdb_ci_hardware_hhd_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 15:52:27&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>605698090</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>2f66d66821de5a107f44387bff09221c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938812bf800000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>6dccc1681e5a5a105b6500d5b80d7866</update_guid>
+<update_guid_history>6dccc1681e5a5a105b6500d5b80d7866:605698090</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_3a5d41a8215a5a107f44387bff0922fd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="3a5d41a8215a5a107f44387bff0922fd" sys_domain="global" table="u_cmdb_ci_hardware_hhd" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:59:36</sys_created_on><sys_id>a16e09e8215a5a107f44387bff092267</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">3a5d41a8215a5a107f44387bff0922fd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:59:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>serial_number</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:59:36</sys_created_on><sys_id>a96e09e8215a5a107f44387bff092267</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">3a5d41a8215a5a107f44387bff0922fd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:59:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>asset_tag</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:59:36</sys_created_on><sys_id>a16e09e8215a5a107f44387bff092268</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">3a5d41a8215a5a107f44387bff0922fd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:59:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_firmware_version</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:59:36</sys_created_on><sys_id>a96e09e8215a5a107f44387bff092268</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">3a5d41a8215a5a107f44387bff0922fd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:59:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>support_group</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:59:36</sys_created_on><sys_id>a16e09e8215a5a107f44387bff092269</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">3a5d41a8215a5a107f44387bff0922fd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:59:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>install_date</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:59:36</sys_created_on><sys_id>a96e09e8215a5a107f44387bff092269</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">3a5d41a8215a5a107f44387bff0922fd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:59:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>install_status</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:59:36</sys_created_on><sys_id>a16e09e8215a5a107f44387bff09226a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">3a5d41a8215a5a107f44387bff0922fd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:59:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:59:36</sys_created_on><sys_id>a96e09e8215a5a107f44387bff09226a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">3a5d41a8215a5a107f44387bff0922fd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:59:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:59:36</sys_created_on><sys_id>a16e09e8215a5a107f44387bff09226b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">3a5d41a8215a5a107f44387bff0922fd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:59:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to.email</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:59:36</sys_created_on><sys_id>a96e09e8215a5a107f44387bff09226b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">3a5d41a8215a5a107f44387bff0922fd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:59:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>fault_count</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:59:36</sys_created_on><sys_id>a16e09e8215a5a107f44387bff09226c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">3a5d41a8215a5a107f44387bff0922fd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:59:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>true</header><name>u_cmdb_ci_hardware_hhd</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:55:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3a5d41a8215a5a107f44387bff0922fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_3a5d41a8215a5a107f44387bff0922fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:55:03</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>660045331</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>2f66d66821de5a107f44387bff09221f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388193f280000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>a16e09e8ce5a5a10ddde036b905cf66e</update_guid>
+<update_guid_history>a16e09e8ce5a5a10ddde036b905cf66e:660045331,9c1e01e8ea5a5a102a0790b81b4440fd:-322586044,101e01e8fe5a5a103edfbc28478e16a8:894261789</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_e4cc8168215a5a107f44387bff09226f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on u_cmdb_ci_hardware_hhd</description><local_or_existing>Local</local_or_existing><name>u_cmdb_ci_hardware_hhd</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:26</sys_created_on><sys_id>e4cc8168215a5a107f44387bff09226f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_e4cc8168215a5a107f44387bff09226f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:52:26</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>94648164</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>6366d66821de5a107f44387bff09221e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938812b2790000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>a0cc8168ca5a5a10701c11ec5df1f673</update_guid>
+<update_guid_history>a0cc8168ca5a5a10701c11ec5df1f673:94648164</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cmdb_ci_hardware_hhd_u_firmware_version_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_firmware_version" label="Firmware version" language="en" table="u_cmdb_ci_hardware_hhd"><sys_documentation action="INSERT_OR_UPDATE"><element>u_firmware_version</element><help/><hint/><label>Firmware version</label><language>en</language><name>u_cmdb_ci_hardware_hhd</name><plural>Firmware versions</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:58</sys_created_on><sys_id>1cec0968215a5a107f44387bff092219</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Firmware version</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cmdb_ci_hardware_hhd_u_firmware_version_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:52:58</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>2119256753</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>6766d66821de5a107f44387bff09221d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388132ffc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD.Firmware version</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>60ec0968ea5a5a10dff9cdb90a977130</update_guid>
+<update_guid_history>60ec0968ea5a5a10dff9cdb90a977130:2119256753</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_728c4d28215a5a107f44387bff0922f6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Holographic Handheld HHD</label><live_feed_enabled>false</live_feed_enabled><name>u_cmdb_ci_hardware_hhd</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Hardware" name="cmdb_ci_hardware">447f0141834212107f44fd2d4eda1e4d</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:26</sys_created_on><sys_id>728c4d28215a5a107f44387bff0922f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Holographic Handheld HHD</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_728c4d28215a5a107f44387bff0922f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:52:26</sys_updated_on><update_access>false</update_access><user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">a4cc09e4215a5a107f44387bff0922b1</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1185014632</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>6b66d66821de5a107f44387bff09221c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938812bfb00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>a1ccc168435a5a10db635dfda4f87e6c</update_guid>
+<update_guid_history>a1ccc168435a5a10db635dfda4f87e6c:-1185014632</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_e4cc8168215a5a107f44387bff09226b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HHD">20cc8168215a5a107f44387bff092268</application><filter/><name>Holographic Handheld HHDs</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_holographic_handheld_hhd_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e4cc8168215a5a107f44387bff09226b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Holographic Handheld HHDs</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_e4cc8168215a5a107f44387bff09226b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:52:26</sys_updated_on><table>u_cmdb_ci_hardware_hhd</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>458292977</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>6b66d66821de5a107f44387bff09221f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938812b23e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHDs</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>eccc8168455a5a101e7fc0a40208976d</update_guid>
+<update_guid_history>eccc8168455a5a101e7fc0a40208976d:458292977</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_b8cc8168215a5a107f44387bff0922a2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:27</sys_created_on><sys_id>b8cc8168215a5a107f44387bff0922a2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_cmdb_ci_hardware_hhd">74cc8168215a5a107f44387bff09229f</sys_security_acl><sys_update_name>sys_security_acl_role_b8cc8168215a5a107f44387bff0922a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:52:27</sys_updated_on><sys_user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">a4cc09e4215a5a107f44387bff0922b1</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-185211094</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>6f66d66821de5a107f44387bff09221e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938812b44c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>3ccc81686a5a5a100a8fcd7a4dcbeda4</update_guid>
+<update_guid_history>3ccc81686a5a5a100a8fcd7a4dcbeda4:-185211094</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cmdb_ci_hardware_hhd_sys_class_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="sys_class_name" label="Class" language="en" table="u_cmdb_ci_hardware_hhd"><sys_documentation action="INSERT_OR_UPDATE"><element>sys_class_name</element><help/><hint/><label>Class</label><language>en</language><name>u_cmdb_ci_hardware_hhd</name><plural>Class</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:29</sys_created_on><sys_id>1dccc168215a5a107f44387bff092212</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Class</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cmdb_ci_hardware_hhd_sys_class_name_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:52:29</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>641534186</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>a366d66821de5a107f44387bff09221d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938812bf920000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD.Class</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>a9ccc168c45a5a10a11abd43ced65868</update_guid>
+<update_guid_history>a9ccc168c45a5a10a11abd43ced65868:641534186</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_3eaecde8215a5a107f44387bff092259</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HHD">ef2245a8211a5a107f44387bff092243</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_cmdb_ci_hardware_hhd</name><order>100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:01:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3eaecde8215a5a107f44387bff092259</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_3eaecde8215a5a107f44387bff092259</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:01:16</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>532676886</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>a766d66821de5a107f44387bff09221c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193881ac5690000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Create New</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>f5ce412c5c5a5a10ae28ed5c301182ae</update_guid>
+<update_guid_history>f5ce412c5c5a5a10ae28ed5c301182ae:532676886</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_u_cmdb_ci_hardware_hhd_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_cmdb_ci_hardware_hhd" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>name</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0b9e4de8215a5a107f44387bff092262</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:00:31</sys_created_on><sys_id>839e4de8215a5a107f44387bff092263</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:00:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>serial_number</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0b9e4de8215a5a107f44387bff092262</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:00:31</sys_created_on><sys_id>879e4de8215a5a107f44387bff092263</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:00:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>asset_tag</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0b9e4de8215a5a107f44387bff092262</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:00:31</sys_created_on><sys_id>8b9e4de8215a5a107f44387bff092263</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:00:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_firmware_version</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0b9e4de8215a5a107f44387bff092262</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:00:31</sys_created_on><sys_id>8f9e4de8215a5a107f44387bff092263</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:00:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>support_group</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0b9e4de8215a5a107f44387bff092262</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:00:31</sys_created_on><sys_id>839e4de8215a5a107f44387bff092264</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:00:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>install_date</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0b9e4de8215a5a107f44387bff092262</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:00:31</sys_created_on><sys_id>879e4de8215a5a107f44387bff092264</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:00:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>install_status</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0b9e4de8215a5a107f44387bff092262</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:00:31</sys_created_on><sys_id>8b9e4de8215a5a107f44387bff092264</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:00:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>assigned_to</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0b9e4de8215a5a107f44387bff092262</list_id><max_value>false</max_value><min_value>false</min_value><position>7</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:00:31</sys_created_on><sys_id>8f9e4de8215a5a107f44387bff092264</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:00:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>assigned_to.email</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0b9e4de8215a5a107f44387bff092262</list_id><max_value>false</max_value><min_value>false</min_value><position>8</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:00:31</sys_created_on><sys_id>839e4de8215a5a107f44387bff092265</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:00:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>comments</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0b9e4de8215a5a107f44387bff092262</list_id><max_value>false</max_value><min_value>false</min_value><position>9</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:00:31</sys_created_on><sys_id>879e4de8215a5a107f44387bff092265</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:00:31</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_cmdb_ci_hardware_hhd</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:00:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0b9e4de8215a5a107f44387bff092262</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_u_cmdb_ci_hardware_hhd_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:00:31</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>1141704664</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>a766d66821de5a107f44387bff09221f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193881a19150000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>479e4de8f35a5a108707bc1dc6606cf0</update_guid>
+<update_guid_history>479e4de8f35a5a108707bc1dc6606cf0:1141704664,515d41a8415a5a105b9453e868b7e8f9:-1024063801</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_74cc8168215a5a107f44387bff09228d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:27</sys_created_on><sys_id>74cc8168215a5a107f44387bff09228d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_cmdb_ci_hardware_hhd">e4cc8168215a5a107f44387bff09226f</sys_security_acl><sys_update_name>sys_security_acl_role_74cc8168215a5a107f44387bff09228d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:52:27</sys_updated_on><sys_user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">a4cc09e4215a5a107f44387bff0922b1</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1168762389</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>ab66d66821de5a107f44387bff09221e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938812b3260000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>78cc8168775a5a10bd6444dde0fc4490</update_guid>
+<update_guid_history>78cc8168775a5a10bd6444dde0fc4490:1168762389</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_b8cc8168215a5a107f44387bff092298</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on u_cmdb_ci_hardware_hhd</description><local_or_existing>Local</local_or_existing><name>u_cmdb_ci_hardware_hhd</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:27</sys_created_on><sys_id>b8cc8168215a5a107f44387bff092298</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_b8cc8168215a5a107f44387bff092298</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:52:27</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>688663828</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>af66d66821de5a107f44387bff09221d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938812b3af0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>f8cc81688b5a5a102e90a290223c9c9a</update_guid>
+<update_guid_history>f8cc81688b5a5a102e90a290223c9c9a:688663828</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_2ccc8168215a5a107f44387bff092264</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HHD">ef2245a8211a5a107f44387bff092243</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Holographic Handheld HHDs</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_cmdb_ci_hardware_hhd</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>u_holographic_handheld_hhd_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2ccc8168215a5a107f44387bff092264</sys_id><sys_mod_count>1</sys_mod_count><sys_name>HHDs and Assignees</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_2ccc8168215a5a107f44387bff092264</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:01:34</sys_updated_on><timeline_page/><title>HHDs and Assignees</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>134049573</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>e366d66821de5a107f44387bff09221c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193881b0e360000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>HHDs and Assignees</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>9ade89e8735a5a10d75f9c041df0ff79</update_guid>
+<update_guid_history>9ade89e8735a5a10d75f9c041df0ff79:134049573,68cc8168b35a5a106df4427ac8527366:230413861</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_20cc8168215a5a107f44387bff092268</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>HHD</name><order/><roles>itil</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>20cc8168215a5a107f44387bff092268</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HHD</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_20cc8168215a5a107f44387bff092268</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:52:26</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>1715219909</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>e366d66821de5a107f44387bff09221f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938812b1c90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table/>
+<target_name>HHD</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>a0cc8168a05a5a1025742e62e9b0146a</update_guid>
+<update_guid_history>a0cc8168a05a5a1025742e62e9b0146a:1715219909</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_34cc8168215a5a107f44387bff092295</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:27</sys_created_on><sys_id>34cc8168215a5a107f44387bff092295</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_cmdb_ci_hardware_hhd">fccc8168215a5a107f44387bff092291</sys_security_acl><sys_update_name>sys_security_acl_role_34cc8168215a5a107f44387bff092295</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:52:27</sys_updated_on><sys_user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">a4cc09e4215a5a107f44387bff0922b1</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-496984865</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>e766d66821de5a107f44387bff09221e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938812b3910000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>b4cc8168145a5a1099c6353aa11bb697</update_guid>
+<update_guid_history>b4cc8168145a5a1099c6353aa11bb697:-496984865</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_74cc8168215a5a107f44387bff09229f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on u_cmdb_ci_hardware_hhd</description><local_or_existing>Local</local_or_existing><name>u_cmdb_ci_hardware_hhd</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:27</sys_created_on><sys_id>74cc8168215a5a107f44387bff09229f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_74cc8168215a5a107f44387bff09229f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:52:27</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1437382974</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>eb66d66821de5a107f44387bff09221d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938812b3f90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>b4cc8168e15a5a10a0a25eae8ddd06a1</update_guid>
+<update_guid_history>b4cc8168e15a5a10a0a25eae8ddd06a1:-1437382974</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cmdb_ci_hardware_hhd_u_firmware_version</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_firmware_version" table="u_cmdb_ci_hardware_hhd"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Firmware version&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_firmware_version&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_cmdb_ci_hardware_hhd&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 15:52:58&lt;/sys_created_on&gt;&lt;sys_id&gt;2cdc8568215a5a107f44387bff0922a1&lt;/sys_id&gt;&lt;sys_name&gt;Firmware version&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_cmdb_ci_hardware_hhd_u_firmware_version&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 15:52:58&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1050197240</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>ef66d66821de5a107f44387bff09221c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388132feb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD.Firmware version</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>6cec0968e85a5a10ff0b65ac867d2521</update_guid>
+<update_guid_history>6cec0968e85a5a10ff0b65ac867d2521:1050197240</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_a4cc09e4215a5a107f44387bff0922b1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_holographic_handheld_hhd_user</name><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 15:52:26</sys_created_on><sys_id>a4cc09e4215a5a107f44387bff0922b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_a4cc09e4215a5a107f44387bff0922b1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 15:52:26</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-1135482817</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.1.1">2366d66821de5a107f44387bff09221c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:19</sys_created_on>
+<sys_id>ef66d66821de5a107f44387bff09221f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938812b0b00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:19</sys_updated_on>
+<table/>
+<target_name>u_holographic_handheld_hhd_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>e4cc8168525a5a102b300926bb18a35d</update_guid>
+<update_guid_history>e4cc8168525a5a102b300926bb18a35d:-1135482817</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

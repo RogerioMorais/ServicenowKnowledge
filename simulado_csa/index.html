@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CSA ServiceNow Simulator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>CSA ServiceNow Simulator</h1>
+    <div class="controls">
+      <label>Number of questions: <input id="numQuestions" type="number" value="30" min="5" max="60" /></label>
+      <label>Duration (minutes): <input id="durationMin" type="number" value="60" min="5" max="240" /></label>
+      <button id="startBtn">Start Exam</button>
+      <button id="resumeBtn" style="display:none">Resume</button>
+    </div>
+
+    <div id="exam" style="display:none">
+      <div class="timer">Time left: <span id="timeLeft">00:00:00</span></div>
+      <div id="progress">Question <span id="currentIndex">0</span>/<span id="totalQuestions">0</span></div>
+      <div id="questionCard"></div>
+      <div class="nav">
+        <button id="prevBtn">Previous</button>
+        <button id="nextBtn">Next</button>
+        <button id="submitBtn">Submit Exam</button>
+      </div>
+    </div>
+
+    <div id="result" style="display:none"></div>
+
+    <div id="log" class="log"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

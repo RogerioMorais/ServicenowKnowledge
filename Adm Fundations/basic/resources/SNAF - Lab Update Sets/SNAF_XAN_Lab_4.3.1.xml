@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-12-02 21:14:59">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Create HHD Import Transform Map with Deveice Number Coalesce , 19 HHD Records</description>
+<inserted/>
+<name>SNAF_XAN_Lab_4.3.1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>c676d5a4219a5a107f44387bff0922ee</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>15965e6821de5a107f44387bff0922c3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_032795e4219a5a107f44387bff092203</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Hhd Imports</label><live_feed_enabled>false</live_feed_enabled><name>u_hhd_imports</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">b0cc05c1830212107f44fd2d4eda1e59</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:37:56</sys_created_on><sys_id>032795e4219a5a107f44387bff092203</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hhd Imports</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_032795e4219a5a107f44387bff092203</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:37:56</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>555938591</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>11965e6821de5a107f44387bff0922c4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883c6c3d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>Hhd Imports</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>d83795e4299a5a102f7350b3ce20f7f0</update_guid>
+<update_guid_history>d83795e4299a5a102f7350b3ce20f7f0:555938591</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_view_fdb61da4219a5a107f44387bff092203</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>import_validation</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:35:57</sys_created_on><sys_id>fdb61da4219a5a107f44387bff092203</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Import Validation</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_view_fdb61da4219a5a107f44387bff092203</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:35:57</sys_updated_on><title>Import Validation</title><user/></sys_ui_view></record_update>]]></payload>
+<payload_hash>-2083845974</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>11965e6821de5a107f44387bff0922c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883a86220000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Import Validation</target_name>
+<type>UI View</type>
+<update_domain>global</update_domain>
+<update_guid>35b61da4bf9a5a10032186453b4e1906</update_guid>
+<update_guid_history>35b61da4bf9a5a10032186453b4e1906:-2083845974</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_d618d928219a5a107f44387bff0922a5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00209</asset_tag><assigned/><assigned_to/><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="12760 Southwest Fwy, Stafford, TX">1e18d928219a5a107f44387bff0922a4</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Device</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>PAR0100100</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:41:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d618d928219a5a107f44387bff0922a5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:41:59</sys_updated_on><u_firmware_version>TD01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>-1626684779</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>11965e6821de5a107f44387bff0922ca</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388406fec0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Device</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>64385d28de9a5a10cbb3f3e16a5589b8</update_guid>
+<update_guid_history>64385d28de9a5a10cbb3f3e16a5589b8:-1626684779</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_8d67d5e4219a5a107f44387bff0922d9</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="HHD CI's"&gt;a64759e4219a5a107f44387bff0922a9&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_asset_tag&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_hhd_imports&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 16:38:53&lt;/sys_created_on&gt;&lt;sys_id&gt;8d67d5e4219a5a107f44387bff0922d9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_asset_tag&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_8d67d5e4219a5a107f44387bff0922d9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 16:38:53&lt;/sys_updated_on&gt;&lt;target_field&gt;asset_tag&lt;/target_field&gt;&lt;target_table&gt;u_cmdb_ci_hardware_hhd&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1267413273</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>15965e6821de5a107f44387bff0922c6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883d39590000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>u_asset_tag</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>0167d5e4559a5a10998f4b53a24ba0db</update_guid>
+<update_guid_history>0167d5e4559a5a10998f4b53a24ba0db:-1267413273</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_9e18d928219a5a107f44387bff0922a5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00210</asset_tag><assigned/><assigned_to display_value="Waldo Sisk">d2826bf03710200044e0bfc8bcbe5da5</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="10335 Lee Hwy, Fairfax, VA">5ab7d128219a5a107f44387bff09228a</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Device</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>PAR0100101</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:41:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9e18d928219a5a107f44387bff0922a5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:41:59</sys_updated_on><u_firmware_version>TD01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>-1943922121</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>15965e6821de5a107f44387bff0922c9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388406f830000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Device</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>6c385d28119a5a10d827c4456c2e65b1</update_guid>
+<update_guid_history>6c385d28119a5a10d827c4456c2e65b1:-1943922121</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_0167d5e4219a5a107f44387bff0922d6</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="HHD CI's"&gt;a64759e4219a5a107f44387bff0922a9&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_name&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_hhd_imports&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 16:38:53&lt;/sys_created_on&gt;&lt;sys_id&gt;0167d5e4219a5a107f44387bff0922d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_name&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_0167d5e4219a5a107f44387bff0922d6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 16:38:53&lt;/sys_updated_on&gt;&lt;target_field&gt;name&lt;/target_field&gt;&lt;target_table&gt;u_cmdb_ci_hardware_hhd&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1893756607</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>19965e6821de5a107f44387bff0922c5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883d38a50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>u_name</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>8967d5e4869a5a10214b155faadfe8d8</update_guid>
+<update_guid_history>8967d5e4869a5a10214b155faadfe8d8:-1893756607</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_92189928219a5a107f44387bff0922f3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00207</asset_tag><assigned/><assigned_to display_value="Kevin Edd">4a826bf03710200044e0bfc8bcbe5d7f</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="153 South Sierra Avenue, Solana Beach, CA">1eb7d128219a5a107f44387bff092287</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Device</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>CDE0100100</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:41:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>92189928219a5a107f44387bff0922f3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:41:59</sys_updated_on><u_firmware_version>TD01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>558020461</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>19965e6821de5a107f44387bff0922c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388406e9c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Device</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>60385d28d99a5a10ea2b7e6a784a6090</update_guid>
+<update_guid_history>60385d28d99a5a10ea2b7e6a784a6090:558020461</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hhd_imports_u_device_owner</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_device_owner" table="u_hhd_imports"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Device Owner</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Device Owner</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_device_owner</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_hhd_imports</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:37:57</sys_created_on><sys_id>572795e4219a5a107f44387bff09227a</sys_id><sys_name>Device Owner</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hhd_imports_u_device_owner</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:37:57</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>862843528</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>1d965e6821de5a107f44387bff0922c4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883c6f580000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>HHD Imports.Device Owner</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>6437d5e40f9a5a10c2dad7ef2da4a80b</update_guid>
+<update_guid_history>6437d5e40f9a5a10c2dad7ef2da4a80b:862843528</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_5218d928219a5a107f44387bff0922a8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00215</asset_tag><assigned/><assigned_to display_value="Lynette Setlock">7d826bf03710200044e0bfc8bcbe5d38</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="Via Nomentana 56, Rome">6a014ca93790200044e0bfc8bcbe5de9</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Device</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>CDE0100110</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:41:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5218d928219a5a107f44387bff0922a8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:41:59</sys_updated_on><u_firmware_version>TD01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>-190045251</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>1d965e6821de5a107f44387bff0922c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388406df80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Device</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>d4385d28e49a5a1009f2b5821fe3b889</update_guid>
+<update_guid_history>d4385d28e49a5a1009f2b5821fe3b889:-190045251</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_69a7d9e4219a5a107f44387bff0922b7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;true&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="HHD CI's"&gt;a64759e4219a5a107f44387bff0922a9&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_device_number&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_hhd_imports&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 16:40:01&lt;/sys_created_on&gt;&lt;sys_id&gt;69a7d9e4219a5a107f44387bff0922b7&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_device_number&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_69a7d9e4219a5a107f44387bff0922b7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 16:41:43&lt;/sys_updated_on&gt;&lt;target_field&gt;serial_number&lt;/target_field&gt;&lt;target_table&gt;u_cmdb_ci_hardware_hhd&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>923488461</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>51965e6821de5a107f44387bff0922c6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883fcfa50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>u_device_number</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>260815e4ed9a5a107f2ad9f505e6f88d</update_guid>
+<update_guid_history>260815e4ed9a5a107f2ad9f505e6f88d:923488461,6da7d9e49c9a5a106c2ecfa730eff3b8:-1485964496</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_9a18d928219a5a107f44387bff0922a7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00214</asset_tag><assigned/><assigned_to display_value="Helene Iberg">5e826bf03710200044e0bfc8bcbe5dc5</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="Bockenheimer Landstraße 223, Frankfurt">30fffb993790200044e0bfc8bcbe5dcc</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Device</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>CDE0100109</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:41:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9a18d928219a5a107f44387bff0922a7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:41:59</sys_updated_on><u_firmware_version>TD01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>-513219462</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>51965e6821de5a107f44387bff0922c9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388406f5d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Device</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>e8385d28fb9a5a1086eb440a1c8483af</update_guid>
+<update_guid_history>e8385d28fb9a5a1086eb440a1c8483af:-513219462</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hhd_imports_u_owner_location</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_owner_location" table="u_hhd_imports"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Owner Location</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Owner Location</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_owner_location</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>42</max_length><name>u_hhd_imports</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:37:59</sys_created_on><sys_id>bf2795e4219a5a107f44387bff09227e</sys_id><sys_name>Owner Location</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hhd_imports_u_owner_location</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:37:59</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>615538773</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>55965e6821de5a107f44387bff0922c5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883c71bb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>HHD Imports.Owner Location</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>a437d5e4969a5a10b62dcd2038548e10</update_guid>
+<update_guid_history>a437d5e4969a5a10b62dcd2038548e10:615538773</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_5618d928219a5a107f44387bff0922a6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00211</asset_tag><assigned/><assigned_to display_value="Waldo Sisk">d2826bf03710200044e0bfc8bcbe5da5</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="10335 Lee Hwy, Fairfax, VA">5ab7d128219a5a107f44387bff09228a</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Device</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>PAR0100102</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:41:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5618d928219a5a107f44387bff0922a6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:41:59</sys_updated_on><u_firmware_version>TD01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>-598646923</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>55965e6821de5a107f44387bff0922c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388406e6b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Device</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>5c385d28229a5a105ab4e972e5bf108d</update_guid>
+<update_guid_history>5c385d28229a5a105ab4e972e5bf108d:-598646923</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hhd_imports_u_device_number</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_device_number" table="u_hhd_imports"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Device Number</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Device Number</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_device_number</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_hhd_imports</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:37:57</sys_created_on><sys_id>932795e4219a5a107f44387bff09227c</sys_id><sys_name>Device Number</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hhd_imports_u_device_number</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:37:57</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>2069937566</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>59965e6821de5a107f44387bff0922c4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883c707c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>HHD Imports.Device Number</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>2037d5e4329a5a10a290cc48d79f0f0d</update_guid>
+<update_guid_history>2037d5e4329a5a10a290cc48d79f0f0d:2069937566</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_1e18d928219a5a107f44387bff0922a6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00212</asset_tag><assigned/><assigned_to display_value="Waldo Sisk">d2826bf03710200044e0bfc8bcbe5da5</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="10335 Lee Hwy, Fairfax, VA">5ab7d128219a5a107f44387bff09228a</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Device</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>PAR0100103</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:41:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1e18d928219a5a107f44387bff0922a6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:41:59</sys_updated_on><u_firmware_version>TD01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>746628275</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>59965e6821de5a107f44387bff0922c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388406dc00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Device</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>dc3899285b9a5a10cfab007cac313c9c</update_guid>
+<update_guid_history>dc3899285b9a5a10cfab007cac313c9c:746628275</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_de18d928219a5a107f44387bff0922a8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00217</asset_tag><assigned/><assigned_to display_value="Rita Center">f1826bf03710200044e0bfc8bcbe5d3c</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="2-10-1 Yurakucho, Chiyoda-ku, Tokyo">0002c0a93790200044e0bfc8bcbe5df5</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Device</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>CDE0100112</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:41:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>de18d928219a5a107f44387bff0922a8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:41:59</sys_updated_on><u_firmware_version>TD01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>-894430132</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>59965e6821de5a107f44387bff0922ca</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938840702e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Device</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>e8385d28439a5a108734a10c51bd43bc</update_guid>
+<update_guid_history>e8385d28439a5a108734a10c51bd43bc:-894430132</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_data_source_b62791e4219a5a107f44387bff0922a4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_data_source"&gt;&lt;sys_data_source action="INSERT_OR_UPDATE"&gt;&lt;batch_size&gt;1000&lt;/batch_size&gt;&lt;category/&gt;&lt;connection_override_last_success_time/&gt;&lt;connection_timeout&gt;0&lt;/connection_timeout&gt;&lt;connection_url&gt;attachment://sys_data_source:b62791e4219a5a107f44387bff0922a4/infinity_hhd-data.xlsx&lt;/connection_url&gt;&lt;connection_url_parameters/&gt;&lt;csv_delimiter/&gt;&lt;data_in_single_column&gt;false&lt;/data_in_single_column&gt;&lt;data_loader&gt;&lt;![CDATA[(function loadData(import_set_table, data_source, import_log, last_success_import_time, partition_info) {
+
+ // Add your code here to insert data to import_set_table 
+
+})(import_set_table, data_source, import_log, last_success_import_time, partition_info);]]&gt;&lt;/data_loader&gt;&lt;database_name/&gt;&lt;database_port/&gt;&lt;discard_arrays&gt;true&lt;/discard_arrays&gt;&lt;enable_parallel_loading&gt;false&lt;/enable_parallel_loading&gt;&lt;expand_node_children&gt;false&lt;/expand_node_children&gt;&lt;file_path&gt;infinity_hhd-data.xlsx&lt;/file_path&gt;&lt;file_retrieval_method&gt;Attachment&lt;/file_retrieval_method&gt;&lt;format&gt;Excel&lt;/format&gt;&lt;glide_keystore&gt;false&lt;/glide_keystore&gt;&lt;header_row&gt;1&lt;/header_row&gt;&lt;import_set_table_label/&gt;&lt;import_set_table_name&gt;u_hhd_imports&lt;/import_set_table_name&gt;&lt;instance_name/&gt;&lt;jdbc_password/&gt;&lt;jdbc_server/&gt;&lt;jdbc_user_name/&gt;&lt;jpath_root_node/&gt;&lt;last_run_database_field/&gt;&lt;last_run_datetime/&gt;&lt;last_success_import_time/&gt;&lt;ldap_target/&gt;&lt;ldapprobe_result_set_rows&gt;200&lt;/ldapprobe_result_set_rows&gt;&lt;limit/&gt;&lt;maximum_rows/&gt;&lt;mid_server/&gt;&lt;name&gt;infinity_hhd-data.xlsx (Uploaded)&lt;/name&gt;&lt;offset&gt;0&lt;/offset&gt;&lt;oracle_port&gt;1521&lt;/oracle_port&gt;&lt;oracle_sid&gt;orcl&lt;/oracle_sid&gt;&lt;parallel_loading_script&gt;&lt;![CDATA[(function loadTasks(parallel_job_loader, data_source, import_log, last_success_import_time) {
+
+	// Invoke third party API, create partitions and insert partitions info in parallel job table
+
+})(parallel_job_loader, data_source, import_log, last_success_import_time);]]&gt;&lt;/parallel_loading_script&gt;&lt;parsing_script&gt;&lt;![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"// The function uses result variable to return parse result back. (function(line,lineNumber,result) {	// add code here})(line,lineNumber,result);]]&gt;&lt;/parsing_script&gt;&lt;properties/&gt;&lt;query&gt;All Rows from Table&lt;/query&gt;&lt;query_timeout&gt;0&lt;/query_timeout&gt;&lt;request_action/&gt;&lt;scp_authentication&gt;Username and Password&lt;/scp_authentication&gt;&lt;scp_password/&gt;&lt;scp_port/&gt;&lt;scp_server/&gt;&lt;scp_user_name/&gt;&lt;sheet_name&gt;1&lt;/sheet_name&gt;&lt;sheet_number&gt;1&lt;/sheet_number&gt;&lt;sql_statement/&gt;&lt;ssh_keyfile_path/&gt;&lt;support_pagination&gt;false&lt;/support_pagination&gt;&lt;sys_class_name&gt;sys_data_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 16:37:55&lt;/sys_created_on&gt;&lt;sys_id&gt;b62791e4219a5a107f44387bff0922a4&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;infinity_hhd-data.xlsx (Uploaded)&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_data_source_b62791e4219a5a107f44387bff0922a4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 16:38:05&lt;/sys_updated_on&gt;&lt;table_name/&gt;&lt;type&gt;File&lt;/type&gt;&lt;use_batch_import&gt;false&lt;/use_batch_import&gt;&lt;use_integrated_authentication&gt;false&lt;/use_integrated_authentication&gt;&lt;use_last_run_datetime&gt;false&lt;/use_last_run_datetime&gt;&lt;xpath_root_node/&gt;&lt;zipped&gt;false&lt;/zipped&gt;&lt;/sys_data_source&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-88904853</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>5d965e6821de5a107f44387bff0922c3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883c7c970000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>infinity_hhd-data.xlsx (Uploaded)</target_name>
+<type>Data Source</type>
+<update_domain>global</update_domain>
+<update_guid>1d37d5e4b39a5a10d208722d63f86b83</update_guid>
+<update_guid_history>1d37d5e4b39a5a10d208722d63f86b83:-88904853,d137d5e44c9a5a109fc85224e866f382:390054570</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_u_cmdb_ci_hardware_hhd_import_validation</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_cmdb_ci_hardware_hhd" version="2" view="import_validation"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>serial_number</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="fdb61da4219a5a107f44387bff092203">0df651e4219a5a107f44387bff09228d</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:36:59</sys_created_on><sys_id>85f651e4219a5a107f44387bff09228e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:36:59</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>assigned_to.location</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="fdb61da4219a5a107f44387bff092203">0df651e4219a5a107f44387bff09228d</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:36:59</sys_created_on><sys_id>89f651e4219a5a107f44387bff09228e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:36:59</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>name</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="fdb61da4219a5a107f44387bff092203">0df651e4219a5a107f44387bff09228d</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:36:59</sys_created_on><sys_id>8df651e4219a5a107f44387bff09228e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:36:59</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>asset_tag</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="fdb61da4219a5a107f44387bff092203">0df651e4219a5a107f44387bff09228d</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:36:59</sys_created_on><sys_id>81f651e4219a5a107f44387bff09228f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:36:59</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_firmware_version</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="fdb61da4219a5a107f44387bff092203">0df651e4219a5a107f44387bff09228d</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:36:59</sys_created_on><sys_id>85f651e4219a5a107f44387bff09228f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:36:59</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>assigned_to</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="fdb61da4219a5a107f44387bff092203">0df651e4219a5a107f44387bff09228d</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:36:59</sys_created_on><sys_id>89f651e4219a5a107f44387bff09228f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:36:59</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_cmdb_ci_hardware_hhd</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:36:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0df651e4219a5a107f44387bff09228d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_u_cmdb_ci_hardware_hhd_import_validation</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:36:59</sys_updated_on><sys_user/><view display_value="Import Validation" name="import_validation">fdb61da4219a5a107f44387bff092203</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>-1461327282</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>5d965e6821de5a107f44387bff0922c6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883b78580000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>09f651e4239a5a1014f5231f820f4791</update_guid>
+<update_guid_history>09f651e4239a5a1014f5231f820f4791:-1461327282,ceb61da4789a5a10a484cb34d6875c0d:1427218254</update_guid_history>
+<update_set display_value=""/>
+<view>import_validation</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_d218d928219a5a107f44387bff0922a7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00213</asset_tag><assigned/><assigned_to display_value="Alissa Mountjoy">6a826bf03710200044e0bfc8bcbe5dec</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="Bockenheimer Landstraße 223, Frankfurt">30fffb993790200044e0bfc8bcbe5dcc</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Device</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>CDE0100108</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:41:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d218d928219a5a107f44387bff0922a7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:41:59</sys_updated_on><u_firmware_version>TD01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>620523841</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>5d965e6821de5a107f44387bff0922c9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388406fca0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Device</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>a0385d28b89a5a107347cfc80df807b6</update_guid>
+<update_guid_history>a0385d28b89a5a107347cfc80df807b6:620523841</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hhd_imports_u_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_name" table="u_hhd_imports"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Name</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_name</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_hhd_imports</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:37:59</sys_created_on><sys_id>b32795e4219a5a107f44387bff0922e5</sys_id><sys_name>Name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hhd_imports_u_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:37:59</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>193010696</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>91965e6821de5a107f44387bff0922c5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883c736c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>HHD Imports.Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>3c37d5e4ee9a5a100a870d7a2bdf3913</update_guid>
+<update_guid_history>3c37d5e4ee9a5a100a870d7a2bdf3913:193010696</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_52b7d128219a5a107f44387bff09228c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00206</asset_tag><assigned/><assigned_to display_value="Kevin Edd">4a826bf03710200044e0bfc8bcbe5d7f</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="153 South Sierra Avenue, Solana Beach, CA">1eb7d128219a5a107f44387bff092287</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Prototype</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>CDE0100106</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:40:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>52b7d128219a5a107f44387bff09228c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:40:21</sys_updated_on><u_firmware_version>AP01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>-1226499187</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>91965e6821de5a107f44387bff0922c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193884070550000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Prototype</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>6c385d28a69a5a10508a56b27517f0be</update_guid>
+<update_guid_history>6c385d28a69a5a10508a56b27517f0be:-1226499187</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hhd_imports_u_asset_tag</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_asset_tag" table="u_hhd_imports"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Asset Tag</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Asset Tag</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_asset_tag</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_hhd_imports</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:37:57</sys_created_on><sys_id>1b2795e4219a5a107f44387bff09227d</sys_id><sys_name>Asset Tag</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hhd_imports_u_asset_tag</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:37:57</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>700812483</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>95965e6821de5a107f44387bff0922c4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883c71180000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>HHD Imports.Asset Tag</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e837d5e4999a5a1039743c041ef4fe0e</update_guid>
+<update_guid_history>e837d5e4999a5a1039743c041ef4fe0e:700812483</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_1a18d928219a5a107f44387bff0922a8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00216</asset_tag><assigned/><assigned_to display_value="Trey Tout">ba82abf03710200044e0bfc8bcbe5d03</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="30 Katharinenstr, Hamburg">5d000ca93790200044e0bfc8bcbe5d8c</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Device</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>CDE0100111</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:41:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1a18d928219a5a107f44387bff0922a8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:41:59</sys_updated_on><u_firmware_version>TD01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>170133908</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>95965e6821de5a107f44387bff0922c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388406d990000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Device</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>5c389928819a5a10c6f830de2dfaf49a</update_guid>
+<update_guid_history>5c389928819a5a10c6f830de2dfaf49a:170133908</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_dab7d128219a5a107f44387bff09228b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00205</asset_tag><assigned/><assigned_to display_value="Winnie Reich">f682abf03710200044e0bfc8bcbe5d1d</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="9249 Cicero Avenue, Oak Lawn, IL">52b79128219a5a107f44387bff0922d6</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Prototype</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>CDE0100105</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:40:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dab7d128219a5a107f44387bff09228b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:40:21</sys_updated_on><u_firmware_version>AP01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>-894029797</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>95965e6821de5a107f44387bff0922ca</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938840707f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Prototype</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>ec385d282f9a5a10aabb6dca3ea9bcc0</update_guid>
+<update_guid_history>ec385d282f9a5a10aabb6dca3ea9bcc0:-894029797</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_data_source_64e719e4219a5a107f44387bff092261</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_data_source"&gt;&lt;sys_data_source action="INSERT_OR_UPDATE"&gt;&lt;batch_size&gt;1000&lt;/batch_size&gt;&lt;category/&gt;&lt;connection_override_last_success_time/&gt;&lt;connection_timeout&gt;0&lt;/connection_timeout&gt;&lt;connection_url&gt;attachment://sys_data_source:64e719e4219a5a107f44387bff092261/infinity_hhd-updates.xlsx&lt;/connection_url&gt;&lt;connection_url_parameters/&gt;&lt;csv_delimiter/&gt;&lt;data_in_single_column&gt;false&lt;/data_in_single_column&gt;&lt;data_loader&gt;&lt;![CDATA[(function loadData(import_set_table, data_source, import_log, last_success_import_time, partition_info) {
+
+ // Add your code here to insert data to import_set_table 
+
+})(import_set_table, data_source, import_log, last_success_import_time, partition_info);]]&gt;&lt;/data_loader&gt;&lt;database_name/&gt;&lt;database_port/&gt;&lt;discard_arrays&gt;true&lt;/discard_arrays&gt;&lt;enable_parallel_loading&gt;false&lt;/enable_parallel_loading&gt;&lt;expand_node_children&gt;false&lt;/expand_node_children&gt;&lt;file_path&gt;infinity_hhd-updates.xlsx&lt;/file_path&gt;&lt;file_retrieval_method&gt;Attachment&lt;/file_retrieval_method&gt;&lt;format&gt;Excel&lt;/format&gt;&lt;glide_keystore&gt;false&lt;/glide_keystore&gt;&lt;header_row&gt;1&lt;/header_row&gt;&lt;import_set_table_label/&gt;&lt;import_set_table_name&gt;u_hhd_imports&lt;/import_set_table_name&gt;&lt;instance_name/&gt;&lt;jdbc_password/&gt;&lt;jdbc_server/&gt;&lt;jdbc_user_name/&gt;&lt;jpath_root_node/&gt;&lt;last_run_database_field/&gt;&lt;last_run_datetime/&gt;&lt;last_success_import_time/&gt;&lt;ldap_target/&gt;&lt;ldapprobe_result_set_rows&gt;200&lt;/ldapprobe_result_set_rows&gt;&lt;limit/&gt;&lt;maximum_rows/&gt;&lt;mid_server/&gt;&lt;name&gt;infinity_hhd-updates.xlsx (Uploaded)&lt;/name&gt;&lt;offset&gt;0&lt;/offset&gt;&lt;oracle_port&gt;1521&lt;/oracle_port&gt;&lt;oracle_sid&gt;orcl&lt;/oracle_sid&gt;&lt;parallel_loading_script&gt;&lt;![CDATA[(function loadTasks(parallel_job_loader, data_source, import_log, last_success_import_time) {
+
+	// Invoke third party API, create partitions and insert partitions info in parallel job table
+
+})(parallel_job_loader, data_source, import_log, last_success_import_time);]]&gt;&lt;/parallel_loading_script&gt;&lt;parsing_script&gt;&lt;![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"// The function uses result variable to return parse result back. (function(line,lineNumber,result) {	// add code here})(line,lineNumber,result);]]&gt;&lt;/parsing_script&gt;&lt;properties/&gt;&lt;query&gt;All Rows from Table&lt;/query&gt;&lt;query_timeout&gt;0&lt;/query_timeout&gt;&lt;request_action/&gt;&lt;scp_authentication&gt;Username and Password&lt;/scp_authentication&gt;&lt;scp_password/&gt;&lt;scp_port/&gt;&lt;scp_server/&gt;&lt;scp_user_name/&gt;&lt;sheet_name&gt;1&lt;/sheet_name&gt;&lt;sheet_number&gt;1&lt;/sheet_number&gt;&lt;sql_statement/&gt;&lt;ssh_keyfile_path/&gt;&lt;support_pagination&gt;false&lt;/support_pagination&gt;&lt;sys_class_name&gt;sys_data_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 16:41:03&lt;/sys_created_on&gt;&lt;sys_id&gt;64e719e4219a5a107f44387bff092261&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;infinity_hhd-updates.xlsx (Uploaded)&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_data_source_64e719e4219a5a107f44387bff092261&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 16:41:04&lt;/sys_updated_on&gt;&lt;table_name/&gt;&lt;type&gt;File&lt;/type&gt;&lt;use_batch_import&gt;false&lt;/use_batch_import&gt;&lt;use_integrated_authentication&gt;false&lt;/use_integrated_authentication&gt;&lt;use_last_run_datetime&gt;false&lt;/use_last_run_datetime&gt;&lt;xpath_root_node/&gt;&lt;zipped&gt;false&lt;/zipped&gt;&lt;/sys_data_source&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1563968408</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>99965e6821de5a107f44387bff0922c3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883f381d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>infinity_hhd-updates.xlsx (Uploaded)</target_name>
+<type>Data Source</type>
+<update_domain>global</update_domain>
+<update_guid>c5e7d528869a5a10c56cd1f6cef08a01</update_guid>
+<update_guid_history>c5e7d528869a5a10c56cd1f6cef08a01:1563968408,81e7d528dd9a5a1032ecf61cecf2e600:596635543</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_map_a64759e4219a5a107f44387bff0922a9</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;HHD CI's&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;u_hhd_imports&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 16:38:49&lt;/sys_created_on&gt;&lt;sys_id&gt;a64759e4219a5a107f44387bff0922a9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;HHD CI's&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_a64759e4219a5a107f44387bff0922a9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 16:38:49&lt;/sys_updated_on&gt;&lt;target_table&gt;u_cmdb_ci_hardware_hhd&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2126197388</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>99965e6821de5a107f44387bff0922c6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883d269f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>HHD CI's</target_name>
+<type>Table Transform Map</type>
+<update_domain>global</update_domain>
+<update_guid>8c671da4789a5a10c2a9148c4a6fac27</update_guid>
+<update_guid_history>8c671da4789a5a10c2a9148c4a6fac27:-2126197388</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_d218d928219a5a107f44387bff0922a4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00208</asset_tag><assigned/><assigned_to display_value="Megan Burke">46cd276ba9fe19810024aa59b51d6ef7</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="3121 High Point Road, Greensboro, NC">96189928219a5a107f44387bff0922f5</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name/><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>CDE0100107</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:41:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d218d928219a5a107f44387bff0922a4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:41:59</sys_updated_on><u_firmware_version>AP01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>1867598737</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>99965e6821de5a107f44387bff0922c9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388406d420000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>14389928a39a5a109563c4bf4117b396</update_guid>
+<update_guid_history>14389928a39a5a109563c4bf4117b396:1867598737</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_65a7d9e4219a5a107f44387bff0922bc</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="HHD CI's"&gt;a64759e4219a5a107f44387bff0922a9&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_device_version&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_hhd_imports&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 16:40:01&lt;/sys_created_on&gt;&lt;sys_id&gt;65a7d9e4219a5a107f44387bff0922bc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_device_version&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_65a7d9e4219a5a107f44387bff0922bc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 16:40:01&lt;/sys_updated_on&gt;&lt;target_field&gt;u_firmware_version&lt;/target_field&gt;&lt;target_table&gt;u_cmdb_ci_hardware_hhd&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2056913820</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>9d965e6821de5a107f44387bff0922c5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883e42770000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>u_device_version</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>e5a7d9e4e69a5a10ac7b3766727587bd</update_guid>
+<update_guid_history>e5a7d9e4e69a5a10ac7b3766727587bd:2056913820</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_9618d928219a5a107f44387bff0922a9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00218</asset_tag><assigned/><assigned_to display_value="Audra Cantu">c2826bf03710200044e0bfc8bcbe5d97</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="Bockenheimer Landstraße 123, Frankfurt">8228cda2ac1d55eb7029baf443945c37</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Device</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>CDE0100113</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:41:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9618d928219a5a107f44387bff0922a9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:41:59</sys_updated_on><u_firmware_version>TD01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>-1055912493</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>9d965e6821de5a107f44387bff0922c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388406f390000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Device</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>68385d28559a5a100a9cdf164b1da594</update_guid>
+<update_guid_history>68385d28559a5a100a9cdf164b1da594:-1055912493</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hhd_imports_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_import_set_row" table="u_hhd_imports"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_hhd_imports</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:37:56</sys_created_on><sys_id>832795e4219a5a107f44387bff092276</sys_id><sys_name>u_hhd_imports</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hhd_imports_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:37:56</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>611310440</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>d1965e6821de5a107f44387bff0922c4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883c6a810000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>HHD Imports</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>0c3795e4699a5a10935bcb180bb98dee</update_guid>
+<update_guid_history>0c3795e4699a5a10935bcb180bb98dee:611310440</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_16b7d128219a5a107f44387bff09228b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00204</asset_tag><assigned/><assigned_to display_value="Waldo Sisk">d2826bf03710200044e0bfc8bcbe5da5</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="10335 Lee Hwy, Fairfax, VA">5ab7d128219a5a107f44387bff09228a</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Device</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>PAR0100099</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:40:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>16b7d128219a5a107f44387bff09228b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:40:21</sys_updated_on><u_firmware_version>TD01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>1891542100</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>d1965e6821de5a107f44387bff0922c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388406d6a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Device</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>58389928069a5a108f7bd11014669298</update_guid>
+<update_guid_history>58389928069a5a108f7bd11014669298:1891542100</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_d6b7d128219a5a107f44387bff092288</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00201</asset_tag><assigned/><assigned_to display_value="Kevin Edd">4a826bf03710200044e0bfc8bcbe5d7f</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="153 South Sierra Avenue, Solana Beach, CA">1eb7d128219a5a107f44387bff092287</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Device</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>CDE0100101</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:40:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d6b7d128219a5a107f44387bff092288</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:40:21</sys_updated_on><u_firmware_version>TD01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>-1113505710</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>d1965e6821de5a107f44387bff0922ca</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1938840700c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Device</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>e4385d280a9a5a10f97c77736b43c5ba</update_guid>
+<update_guid_history>e4385d280a9a5a10f97c77736b43c5ba:-1113505710</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_dd37d5e4219a5a107f44387bff092284</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>HHD Imports</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_hhd_imports</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:38:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dd37d5e4219a5a107f44387bff092284</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HHD Imports</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_dd37d5e4219a5a107f44387bff092284</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:38:05</sys_updated_on><timeline_page/><title>HHD Imports</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1115808023</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>d5965e6821de5a107f44387bff0922c3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883c7dc40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>HHD Imports</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>1537d5e4c09a5a10a850f284567a8d93</update_guid>
+<update_guid_history>1537d5e4c09a5a10a850f284567a8d93:1115808023</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_b9a7d9e4219a5a107f44387bff0922be</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="HHD CI's"&gt;a64759e4219a5a107f44387bff0922a9&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_owner_location&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_hhd_imports&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 16:40:01&lt;/sys_created_on&gt;&lt;sys_id&gt;b9a7d9e4219a5a107f44387bff0922be&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_owner_location&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_b9a7d9e4219a5a107f44387bff0922be&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 16:40:01&lt;/sys_updated_on&gt;&lt;target_field&gt;location&lt;/target_field&gt;&lt;target_table&gt;u_cmdb_ci_hardware_hhd&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1540687017</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>d5965e6821de5a107f44387bff0922c6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883e42a00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>u_owner_location</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>3da7d9e4219a5a100149538ca92471bf</update_guid>
+<update_guid_history>3da7d9e4219a5a100149538ca92471bf:-1540687017</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_9eb7d128219a5a107f44387bff092288</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00202</asset_tag><assigned/><assigned_to display_value="Kevin Edd">4a826bf03710200044e0bfc8bcbe5d7f</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="153 South Sierra Avenue, Solana Beach, CA">1eb7d128219a5a107f44387bff092287</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Device</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>CDE0100102</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:40:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9eb7d128219a5a107f44387bff092288</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:40:21</sys_updated_on><u_firmware_version>TD02</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>-1867680081</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>d5965e6821de5a107f44387bff0922c9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388406fa70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Device</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>ec385d28239a5a10812ab730c15ef5b3</update_guid>
+<update_guid_history>ec385d28239a5a10812ab730c15ef5b3:-1867680081</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_21a7d9e4219a5a107f44387bff0922ba</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="HHD CI's"&gt;a64759e4219a5a107f44387bff0922a9&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_device_owner&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_hhd_imports&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 16:40:01&lt;/sys_created_on&gt;&lt;sys_id&gt;21a7d9e4219a5a107f44387bff0922ba&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_device_owner&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_21a7d9e4219a5a107f44387bff0922ba&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 16:40:01&lt;/sys_updated_on&gt;&lt;target_field&gt;assigned_to&lt;/target_field&gt;&lt;target_table&gt;u_cmdb_ci_hardware_hhd&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1720767882</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>d9965e6821de5a107f44387bff0922c5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883e42600000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>u_device_owner</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>a1a7d9e4da9a5a10933fdd147b32eabb</update_guid>
+<update_guid_history>a1a7d9e4da9a5a10933fdd147b32eabb:1720767882</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_92b79128219a5a107f44387bff0922d8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00200</asset_tag><assigned/><assigned_to display_value="Winnie Reich">f682abf03710200044e0bfc8bcbe5d1d</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="9249 Cicero Avenue, Oak Lawn, IL">52b79128219a5a107f44387bff0922d6</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Device</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>CDE0100099</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:40:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>92b79128219a5a107f44387bff0922d8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:40:21</sys_updated_on><u_firmware_version>TD01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>-658620697</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>d9965e6821de5a107f44387bff0922c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388406ecf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Device</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>64385d284c9a5a10dc213598e361a092</update_guid>
+<update_guid_history>64385d284c9a5a10dc213598e361a092:-658620697</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hhd_imports_u_device_version</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_device_version" table="u_hhd_imports"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Device Version</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Device Version</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_device_version</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_hhd_imports</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:37:59</sys_created_on><sys_id>372795e4219a5a107f44387bff092280</sys_id><sys_name>Device Version</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hhd_imports_u_device_version</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:37:59</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1905159229</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>dd965e6821de5a107f44387bff0922c4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>193883c72900000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table>u_hhd_imports</table>
+<target_name>HHD Imports.Device Version</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>6037d5e4039a5a101b135d9bbf9b3e12</update_guid>
+<update_guid_history>6037d5e4039a5a101b135d9bbf9b3e12:-1905159229</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_cmdb_ci_hardware_hhd_52b7d128219a5a107f44387bff09228a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="u_cmdb_ci_hardware_hhd"><u_cmdb_ci_hardware_hhd action="INSERT_OR_UPDATE"><asset/><asset_tag>CD00203</asset_tag><assigned/><assigned_to display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</assigned_to><assignment_group/><attestation_score/><attestation_status>Not Yet Reviewed</attestation_status><attested>false</attested><attested_by/><attested_date/><attributes/><business_unit/><can_print>false</can_print><category/><change_control/><checked_in/><checked_out/><comments/><company/><correlation_id/><cost/><cost_cc>USD</cost_cc><cost_center/><default_gateway/><delivery_date/><department/><discovery_source/><dns_domain/><due/><due_in/><duplicate_of/><environment/><fault_count>0</fault_count><first_discovered/><fqdn/><gl_account/><hardware_status>installed</hardware_status><hardware_substatus/><install_date/><install_status>1</install_status><internet_facing>true</internet_facing><invoice_number/><ip_address/><justification/><last_discovered/><lease_id/><life_cycle_stage/><life_cycle_stage_status/><location display_value="6304 Northwest Barry Road, Kansas City, MO">96b7d128219a5a107f44387bff092289</location><mac_address/><maintenance_schedule/><managed_by/><managed_by_group/><manufacturer/><model_id/><model_number/><monitor>false</monitor><most_frequent_user/><name>Infinity HHD Device</name><operational_status>1</operational_status><order_date/><owned_by/><po_number/><product_instance_id/><purchase_date/><schedule/><serial_number>CDE0100103</serial_number><short_description/><skip_sync>false</skip_sync><start_date/><subcategory/><support_group/><supported_by/><sys_class_name>u_cmdb_ci_hardware_hhd</sys_class_name><sys_class_path>/!!/!2/!8</sys_class_path><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 16:40:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>52b7d128219a5a107f44387bff09228a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 16:40:21</sys_updated_on><u_firmware_version>TD01</u_firmware_version><unverified>false</unverified><vendor/><warranty_expiration/></u_cmdb_ci_hardware_hhd></record_update>]]></payload>
+<payload_hash>64420194</payload_hash>
+<remote_update_set display_value="SNAF_XAN_Lab_4.3.1">15965e6821de5a107f44387bff0922c3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-12-02 21:14:59</sys_created_on>
+<sys_id>dd965e6821de5a107f44387bff0922c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19388406e340000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-12-02 21:14:59</sys_updated_on>
+<table/>
+<target_name>Infinity HHD Device</target_name>
+<type>Holographic Handheld HHD</type>
+<update_domain>global</update_domain>
+<update_guid>d8385d282e9a5a108398020a4662628b</update_guid>
+<update_guid_history>d8385d282e9a5a108398020a4662628b:64420194</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
