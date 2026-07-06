@@ -131,6 +131,7 @@
   }
 
   function persistState(){
+    renderWeakAreas();
     try {
       localStorage.setItem(STATS_KEY, JSON.stringify(stats));
       localStorage.setItem(LASTRUN_KEY, JSON.stringify(lastRun));
@@ -183,6 +184,7 @@
             stats = record.stats;
             lastRun = record.lastRun || [];
           }
+          renderWeakAreas();
           persistState();
         };
       };
@@ -229,6 +231,10 @@
   const startBtn = document.getElementById('startBtn');
   const resumeBtn = document.getElementById('resumeBtn');
   const examEl = document.getElementById('exam');
+  const weakAreasEl = document.getElementById('weakAreas');
+  const weakAreasList = document.getElementById('weakAreasList');
+  const reviewMapBtn = document.getElementById('reviewMapBtn');
+  const closeReviewMapBtn = document.getElementById('closeReviewMapBtn');
   const questionCard = document.getElementById('questionCard');
   const timeLeftEl = document.getElementById('timeLeft');
   const currentIndexEl = document.getElementById('currentIndex');
@@ -242,7 +248,97 @@
   const detailModalClose = document.getElementById('detailModalClose');
   const detailModalOpenLink = document.getElementById('detailModalOpenLink');
 
+  function getModuleReviewPath(moduleKey){
+    const mapping = {
+      module_01: { label: 'Module 01', path: 'Adm Fundations/basic/modelo 01.md' },
+      module_02: { label: 'Module 02', path: 'Adm Fundations/basic/modulo 02.md' },
+      module_03: { label: 'Module 03', path: 'Adm Fundations/basic/modulo 03.md' },
+      module_04: { label: 'Module 04', path: 'Adm Fundations/basic/modulo 04.md' },
+      module_05: { label: 'Module 05', path: 'Adm Fundations/basic/mosulo 05.md' },
+      module_06: { label: 'Module 06', path: 'Adm Fundations/basic/modulo 06.md' },
+      module_07: { label: 'Module 07', path: 'Adm Fundations/basic/modulo 07.md' },
+      module_08: { label: 'Module 08', path: 'Adm Fundations/basic/modulo 08.md' },
+      module_general: { label: 'General', path: 'Adm Fundations/basic/contexto.md' }
+    };
+    return mapping[moduleKey] || null;
+  }
+
+  function getWeakAreasData(){
+    const moduleTotals = {};
+    Object.entries(stats).forEach(([qid, entry]) => {
+      const question = questions.find((q) => q.id === qid);
+      if(!question) return;
+      const moduleKey = getModuleKey(question);
+      const bucket = moduleTotals[moduleKey] || { attempts: 0, correct: 0 };
+      bucket.attempts += Number(entry.attempts || 0);
+      bucket.correct += Number(entry.correct || 0);
+      moduleTotals[moduleKey] = bucket;
+    });
+
+    return Object.entries(moduleTotals)
+      .map(([moduleKey, bucket]) => {
+        const attempts = Math.max(bucket.attempts || 0, 0);
+        const correct = Math.max(bucket.correct || 0, 0);
+        const failureRate = attempts ? (1 - correct / attempts) : 0;
+        const review = getModuleReviewPath(moduleKey);
+        return {
+          moduleKey,
+          label: getModuleLabel(moduleKey),
+          attempts,
+          correct,
+          failureRate,
+          review
+        };
+      })
+      .filter(item => item.attempts >= 1)
+      .sort((a, b) => (b.failureRate - a.failureRate) || (b.attempts - a.attempts));
+  }
+
+  function renderWeakAreas(){
+    if(!weakAreasList) return;
+    const data = getWeakAreasData();
+    if(!data.length){
+      weakAreasList.innerHTML = '<div class="weak-item"><div class="weak-item-meta">No attempts yet. Start an exam to see which modules need additional review.</div></div>';
+      return;
+    }
+
+    weakAreasList.innerHTML = data.slice(0, 5).map((item) => {
+      const percent = Math.round(item.failureRate * 100);
+      const reviewUrl = item.review ? (() => {
+        const url = new URL('module-viewer.html', window.location.href);
+        url.searchParams.set('file', item.review.path);
+        return url.toString();
+      })() : '#';
+      return `
+        <div class="weak-item">
+          <div class="weak-item-top">
+            <strong>${item.label}</strong>
+            <span>${percent}% misses</span>
+          </div>
+          <div class="weak-item-meta">${item.correct}/${item.attempts} correct · ${item.attempts} attempts</div>
+          <div class="weak-bar"><span style="width:${Math.max(12, percent)}%"></span></div>
+          ${item.review ? `<div class="weak-item-meta" style="margin-top:6px"><a class="weak-link" href="${reviewUrl}" target="_blank" rel="noopener noreferrer">Open official notes</a></div>` : ''}
+        </div>`;
+    }).join('');
+  }
+
+  if(reviewMapBtn){
+    reviewMapBtn.onclick = ()=>{
+      renderWeakAreas();
+      if(weakAreasEl){
+        const isVisible = weakAreasEl.style.display === 'block';
+        weakAreasEl.style.display = isVisible ? 'none' : 'block';
+      }
+    };
+  }
+  if(closeReviewMapBtn){
+    closeReviewMapBtn.onclick = ()=>{
+      if(weakAreasEl) weakAreasEl.style.display = 'none';
+    };
+  }
+
   loadPersistedState();
+  renderWeakAreas();
 
   if(detailModalClose){
     detailModalClose.onclick = ()=>{ if(detailModal) detailModal.style.display='none'; };
@@ -508,6 +604,7 @@
       list.appendChild(item);
     });
     res.appendChild(list);
+    renderWeakAreas();
     // show resume button
     resumeBtn.style.display='inline-block';
   }
