@@ -11,7 +11,7 @@
     ],
     "answer": 0,
     "explanation": "ServiceNow is a cloud-based platform used for digital workflows, automation, low-code development and enterprise service management.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modelo 01.md — Platform Fundamentals"
   },
   {
     "id": "q2",
@@ -25,7 +25,7 @@
     ],
     "answer": 0,
     "explanation": "A Table is the structure that stores records (rows) in the ServiceNow database.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 04.md — Data Model and Tables"
   },
   {
     "id": "q3",
@@ -39,7 +39,7 @@
     ],
     "answer": 0,
     "explanation": "The 'sys_id' is the unique identifier of a record in ServiceNow.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 04.md — sys_id and record identification"
   },
   {
     "id": "q4",
@@ -53,7 +53,7 @@
     ],
     "answer": 0,
     "explanation": "A Group collects users for organization, assignments and notifications.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modelo 01.md — Users, Groups and Roles"
   },
   {
     "id": "q5",
@@ -67,7 +67,7 @@
     ],
     "answer": 0,
     "explanation": "A Role defines the permissions and capabilities granted to users in ServiceNow.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modelo 01.md — Roles and RBAC"
   },
   {
     "id": "q6",
@@ -81,7 +81,7 @@
     ],
     "answer": 0,
     "explanation": "An ACL (Access Control List) in ServiceNow defines rules that control access to data at the table, record or field level.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 04.md — ACLs and access control"
   },
   {
     "id": "q7",
@@ -95,7 +95,7 @@
     ],
     "answer": 0,
     "explanation": "The Production instance contains real operational data for end users.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 02.md — Instance types"
   },
   {
     "id": "q8",
@@ -109,7 +109,7 @@
     ],
     "answer": 0,
     "explanation": "A PDI is a Personal Developer Instance used for learning, development and testing by individuals.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 02.md — PDI and environments"
   },
   {
     "id": "q9",
@@ -123,7 +123,7 @@
     ],
     "answer": 0,
     "explanation": "Configuration leverages native platform features with lower risk and usually less code, making upgrades easier.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 02.md — Configuration vs Customization"
   },
   {
     "id": "q10",
@@ -137,7 +137,7 @@
     ],
     "answer": 0,
     "explanation": "Data is imported via a Data Source into an Import Set, then a Transform Map maps the data into the Target Table.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 04.md — Import Sets and Transform Maps"
   },
   {
     "id": "q11",
@@ -151,7 +151,7 @@
     ],
     "answer": 0,
     "explanation": "The CMDB stores Configuration Items and the relationships between them.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 04.md — CMDB and Configuration Items"
   },
   {
     "id": "q12",
@@ -165,7 +165,7 @@
     ],
     "answer": 0,
     "explanation": "A List displays multiple records from a table.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 03.md — Lists"
   },
   {
     "id": "q13",
@@ -179,7 +179,7 @@
     ],
     "answer": 0,
     "explanation": "A View changes how data is presented without altering the underlying records.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 03.md — Forms and Views"
   },
   {
     "id": "q14",
@@ -193,7 +193,7 @@
     ],
     "answer": 0,
     "explanation": "A filter consists of Field, Operator and Value.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 03.md — Filters"
   },
   {
     "id": "q15",
@@ -207,7 +207,7 @@
     ],
     "answer": 0,
     "explanation": "The Employee Center is typically accessed at /esc.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/mosulo 05.md — Portals and Employee Center"
   },
   {
     "id": "q16",
@@ -221,7 +221,7 @@
     ],
     "answer": 0,
     "explanation": "The Service Portal is typically accessed at /sp.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/mosulo 05.md — Service Portal"
   },
   {
     "id": "q17",
@@ -235,7 +235,7 @@
     ],
     "answer": 0,
     "explanation": "After Draft the article typically goes to Approval before being Published.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/mosulo 05.md — Knowledge article lifecycle"
   },
   {
     "id": "q18",
@@ -249,7 +249,7 @@
     ],
     "answer": 0,
     "explanation": "User Criteria control access like 'Can Read' or 'Can Contribute' for knowledge content.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/mosulo 05.md — User Criteria"
   },
   {
     "id": "q19",
@@ -263,7 +263,7 @@
     ],
     "answer": 0,
     "explanation": "RITM stands for Requested Item — an item within a request.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/mosulo 05.md — Service Catalog and RITM"
   },
   {
     "id": "q20",
@@ -277,7 +277,7 @@
     ],
     "answer": 0,
     "explanation": "REQ is the overall Request, RITM the individual Requested Item, and SCTASK the task to fulfill it.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/mosulo 05.md — REQ, RITM and SCTASK"
   },
   {
     "id": "q21",
@@ -291,7 +291,7 @@
     ],
     "answer": 0,
     "explanation": "Notifications can be triggered by events like Record Created, Record Updated, or an Event.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 06.md — Notifications"
   },
   {
     "id": "q22",
@@ -305,7 +305,7 @@
     ],
     "answer": 0,
     "explanation": "Inactive users typically do not receive notifications.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 06.md — Notification behavior"
   },
   {
     "id": "q23",
@@ -319,7 +319,7 @@
     ],
     "answer": 0,
     "explanation": "Client Scripts run in the browser and affect the UI.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 07.md — Client Scripts"
   },
   {
     "id": "q24",
@@ -333,7 +333,7 @@
     ],
     "answer": 0,
     "explanation": "Business Rules execute on the server to apply business logic.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 07.md — Business Rules"
   },
   {
     "id": "q25",
@@ -347,7 +347,7 @@
     ],
     "answer": 0,
     "explanation": "Data Policies enforce data integrity across forms, imports and integrations.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 07.md — Data Policies"
   },
   {
     "id": "q26",
@@ -361,7 +361,7 @@
     ],
     "answer": 0,
     "explanation": "Update Sets group configuration changes so they can be moved between instances (e.g., Dev → Test → Prod).",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 07.md — Update Sets"
   },
   {
     "id": "q27",
@@ -375,7 +375,7 @@
     ],
     "answer": 0,
     "explanation": "ATF is the Automated Test Framework used to create and run automated tests in ServiceNow.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 07.md — Automated Test Framework"
   },
   {
     "id": "q28",
@@ -389,7 +389,7 @@
     ],
     "answer": 0,
     "explanation": "In the Shared Responsibility Model, the customer is responsible for data governance and access control.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 08.md — Shared Responsibility Model"
   },
   {
     "id": "q29",
@@ -403,7 +403,7 @@
     ],
     "answer": 0,
     "explanation": "TLS protects data in transit between the client and server.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 08.md — Encryption in Transit"
   },
   {
     "id": "q30",
@@ -417,7 +417,7 @@
     ],
     "answer": 0,
     "explanation": "Customers typically can view Application Logs for their instance; infrastructure logs are managed by ServiceNow.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 08.md — Application Logs"
   },
   {
     "id": "q31",
@@ -431,7 +431,7 @@
     ],
     "answer": 0,
     "explanation": "Record Producers allow catalog users to create records in target tables via a simplified form.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/mosulo 05.md — Record Producers"
   },
   {
     "id": "q32",
@@ -445,7 +445,7 @@
     ],
     "answer": 0,
     "explanation": "Variable Sets are reusable collections of variables that can be shared across catalog items.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/mosulo 05.md — Variable Sets"
   },
   {
     "id": "q33",
@@ -459,7 +459,7 @@
     ],
     "answer": 0,
     "explanation": "Favoring configuration (using native features) reduces upgrade risk compared to extensive customizations.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 02.md — Configuration and upgrade safety"
   },
   {
     "id": "q34",
@@ -473,7 +473,7 @@
     ],
     "answer": 0,
     "explanation": "Dot-Walking allows accessing fields on related records by traversing reference fields.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 03.md — Dot-Walking"
   },
   {
     "id": "q35",
@@ -487,7 +487,7 @@
     ],
     "answer": 0,
     "explanation": "If no 'Can Read' criteria are set, the content may be accessible to all users.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/mosulo 05.md — User Criteria and knowledge access"
   },
   {
     "id": "q36",
@@ -501,7 +501,7 @@
     ],
     "answer": 0,
     "explanation": "UI Policy changes form behavior and visibility, making a field mandatory in the UI.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 07.md — UI Policies"
   },
   {
     "id": "q37",
@@ -515,7 +515,7 @@
     ],
     "answer": 0,
     "explanation": "Data Policies enforce data integrity regardless of source, including imports and web services.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 07.md — Data Policies"
   },
   {
     "id": "q38",
@@ -529,7 +529,7 @@
     ],
     "answer": 0,
     "explanation": "Infrastructure logs are typically managed by ServiceNow and not directly accessible by customers.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 08.md — Infrastructure Logs"
   },
   {
     "id": "q39",
@@ -543,7 +543,7 @@
     ],
     "answer": 0,
     "explanation": "ATF is used to automate testing of functionality and configuration in ServiceNow.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 07.md — ATF and testing"
   },
   {
     "id": "q40",
@@ -557,6 +557,6 @@
     ],
     "answer": 0,
     "explanation": "These are high-yield concepts often tested: the request flow, sys_id unique identifier, and import flow.",
-    "source": "Adm Fundations/basic/material_estudo_csa_servicenow_final.md"
+    "source": "Adm Fundations/basic/modulo 03.md — Forms, Lists and dot-walking; Adm Fundations/basic/modulo 04.md — Data model and import flow; Adm Fundations/basic/mosulo 05.md — Request management"
   }
 ]

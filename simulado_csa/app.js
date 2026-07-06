@@ -191,31 +191,53 @@
     showResults(results, correctCount);
   }
 
+  function toUrlPath(path){
+    return '/' + path.split('/').map(segment => encodeURIComponent(segment)).join('/');
+  }
+
   function getSourceDetails(q){
     const sourceMap = {
-      Platform: { file: 'Adm Fundations/basic/modelo 01.md', section: 'Platform Fundamentals' },
-      'Data Model': { file: 'Adm Fundations/basic/modulo 04.md', section: 'Manage Data' },
-      'Users & Access': { file: 'Adm Fundations/basic/modelo 01.md', section: 'Users, Groups and Roles' },
-      Security: { file: 'Adm Fundations/basic/modulo 08.md', section: 'Secure a ServiceNow Instance' },
-      Instances: { file: 'Adm Fundations/basic/modulo 02.md', section: 'Instance Types' },
-      Configuration: { file: 'Adm Fundations/basic/modulo 02.md', section: 'Configuration vs Customization' },
-      'Data Import': { file: 'Adm Fundations/basic/modulo 04.md', section: 'Import Sets and Transform Maps' },
-      CMDB: { file: 'Adm Fundations/basic/modulo 04.md', section: 'CMDB and CI Relationships' },
-      'Lists & Forms': { file: 'Adm Fundations/basic/modulo 03.md', section: 'Lists, Forms and Views' },
-      Filters: { file: 'Adm Fundations/basic/modulo 03.md', section: 'Filters' },
-      Portals: { file: 'Adm Fundations/basic/mosulo 05.md', section: 'Portals' },
-      Knowledge: { file: 'Adm Fundations/basic/mosulo 05.md', section: 'Knowledge Management' },
-      Catalog: { file: 'Adm Fundations/basic/mosulo 05.md', section: 'Service Catalog' },
-      Notifications: { file: 'Adm Fundations/basic/modulo 06.md', section: 'Notifications' },
-      Scripting: { file: 'Adm Fundations/basic/modulo 07.md', section: 'Client Side vs Server Side and Scripting' },
-      'Update & Transport': { file: 'Adm Fundations/basic/modulo 07.md', section: 'Update Sets and ATF' },
-      Testing: { file: 'Adm Fundations/basic/modulo 07.md', section: 'ATF' },
-      Encryption: { file: 'Adm Fundations/basic/modulo 08.md', section: 'Encryption' },
-      Logs: { file: 'Adm Fundations/basic/modulo 08.md', section: 'Logging' },
-      General: { file: 'Adm Fundations/basic/material_estudo_csa_servicenow_final.md', section: 'Checklist and summary' }
+      q15: { path: 'Adm Fundations/basic/mosulo 05.md', anchor: 'employee-center', label: 'Module 05 — Employee Center' },
+      q16: { path: 'Adm Fundations/basic/mosulo 05.md', anchor: 'service-portal', label: 'Module 05 — Service Portal' },
+      q17: { path: 'Adm Fundations/basic/mosulo 05.md', anchor: 'workflow-do-artigo', label: 'Module 05 — Workflow do Artigo' },
+      q18: { path: 'Adm Fundations/basic/mosulo 05.md', anchor: 'user-criteria', label: 'Module 05 — User Criteria' },
+      q19: { path: 'Adm Fundations/basic/mosulo 05.md', anchor: 'service-catalog', label: 'Module 05 — Service Catalog' },
+      q20: { path: 'Adm Fundations/basic/mosulo 05.md', anchor: 'request-management', label: 'Module 05 — Request Management' },
+      q21: { path: 'Adm Fundations/basic/modulo 06.md', anchor: '1-notifications', label: 'Module 06 — Notifications' },
+      q23: { path: 'Adm Fundations/basic/modulo 07.md', anchor: '4-client-scripts', label: 'Module 07 — Client Scripts' },
+      q24: { path: 'Adm Fundations/basic/modulo 07.md', anchor: '5-business-rule', label: 'Module 07 — Business Rule' },
+      q25: { path: 'Adm Fundations/basic/modulo 07.md', anchor: '3-data-policy', label: 'Module 07 — Data Policy' },
+      q26: { path: 'Adm Fundations/basic/modulo 07.md', anchor: 'update-sets', label: 'Module 07 — Update Sets' },
+      q27: { path: 'Adm Fundations/basic/modulo 07.md', anchor: 'atf', label: 'Module 07 — ATF' },
+      q28: { path: 'Adm Fundations/basic/modulo 08.md', anchor: '1-shared-responsibility-model', label: 'Module 08 — Shared Responsibility Model' },
+      q29: { path: 'Adm Fundations/basic/modulo 08.md', anchor: '2-encryption', label: 'Module 08 — Encryption' },
+      q30: { path: 'Adm Fundations/basic/modulo 08.md', anchor: '4-logging', label: 'Module 08 — Logging' },
+      q31: { path: 'Adm Fundations/basic/mosulo 05.md', anchor: 'record-producers', label: 'Module 05 — Record Producers' },
+      q32: { path: 'Adm Fundations/basic/mosulo 05.md', anchor: 'variable-sets', label: 'Module 05 — Variable Sets' },
+      q35: { path: 'Adm Fundations/basic/mosulo 05.md', anchor: 'user-criteria', label: 'Module 05 — User Criteria' },
+      q36: { path: 'Adm Fundations/basic/modulo 07.md', anchor: '2-ui-policy', label: 'Module 07 — UI Policy' },
+      q37: { path: 'Adm Fundations/basic/modulo 07.md', anchor: '3-data-policy', label: 'Module 07 — Data Policy' },
+      q38: { path: 'Adm Fundations/basic/modulo 08.md', anchor: '4-logging', label: 'Module 08 — Logging' },
+      q39: { path: 'Adm Fundations/basic/modulo 07.md', anchor: 'atf', label: 'Module 07 — ATF' },
+      q40: { path: 'Adm Fundations/basic/modulo 03.md', anchor: 'forms-and-lists', label: 'Module 03 — Forms, Lists and dot-walking' }
     };
-    const match = sourceMap[q.category] || sourceMap.General;
-    return `${match.file} — ${match.section}`;
+
+    if(q && q.id && sourceMap[q.id]){
+      const item = sourceMap[q.id];
+      const href = `${toUrlPath(item.path)}${item.anchor ? '#' + item.anchor : ''}`;
+      return `<a href="${href}" target="_blank" rel="noopener noreferrer">${item.label}</a>`;
+    }
+
+    if(q && q.source){
+      const raw = q.source;
+      if(raw.includes(' — ')){
+        const [path, label] = raw.split(' — ');
+        return `<a href="${toUrlPath(path)}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+      }
+      return `<a href="${toUrlPath(raw)}" target="_blank" rel="noopener noreferrer">${raw}</a>`;
+    }
+
+    return 'Review the study notes';
   }
 
   function showResults(results, correctCount){

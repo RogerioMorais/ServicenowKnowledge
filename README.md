@@ -32,15 +32,24 @@
 Copy these commands to build and run the CSA simulator locally (from the `simulado_csa` folder):
 
 ```bash
+# from the repository root
 # build image
-docker build -t csa-simulator:latest simulado_csa
+docker build -f simulado_csa/Dockerfile -t csa-simulator:latest .
 
 # run container and map port 8080 -> nginx:80
 # this keeps the terminal attached
 docker run --rm -p 8080:80 csa-simulator:latest
 
 # run container in detached mode (free the terminal)
-docker run -d --name csa-simulator -p 8080:80 csa-simulator:latest
+
+docker run --rm -d --name csa-simulator -p 8080:80 csa-simulator:latest
+
+
+# stop the container
+docker stop csa-simulator
+
+# start/restart the container
+docker start csa-simulator
 
 # open the simulator in your browser:
 # http://localhost:8080
