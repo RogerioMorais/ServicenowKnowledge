@@ -191,6 +191,33 @@
     showResults(results, correctCount);
   }
 
+  function getSourceDetails(q){
+    const sourceMap = {
+      Platform: { file: 'Adm Fundations/basic/modelo 01.md', section: 'Platform Fundamentals' },
+      'Data Model': { file: 'Adm Fundations/basic/modulo 04.md', section: 'Manage Data' },
+      'Users & Access': { file: 'Adm Fundations/basic/modelo 01.md', section: 'Users, Groups and Roles' },
+      Security: { file: 'Adm Fundations/basic/modulo 08.md', section: 'Secure a ServiceNow Instance' },
+      Instances: { file: 'Adm Fundations/basic/modulo 02.md', section: 'Instance Types' },
+      Configuration: { file: 'Adm Fundations/basic/modulo 02.md', section: 'Configuration vs Customization' },
+      'Data Import': { file: 'Adm Fundations/basic/modulo 04.md', section: 'Import Sets and Transform Maps' },
+      CMDB: { file: 'Adm Fundations/basic/modulo 04.md', section: 'CMDB and CI Relationships' },
+      'Lists & Forms': { file: 'Adm Fundations/basic/modulo 03.md', section: 'Lists, Forms and Views' },
+      Filters: { file: 'Adm Fundations/basic/modulo 03.md', section: 'Filters' },
+      Portals: { file: 'Adm Fundations/basic/mosulo 05.md', section: 'Portals' },
+      Knowledge: { file: 'Adm Fundations/basic/mosulo 05.md', section: 'Knowledge Management' },
+      Catalog: { file: 'Adm Fundations/basic/mosulo 05.md', section: 'Service Catalog' },
+      Notifications: { file: 'Adm Fundations/basic/modulo 06.md', section: 'Notifications' },
+      Scripting: { file: 'Adm Fundations/basic/modulo 07.md', section: 'Client Side vs Server Side and Scripting' },
+      'Update & Transport': { file: 'Adm Fundations/basic/modulo 07.md', section: 'Update Sets and ATF' },
+      Testing: { file: 'Adm Fundations/basic/modulo 07.md', section: 'ATF' },
+      Encryption: { file: 'Adm Fundations/basic/modulo 08.md', section: 'Encryption' },
+      Logs: { file: 'Adm Fundations/basic/modulo 08.md', section: 'Logging' },
+      General: { file: 'Adm Fundations/basic/material_estudo_csa_servicenow_final.md', section: 'Checklist and summary' }
+    };
+    const match = sourceMap[q.category] || sourceMap.General;
+    return `${match.file} — ${match.section}`;
+  }
+
   function showResults(results, correctCount){
     examEl.style.display='none';
     const res = document.getElementById('result'); res.style.display='block';
@@ -207,7 +234,7 @@
       if(!r.ok){
         const expl = document.createElement('div'); expl.className='explanation'; expl.innerHTML = `<strong>Explanation:</strong> ${r.q.explanation}`;
         item.appendChild(expl);
-        const src = document.createElement('div'); src.className='source'; src.innerHTML = `See details: ${r.q.source}`;
+        const src = document.createElement('div'); src.className='source'; src.innerHTML = `See details: ${getSourceDetails(r.q)}`;
         item.appendChild(src);
       }
       list.appendChild(item);
