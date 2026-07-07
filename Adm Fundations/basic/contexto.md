@@ -1,222 +1,440 @@
-# ServiceNow Administration Fundamentals
-# Resumo Geral de Contexto para Revisão CSA
+# CONTEXTO OFICIAL PARA GERAÇÃO DE SIMULADOS CSA (CERTIFIED SYSTEM ADMINISTRATOR)
 
-> Objetivo:
->
-> Este documento serve como mapa mental consolidado dos módulos estudados até o momento.
->
-> Não substitui os resumos individuais dos módulos.
->
-> Deve ser utilizado como revisão rápida antes de simulados e da prova CSA.
+## Objetivo
 
----
+Este documento deve ser utilizado como contexto principal para geração de simulados CSA (Certified System Administrator).
 
-# Visão Geral da Plataforma
+As questões devem ser baseadas:
 
-A ServiceNow é uma plataforma de:
+1. Nos conteúdos consolidados dos arquivos `modulo*.md`
+2. Nos resumos consolidados e materiais otimizados
+3. No Blueprint Oficial do Exame CSA (Jan/2025)
 
-```text
-Digital Workflow
-```
-
-utilizada para automatizar processos corporativos através de:
-
-- ITSM
-- ITOM
-- HR
-- CSM
-- Security
-- Aplicações customizadas
+O simulador deve priorizar os assuntos de acordo com o peso oficial da prova.
 
 ---
 
-# Arquitetura Fundamental
+# Estrutura da Prova CSA
 
-```text
-Usuário
-    ↓
-Interface
-    ↓
-Aplicação
-    ↓
-Tabela
-    ↓
-Registro
-```
+## Quantidade de Questões
 
-Tudo na ServiceNow gira em torno de:
+- 60 questões
 
-```text
-Tabelas
-+
-Registros
-```
+## Tipos de Questões
+
+### Multiple Choice
+
+Selecionar uma única alternativa correta.
+
+### Multiple Select
+
+Selecionar todas as alternativas corretas.
+
+Observação:
+
+- Não existe crédito parcial.
+- Caso uma alternativa obrigatória seja omitida ou uma incorreta seja selecionada, a questão é considerada errada.
 
 ---
 
-# Módulo 4 – Manage Data
+# Distribuição Oficial dos Domínios
 
-## Conceitos Centrais
+## Domínio 1 — Platform Overview and Navigation
 
-A plataforma armazena informações em:
+### Peso
+
+7%
+
+### Tópicos
+
+- ServiceNow Platform Overview
+- Platform Capabilities
+- ServiceNow Instance
+- Next Experience Navigation
+
+### Nível de Prioridade
+
+Média
+
+---
+
+## Domínio 2 — Instance Configuration
+
+### Peso
+
+11%
+
+### Tópicos
+
+- Plugins
+- ServiceNow Store
+- Configuration
+- Customization
+- Personalização da Instância
+- Interfaces da Plataforma
+- PDI (Personal Developer Instance)
+
+### Nível de Prioridade
+
+Alta
+
+---
+
+## Domínio 3 — Configuring Applications for Collaboration
+
+### Peso
+
+20%
+
+### Tópicos
+
+- Lists
+- Forms
+- Filters
+- Views
+- Tags
+- Templates
+- Task Management
+- Visual Task Boards
+- Dashboards
+- Platform Analytics
+- Notifications
+
+### Nível de Prioridade
+
+Muito Alta
+
+---
+
+## Domínio 4 — Self-Service & Automation
+
+### Peso
+
+20%
+
+### Tópicos
+
+- Knowledge Management
+- User Criteria
+- Service Catalog
+- Catalog Items
+- Variables
+- Variable Sets
+- Record Producers
+- Order Guides
+- Virtual Agent
+- Workflow Studio
+- Flow Designer
+- Data Pills
+
+### Nível de Prioridade
+
+Muito Alta
+
+---
+
+## Domínio 5 — Database Management
+
+### Peso
+
+27%
+
+### Tópicos
+
+- Data Schema
+- Tables
+- Records
+- Fields
+- Values
+- Reference Fields
+- sys_id
+- ACL
+- RBAC
+- Roles
+- Import Sets
+- Transform Maps
+- Coalesce
+- CMDB
+- Configuration Items
+- Discovery
+- Service Mapping
+- CSDM
+
+### Nível de Prioridade
+
+Máxima
+
+### Observação
+
+Este é o domínio mais importante da prova CSA.
+
+---
+
+## Domínio 6 — Data Migration and Integration
+
+### Peso
+
+15%
+
+### Tópicos
+
+- UI Policy
+- Data Policy
+- Client Script
+- Business Rule
+- Script Include
+- Update Sets
+- Preview
+- Commit
+- Application Scope
+- Scripting
+
+### Nível de Prioridade
+
+Alta
+
+---
+
+# Conhecimento Consolidado Obrigatório
+
+## Estrutura de Dados
 
 ```text
-Tables
-```
-
-e cada linha representa um:
-
-```text
+Database
+ ↓
+Table
+ ↓
 Record
+ ↓
+Field
+ ↓
+Value
 ```
+
+### Definições
+
+- Table = Estrutura de armazenamento
+- Record = Linha da tabela
+- Field = Coluna da tabela
+- Value = Conteúdo armazenado
 
 ---
 
-## Hierarquia
+## Identificadores
 
-```text
-Task
- ↓
-Incident
+### sys_id
 
-Task
- ↓
-Change
+Características:
 
-Task
- ↓
-Problem
-```
+- Identificador único
+- 32 caracteres
+- Chave real do registro
 
----
-
-## O que memorizar
-
-### Campo Único
-
-```text
-sys_id
-```
-
-Identificador único de cada registro.
-
----
-
-### Número Visível
+### Pegadinha de Prova
 
 ```text
 INC0010001
 ```
 
-não é a chave primária.
+é o número do incidente.
+
+```text
+sys_id
+```
+
+é a chave primária real.
 
 ---
 
-### Importação de Dados
+# Segurança
+
+## Fluxo de Segurança
 
 ```text
-Data Source
+User
  ↓
-Import Set
+Group
  ↓
-Transform Map
+Role
  ↓
-Target Table
+Permissions
+ ↓
+ACL
+ ↓
+Data Access
+```
+
+## RBAC
+
+Role-Based Access Control.
+
+## ACL
+
+Controla:
+
+- Create
+- Read
+- Write
+- Delete
+
+### Pegadinhas
+
+Role:
+
+- Define permissões.
+
+ACL:
+
+- Define acesso aos dados.
+
+Notification:
+
+- Não substitui ACL.
+
+---
+
+# Configuration vs Customization
+
+## Configuration
+
+- Recursos nativos
+- Menor impacto em upgrades
+- Abordagem preferida
+
+## Customization
+
+- Código
+- Funcionalidades novas
+- Maior manutenção
+
+### Regra Oficial
+
+```text
+Configure First
+Customize Only When Necessary
 ```
 
 ---
+
+# Lists e Forms
+
+## List
+
+Exibe múltiplos registros.
+
+## Form
+
+Exibe um único registro.
+
+## View
+
+Modifica:
+
+- Layout
+- Campos Exibidos
+- Organização
+
+Não modifica:
+
+- Dados
+- Registros
 
 ### Pegadinha
 
-```text
-Transform Map
-```
+View altera apresentação.
 
-mapeia dados.
-
-Não importa arquivos.
+Não altera dados.
 
 ---
 
-# Módulo 5 – Configure Self-Service
+# Dot-Walking
 
-## Objetivo
+Exemplos:
 
-Disponibilizar autosserviço aos usuários.
+```text
+Caller.Email
+
+Caller.Manager
+
+Caller.Department
+```
+
+Permite acessar campos de registros relacionados.
 
 ---
 
-# Employee Center
+# Choice vs Reference
 
-Portal principal.
+## Choice
 
-```text
-/esc
-```
+- Dropdown
+- Valores fixos
+- Mesma tabela
 
----
+## Reference
 
-# Service Portal
-
-Portal tradicional.
-
-```text
-/sp
-```
-
----
-
-# Knowledge Portal
-
-Portal de conhecimento.
-
-```text
-/kb
-```
+- Lupa
+- Outra tabela
+- Armazena sys_id
 
 ---
 
 # Knowledge Management
 
-Utilizado para:
-
-- FAQs
-- Tutoriais
-- Procedimentos
-
----
-
-# User Criteria
-
-Controla acesso à Knowledge Base.
-
----
-
-## Pegadinha
-
-Sem:
+## Workflow de Artigo
 
 ```text
-Can Read
+Draft
+ ↓
+Approval
+ ↓
+Published
+ ↓
+Retired
 ```
 
-↓
+## User Criteria
 
-todos possuem acesso.
+Tipos:
+
+- Can Read
+- Can't Read
+- Can Contribute
+- Can't Contribute
+
+### Pegadinha
+
+Sem Can Read:
+
+```text
+Todos possuem acesso.
+```
+
+---
+
+# Portais
+
+## URLs
+
+```text
+/esc = Employee Center
+
+/sp = Service Portal
+
+/kb = Knowledge Portal
+```
 
 ---
 
 # Service Catalog
 
-Conceito:
+## Conceito
 
 ```text
 One-Stop Shopping
 ```
 
----
-
-# Estrutura
+## Fluxo Principal
 
 ```text
 REQ
@@ -226,793 +444,37 @@ RITM
 SCTASK
 ```
 
----
+### Definições
 
-# Decorar
+REQ
 
-### REQ
+- Pedido completo
 
-Pedido completo.
+RITM
 
-### RITM
+- Item solicitado
 
-Item solicitado.
+SCTASK
 
-### SCTASK
-
-Tarefa de atendimento.
+- Tarefa de fulfillment
 
 ---
 
-# Catalog Components
+## Variables
 
-### Variables
+Representam:
 
-Perguntas para o usuário.
-
----
-
-### Variable Sets
-
-Grupo reutilizável de variáveis.
+```text
+Perguntas apresentadas ao usuário
+```
 
 ---
 
-### Record Producer
+## Record Producer
 
 Cria registros diretamente.
 
----
+Exemplos:
 
-### Order Guide
-
-Solicita vários itens relacionados.
-
----
-
-# Workflow Studio
-
-Permite criar:
-
-- Flows
-- Actions
-- Playbooks
-
----
-
-# Flow Designer
-
-Estrutura:
-
-```text
-Trigger
- ↓
-Action
-```
-
----
-
-### Data Pills
-
-Resultados produzidos durante o Flow.
-
----
-
-# Módulo 6 – Enable Productivity
-
-## Objetivo
-
-Melhorar produtividade e colaboração.
-
----
-
-# Notifications
-
-Enviam comunicações automáticas.
-
----
-
-## Estrutura
-
-```text
-When to Send
-
-Who Receives
-
-What It Contains
-```
-
----
-
-## Pegadinha
-
-Usuário:
-
-```text
-Inactive
-```
-
-↓
-
-não recebe notificações.
-
----
-
-# Visualization Designer
-
-Configura:
-
-```text
-Data
-
-Type
-
-Metrics
-
-Presentation
-```
-
----
-
-## Pegadinha
-
-PDF Exportado:
-
-✅ pode ficar desatualizado
-
-❌ não mantém ACLs
-
----
-
-# Predictive Intelligence
-
-Utiliza:
-
-```text
-Machine Learning
-```
-
-para:
-
-- Categorizar
-- Atribuir
-- Priorizar
-
-registros automaticamente.
-
----
-
-# Sidebar
-
-Permite:
-
-```text
-Colaboração em tempo real
-```
-
-dentro dos Workspaces.
-
----
-
-# Módulo 7 – ServiceNow Utilities
-
-## Objetivo
-
-Aprender customização, migração e testes.
-
----
-
-# UI Policy
-
-Controla:
-
-- Mandatory
-- Hidden
-- Read Only
-
----
-
-## Executa
-
-```text
-Client Side
-```
-
----
-
-# Client Script
-
-Executa JavaScript no navegador.
-
----
-
-## Tipos
-
-- onLoad
-- onChange
-- onSubmit
-
----
-
-# Business Rule
-
-Executa lógica no servidor.
-
----
-
-## Eventos
-
-- Insert
-- Update
-- Delete
-- Query
-- Display
-
----
-
-## Tipos
-
-### Before
-
-Antes de salvar.
-
-### After
-
-Depois de salvar.
-
-### Async
-
-Segundo plano.
-
-### Display
-
-Antes de exibir.
-
----
-
-# Data Policy
-
-Valida dados independentemente da origem.
-
----
-
-## Funciona em
-
-- Interface
-- Importações
-- Integrações
-
----
-
-# UI Action
-
-Cria:
-
-- Botões
-- Links
-- Menus
-
----
-
-# Script Include
-
-Código reutilizável.
-
----
-
-# Application Scope
-
-Isola aplicações.
-
----
-
-# Update Sets
-
-Movem customizações entre instâncias.
-
----
-
-## Regra mais importante
-
-```text
-Move Configuração
-
-Não Move Dados
-```
-
----
-
-## Fluxo
-
-```text
-Create
- ↓
-Make Current
- ↓
-Complete
- ↓
-Retrieve
- ↓
-Preview
- ↓
-Commit
-```
-
----
-
-## Pegadinha
-
-### Preview
-
-Analisa conflitos.
-
-### Commit
-
-Aplica alterações.
-
----
-
-# ATF
-
-```text
-Automated Test Framework
-```
-
-Executa testes automatizados.
-
----
-
-# App Engine Studio
-
-Ferramenta:
-
-```text
-Low-Code
-```
-
-para criação de aplicações.
-
----
-
-# stats.do
-
-Mostra:
-
-- Release
-- Build
-- Performance
-- Informações da instância
-
----
-
-# Módulo 8 – Secure a ServiceNow Instance
-
-## Objetivo
-
-Proteger dados e monitorar segurança.
-
----
-
-# Shared Responsibility Model
-
-A segurança é compartilhada entre:
-
-```text
-ServiceNow
-+
-Cliente
-```
-
----
-
-## Pegadinha
-
-Cliente é responsável por:
-
-- Dados
-- Compartilhamento
-- Retenção
-- Governança
-
----
-
-# Encryption
-
-## At Rest
-
-Protege dados armazenados.
-
----
-
-## In Transit
-
-Protege dados em trânsito.
-
----
-
-## Tecnologia
-
-```text
-TLS
-```
-
----
-
-# Logs
-
-## Infrastructure Logs
-
-❌ Cliente não acessa.
-
----
-
-## Application Logs
-
-✅ Cliente acessa.
-
----
-
-# Security Contacts
-
-Recebem:
-
-- Alertas
-- Incidentes
-- Comunicados de segurança
-
----
-
-# Security Center
-
-Ferramenta principal de monitoramento.
-
----
-
-## Overview
-
-Visão geral.
-
----
-
-## Hardening
-
-Mostra:
-
-```text
-Hardening Score
-```
-
----
-
-## Compliance
-
-Mostra:
-
-```text
-Compliance Score
-```
-
----
-
-## Scanner
-
-Identifica problemas.
-
----
-
-## Customer Actions
-
-Mostra correções necessárias.
-
----
-
-## Best Practices
-
-Checklist de segurança.
-
----
-
-## Metrics
-
-Monitora riscos e ameaças.
-
----
-
-## Pegadinha
-
-Corrigir primeiro:
-
-```text
-Critical
- ↓
-High
-```
-
----
-
-# Comparações Mais Cobradas
-
-## UI Policy x Data Policy
-
-| UI Policy | Data Policy |
-|------------|------------|
-| Interface | Dados |
-| Formulário | Todas as origens |
-| Cliente | Servidor/Dados |
-
----
-
-## Client Script x Business Rule
-
-| Client Script | Business Rule |
-|---------------|---------------|
-| Navegador | Servidor |
-| Interface | Banco de Dados |
-| Client Side | Server Side |
-
----
-
-## At Rest x In Transit
-
-| At Rest | In Transit |
-|----------|----------|
-| Dados Gravados | Dados Trafegando |
-| Banco de Dados | Rede |
-| Storage | TLS |
-
----
-
-## Hardening x Compliance
-
-| Hardening | Compliance |
-|------------|------------|
-| Segurança | Conformidade |
-| Recomendações ServiceNow | Regras da Organização |
-
----
-
-# Top 30 Conceitos para Decorar
-
-```text
-sys_id
-↓
-ID único
-
-/esc
-↓
-Employee Center
-
-/sp
-↓
-Service Portal
-
-/kb
-↓
-Knowledge Portal
-
-REQ
-↓
-RITM
-↓
-SCTASK
-
-Variables
-↓
-Perguntas
-
-Record Producer
-↓
-Cria registros
-
-Flow
-↓
-Trigger + Action
-
-Data Pills
-↓
-Dados reutilizáveis
-
-Notifications
-↓
-When
-Who
-What
-
-PDF Export
-↓
-Não leva ACL
-
-Predictive Intelligence
-↓
-Machine Learning
-
-Sidebar
-↓
-Colaboração
-
-UI Policy
-↓
-Mandatory
-
-Client Script
-↓
-JavaScript
-
-Business Rule
-↓
-Servidor
-
-Before
-After
-Async
-Display
-
-Update Set
-↓
-Move configuração
-
-Não move dados
-
-Preview
-↓
-Conflitos
-
-Commit
-↓
-Aplica
-
-ATF
-↓
-Teste Automatizado
-
-AES
-↓
-Low-Code
-
-Application Scope
-↓
-Isolamento
-
-stats.do
-↓
-Release
-
-Shared Responsibility
-↓
-Cliente protege os dados
-
-At Rest
-↓
-Dados armazenados
-
-In Transit
-↓
-TLS
-
-Infrastructure Logs
-↓
-Sem acesso
-
-Application Logs
-↓
-Com acesso
-
-Security Center
-↓
-Segurança
-
-Scanner
-↓
-Problemas
-
-Metrics
-↓
-Riscos
-```
-
----
-
-# Prioridade de Estudo para o CSA
-
-## Prioridade Máxima
-
-1. Tabelas e Registros
-2. REQ → RITM → SCTASK
-3. Service Catalog
-4. Knowledge Management
-5. Flow Designer
-6. Notifications
-7. UI Policy × Client Script × Business Rule
-8. Update Sets
-9. Retrieve → Preview → Commit
-10. Shared Responsibility Model
-
----
-
-## Prioridade Alta
-
-11. Data Policy
-12. Predictive Intelligence
-13. Application Scope
-14. ATF
-15. Security Center
-16. Hardening Score
-17. Compliance Score
-
----
-
-## Prioridade Média
-
-18. Sidebar
-19. App Engine Studio
-20. Security Contacts
-21. stats.do
-22. Learning
-23. Best Practices
-
----
-
-# Revisão Final de 30 Segundos
-
-```text
-Dados
-↓
-Table + Record
-
-Catalog
-↓
-REQ → RITM → SCTASK
-
-Flow
-↓
-Trigger → Action
-
-Notificação
-↓
-When → Who → What
-
-UI Policy
-↓
-Mandatory
-
-Client Script
-↓
-JavaScript
-
-Business Rule
-↓
-Servidor
-
-Update Set
-↓
-Move Configuração
-
-Não Dados
-
-Preview
-↓
-Conflitos
-
-Commit
-↓
-Aplica
-
-At Rest
-↓
-Dados Armazenados
-
-In Transit
-↓
-TLS
-
-Cliente
-↓
-Responsável pelos Dados
-
-Security Center
-↓
-Scanner
-Hardening
-Compliance
-Metrics
-```
+- Incident
+- Case
